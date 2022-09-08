@@ -1,0 +1,20 @@
+{
+
+    "flex-layout.row#home__section--one": {
+        "children":[
+        "image#home__Logo"
+        ],
+        "props":{
+            "blockClass": "home__section--one"
+        }
+    },
+
+    "image#home__Logo":{
+        "props":{
+          "src":"assets/img/img1.jpeg"
+        }
+      }
+
+
+
+}

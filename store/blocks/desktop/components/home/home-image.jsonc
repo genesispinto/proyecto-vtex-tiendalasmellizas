@@ -1,0 +1,44 @@
+{
+    "image#home__image1":{
+        "title":"Imagen categoria1",
+        "props":{
+            "src":"assets/img/img1_slider.jpg",
+            "maxWidth":600,
+            "title":"B2B Commerce",
+            "blockClass": "home__image",
+            "link":{
+                "url":"https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow":true
+            }
+        }
+    },
+    "image#home__image2":{
+        "title":"Imagen categoria2",
+        "props":{
+            "src":"assets/img/img2_slider.jpg",
+            "maxWidth":600,
+            "title":"B2B Commerce",
+            "blockClass": "home__image",
+            "link":{
+                "url":"https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow":true
+            }
+        }
+    },
+    "image#home__image3":{
+        "title":"Imagen categoria3",
+        "props":{
+            "src":"assets/img/img3_slider.jpg",
+            "maxWidth":600,
+            "title":"B2B Commerce",
+            "blockClass": "home__image",
+            "link":{
+                "url":"https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow":true
+            }
+        }
+    }
+}

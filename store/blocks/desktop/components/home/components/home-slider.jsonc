@@ -1,0 +1,39 @@
+{
+    "slider-layout#home__slider--children":{
+        "props":{
+          "itemsPerPage":{
+             "desktop":1,
+             "tablet": 1,
+             "mobile": 1
+          },
+          "infinite": true,
+          "blockClass": "home__slider",
+          "autoplay":{
+            "timeout":2000,
+            "stopOnHover": true
+          }
+        },
+        "children":[
+          "image#home__slider--one",
+          "image#home__slider--two",
+          "image#home__slider--three"
+        ]
+      },
+      "image#home__slider--one":{
+        "props":{
+          "src":"assets/img/img1_slider.jpg"
+        }
+      },
+      "image#home__slider--two":{
+        "props":{
+          "src":"assets/img/img2_slider.jpg"
+        }
+    
+      },
+      "image#home__slider--three":{
+        "props":{
+          "src":"assets/img/img3_slider.jpg"
+        }
+    
+      }
+}
