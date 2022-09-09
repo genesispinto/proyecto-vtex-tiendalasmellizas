@@ -1,3 +1,8 @@
-.imageElement--facebook{
-    padding: 10px;
+.headerRowBackground--header__top,
+.headerRowBackground--header__logo
+{
+    background-color: white;
+}
+.headerRowContentContainer--header__top{
+    margin: 7rem;
 }

@@ -16,30 +16,18 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
-  },
-  /////////////////////////////////////////////////////////
-  "flex-layout.row#desktop": {
-    "title":"componentes generales header",
-    "props": {
-      "colSizing":"auto"
-    },
     "children": [
-      "flex-layout.col#networks",
-      "flex-layout.col#logo-desktop",
+      "header-row#header__top",
+      "header-row#logo-desktop"]
+  },
+
+  "header-row#header__top":{
+    "title":"redes y search",
+    "props":{"blockClass":"header__top"},
+    "children":[
+      "flex-layout.row#networks",
+      "header-spacer",
       "search-bar"
-      // "locale-switcher",
-      // "login",
-      // "minicart.v2"
-    ]
-  },
-  "flex-layout.col#networks":{
-    "title":"columna Redes sociales",
-    "props":{
-      "marginLeft":"10"
-    },
-    "children": [
-      "flex-layout.row#networks"
     ]
   },
   "flex-layout.row#networks":{
@@ -50,21 +38,28 @@
       "image#header__twitter"
     ]
   },
-  "flex-layout.col#logo-desktop": {
-    "title":"columna logo",
-    "props": {
-      "verticalAlign": "botton",
-      "horizontalAlign": "center",
-
-      "fullWidth": true
-    },
-    "children": ["logo"]
+  "search-bar":{
+    "title":"barra de navegacion",
+    "props":{
+      "placeholder":"¿Que estas buscando?"
+    }
   },
-
+  "header-row#logo-desktop": {
+    "title":"fila logo",
+    "props": {
+      "blockClass":"header__logo"
+    },
+    "children": [
+      "header-force-center#logo-desktop"
+      ]
+  },
+  "header-force-center#logo-desktop":{
+    "children":["logo"]
+  },
   "image#header__facebook":{
     "title":"imagen facebook",
     "props":{
-      "blockClass":"facebook",
+      "blockClass":"space",
       "src":"assets/img/facebook.png"
     }
 
@@ -90,16 +85,14 @@
     "props": {
       "title": "Las Mellizas",
       "href": "/",
-      "url": "https://dojiw2m9tvv09.cloudfront.net/4210/3/S_logo7425.png?585",
-      "width": "200"
+      "url": "assets/img/logo.png",
+      "width": "300"
     }
   },
-  "search-bar":{
-    "title":"barra de navegacion",
-    "props":{
-      "placeholder":"¿Que estas buscando?"
-    }
-  },
+
+
+
+
   /////////////////////////////////////////////////////////////////////////////////////////
   "header-layout.mobile": {
     "children": ["sticky-layout#mobile"]
