@@ -18,7 +18,7 @@
     },
     "children": [
       "header-row#header__top",
-      "header-row#logo-desktop"]
+      "flex-layout.row#logo-desktop"]
   },
 
   "header-row#header__top":{
@@ -44,10 +44,11 @@
       "placeholder":"¿Que estas buscando?"
     }
   },
-  "header-row#logo-desktop": {
+  "flex-layout.row#logo-desktop": {
     "title":"fila logo",
     "props": {
       "blockClass":"header__logo"
+
     },
     "children": [
       "header-force-center#logo-desktop"
