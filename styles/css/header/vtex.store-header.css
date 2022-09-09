@@ -1,11 +1,4 @@
-.headerRowBackground--header__top,
-.headerRowBackground--header__logo
-{
+.headerRowBackground--header__top{
     background-color: white;
 }
-/* .headerRowContentContainer--header__top{
-    margin: 7rem;
-} */
-headerRowContainer--header__logo{
-    height: 100px;
-}
+

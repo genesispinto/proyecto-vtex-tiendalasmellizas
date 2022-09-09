@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#networks":{
+    "title":"fila imagenes redes sociales",
+    "children": [
+      "image#header__facebook",
+      "image#header__instagram",
+      "image#header__twitter"
+    ]
+  },
+    "image#header__facebook":{
+        "props":{
+          "blockClass":"space",
+          "src":"assets/img/facebook.png"
+        }
+    
+      },
+      "image#header__instagram":{
+        "props":{
+          "blockClass":"space",
+          "src":"assets/img/instagram.png"
+        }
+    
+      },
+      "image#header__twitter":{
+        "title":"imagen twitter",
+        "props":{
+          "blockClass":"space",
+          "src":"assets/img/gorjeo.png"
+        }
+    
+      }
+}

@@ -1,0 +1,211 @@
+{
+    // "modal-trigger#menu__one": {
+    //     "children": [
+    //       "rich-text#menu__one",
+    //       "modal-layout#menu__one"
+    //     ]
+    //   },
+    //   "rich-text#menu__one": {
+    //     "props": {
+    //       "text": "TIENDA ONLINE"
+    //     }
+    //   },
+    //   "modal-layout#menu__one": {
+    //     "props":{
+    //         "backdrop":"none"
+    //     },
+    //     "children": [
+    //         "menu#header__menu"
+    //     ]
+    //   },
+
+
+      "menu#header__menu":{
+        "children":[
+            "menu-item#category__one", 
+            "menu-item#category__two",
+            "menu-item#category__three",
+            "menu-item#category__four",
+            "menu-item#category__five",
+            "menu-item#category__six",
+            "menu-item#category__seven",
+            "menu-item#category__eigth"
+        ],
+        "props": {
+            "orientation": "horizontal"
+          }
+    },
+    "menu-item#category__one":{
+        "props": {
+            "id": "category__one",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type":"internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "shopGene",
+              "text": "TIENDA ONLINE"
+            }
+          },
+          "blocks": ["submenu#shop"]
+    },
+    "submenu#shop": {
+      "children": [
+        "menu#submenushop"
+      ]
+    },
+    
+    "menu#submenushop": {
+      "children": [
+        "menu-item#shop1",
+        "menu-item#shop2",
+        "menu-item#shop3"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+    "menu-item#shop1": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Almendras",
+          "text": "ALMENDRAS"
+        }        
+      }
+    },
+    "menu-item#shop2": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Almendras",
+          "text": "MIX DE FRUTOS SECOS"
+        }        
+      }
+    },
+
+    "menu-item#shop3": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Almendras",
+          "text": "FRUTOS BAÑADOS E CHOCOLATE"
+        }        
+      }
+    },
+
+    "menu-item#category__two":{
+        "props": {
+            "id": "category__one",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "external",
+              "href": "#",
+              "noFollow": true,
+              "tagTitle": "Shop",
+              "text": "Snackbox"
+            }
+        }
+    },
+    "menu-item#category__three":{
+        "props": {
+            "id": "category__one",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "external",
+              "href": "#",
+              "noFollow": true,
+              "tagTitle": "Shop",
+              "text": "Tipo de Alimentacion"
+            }
+        }
+    },
+    "menu-item#category__four":{
+        "props": {
+            "id": "category__one",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "external",
+              "href": "#",
+              "noFollow": true,
+              "tagTitle": "Shop",
+              "text": "Productos Solidarios"
+            }
+        }
+    },
+    "menu-item#category__five":{
+      "props": {
+          "id": "category__one",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Shop",
+            "text": "Preguntas Frecuentes"
+          }
+      }
+  },
+  "menu-item#category__six":{
+    "props": {
+        "id": "category__one",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Shop",
+          "text": "Nosotros"
+        }
+    }
+},
+"menu-item#category__seven":{
+  "props": {
+      "id": "category__one",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Shop",
+        "text": "Seguimiento"
+      }
+  }
+},
+"menu-item#category__eigth":{
+  "props": {
+      "id": "category__one",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Shop",
+        "text": "Contacto"
+      }
+  }
+}
+ }
