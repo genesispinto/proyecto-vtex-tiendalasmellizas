@@ -33,30 +33,11 @@
   "flex-layout.row#menu":{
     "title":"fila menu",
     "children":[
-      "menu#header__menu"
-      //"login",
-      //"minicart.v2"
-    ]
-  },
-  /////////////////////////////////////////////////////////////////////////////////////////
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
+      "menu#header__menu--deparment",
       "login",
       "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  }
+    ]
+}
+  
+  
 }
