@@ -5,7 +5,10 @@
       "image#header__facebook",
       "image#header__instagram",
       "image#header__twitter"
-    ]
+    ],
+    "props":{
+      "blockClass":"networks"
+    }
   },
     "image#header__facebook":{
         "props":{

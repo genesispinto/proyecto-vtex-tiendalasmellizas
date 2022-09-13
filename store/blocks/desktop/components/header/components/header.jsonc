@@ -35,8 +35,11 @@
     "children":[
       "menu#header__menu--deparment",
       "login",
-      "minicart.v2"
-    ]
+      "minicart.v2" 
+    ],
+    "props":{
+      "blockClass":"menu__departament"
+    }
 }
   
   

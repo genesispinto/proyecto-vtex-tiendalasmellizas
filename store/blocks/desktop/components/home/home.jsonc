@@ -1,9 +1,15 @@
 {
   "store.home": { 
+    "title":"home",
     "blocks": [
       "flex-layout.row#home__section--one",
-      "slider-layout#home__slider--children",
-      "flex-layout.row#home__section--two"
+      "flex-layout.row#home__section--information",
+      "flex-layout.row#home__section--three",
+      "flex-layout.row#home__section--category1",
+      "flex-layout.row#home__section--category2",
+      "flex-layout.row#home__section--four",
+      "footer"
+      
       // "responsive-layout.phone#home__info--phone",
       // "responsive-layout.mobile#home__info--mobile",
       // "responsive-layout.tablet#home__info--tablet",

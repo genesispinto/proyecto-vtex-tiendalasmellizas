@@ -9,10 +9,12 @@
             "menu-item#department__five",
             "menu-item#department__six",
             "menu-item#department__seven",
-            "menu-item#department__eigth"            
+            "menu-item#department__eigth"
+    
         ],
         "props": {
-            "orientation": "horizontal"
+            "orientation": "horizontal",
+            "blockClass":"menu"
           }
     },
     "menu-item#department__one":{

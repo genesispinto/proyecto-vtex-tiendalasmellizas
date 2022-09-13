@@ -1,13 +1,23 @@
 .imageElement--space{
-    margin-top: 16px;
-    margin-right: 30px;
-    width: 30px;
-    height: 30px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 1rem;
+    height: 1rem;
     
 }
 .logoImage{
-    margin-left: 30rem;
+    margin-left: 35rem;
 }
-.logoContainer{
+.logoLink--logo, .container{
     background-color: white;
 }
+.searchBarContainer{
+    width: 20rem;
+    margin-right: 4rem;
+
+}
+
+.container--menu__departamento{
+    align-items: center;
+}
+

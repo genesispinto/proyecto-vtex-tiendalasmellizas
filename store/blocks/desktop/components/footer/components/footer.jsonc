@@ -1,0 +1,62 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer--desktop"
+    ]
+  },
+  "flex-layout.row#footer--desktop":{
+  "children":[
+    "flex-layout.col#footer--desktop__col1"
+    // "flex-layout.col#footer--desktop__col2",
+    // "flex-layout.col#footer--desktop__col3",
+    // "flex-layout.col#footer--desktop__col4"
+  ]
+  },
+  "flex-layout.col#footer--desktop__col1":{
+    "children":[
+      "logo",
+      "social-networks"
+    ]
+  },
+  "social-networks":{
+    "props":{
+      "socialNetworks":[
+        {
+          "url":"https://www.facebook.com/AgricolaLasMellizas",
+          "name":"Facebook"
+        },
+        {
+          "url":"https://www.instagram.com/agricolalasmellizas/",
+          "name":"Instagram"
+        },
+        {
+          "url":"https://twitter.com/Almendras_Chile",
+          "name":"Twitter"
+        }
+      ]
+    }
+  },
+
+
+
+
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer": { 
+    "children": [
+      "image"
+    ]
+  },
+  "image": {
+    "props": {
+      "width": 100,
+      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+    }
+  }
+}

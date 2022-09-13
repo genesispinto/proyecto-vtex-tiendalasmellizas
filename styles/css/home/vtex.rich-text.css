@@ -1,3 +1,27 @@
-.paragraph--section__one--title{
-    color: yellow;
+.paragraph--text1section3,.paragraph--text1section4{
+    font-family: 'Eczar', serif;
+    font-size: 2.25rem;
+    color: #954613;
+    text-transform: uppercase;
+}
+.paragraph--text2section3, .paragraph--text2section4{
+    font-weight: bold;
+    color: #a09289;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.wrapper--text2section3,.wrapper--text2section4{
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+.paragraph--text1,.paragraph--text2{
+    font-weight: bold;
+    color: #a09289;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 1rem;
+  
 }

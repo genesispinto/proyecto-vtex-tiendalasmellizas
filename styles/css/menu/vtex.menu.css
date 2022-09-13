@@ -1,6 +1,7 @@
 .styledLinkContainer{
     margin: 0 ;
     margin-left: 1rem;
+    padding: 0;
 }
 
 
@@ -28,7 +29,20 @@
     color: #954613;
 }
 
-.styledLinkContent--categ__four, .styledLinkContent--categ__five{
-    padding: .5rem 0.5rem;
+.styledLinkContent--department__four, .styledLinkContent--department__five{
+    padding: 0 0.5rem;
     white-space: normal;
+}
+.menuContainerNav--menu{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.submenuWrapper--isOpen{
+    margin-top: 2.5rem;
+}
+
+.menuItem{
+    display: flex;
+    align-items: top;
 }
