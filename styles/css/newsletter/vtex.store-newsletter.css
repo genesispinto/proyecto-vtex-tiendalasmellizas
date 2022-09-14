@@ -1,0 +1,8 @@
+.emailInputContainer{
+    width: 200px;
+    margin-left: 35rem;
+}
+.newsletterForm{
+    display: flex;
+    background-color:  #954613;
+}

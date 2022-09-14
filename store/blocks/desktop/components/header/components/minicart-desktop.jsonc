@@ -4,14 +4,15 @@
             "variation":"popup",
             "itemCountMode":"total",
             "quantityDisplay":"always",
-            "width":"10%"
+            "width":"10%",
+            "MinicartIcon": "icon-cart#mpa-bag"
         },
         "children":["minicart-base-content"]
     },
     "minicart-base-content":{
          "blocks":["minicart-empty-state"],
          "children":[
-            // "minicart-product-list",
+            "minicart-product-list",
             "flex-layout.row#minicart__footer"
         ]
     },
@@ -22,7 +23,19 @@
         "children":["flex-layout.col#minicart__empty"]
     },
     "flex-layout.col#minicart__empty":{
-       "children": ["rich-text#minicart__empty--text"]
+       "children": [
+        "icon-cart#hpa-bag",
+        "rich-text#minicart__empty--text"]
+    },
+    "icon-cart#mpa-bag":{
+        "props":{
+            "size":0
+        }
+    },
+    "icon-cart#hpa-bag":{
+        "props":{
+            "size":20
+        }
     },
     "rich-text#minicart__empty--text":{
         "props": {
@@ -37,12 +50,36 @@
             "minicart-checkout-button",
             "rich-text#minicart__empty--text"]
 
-    }
-    // "minicart-product-list": {
-    //     "blocks": ["product-list#minicart"]
-    //   },
-    //   "product-list#minicart": {
-    //     "blocks": ["product-list-content-mobile"]
-    //   },
-      
+    },
+    "minicart-product-list": {
+        "blocks": ["product-list#minicart"]
+      },
+      "product-list#minicart": {
+        "blocks": ["product-list-content-mobile"]
+      },
+      "product-list-content-mobile":{
+        "children":["flex-layout.row#minicart__row--mobile"]
+      },
+      "flex-layout.row#minicart__row--mobile":{
+        "children":[
+            "flex-layout.col#minicart__col--image",
+            "flex-layout.col#minicart__col--info"
+            // "flex-layout.col#minicart__col--remove"
+        ]
+      },
+      "flex-layout.col#minicart__col--image":{
+        "children":["product-list-image"]
+      },
+      "flex-layout.col#minicart__col--info":{
+        "children":[
+            "vtex.product-list:product-name",
+            "quantity-selector#minicart",
+            "price"
+        ]
+      },
+      "quantity-selector#minicart":{
+        "props":{
+            "mode":"stepper"
+        }
+      }
 }

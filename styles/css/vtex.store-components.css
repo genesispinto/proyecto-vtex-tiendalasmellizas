@@ -5,7 +5,7 @@
     height: 1rem;
     
 }
-.logoImage{
+.logoImage,.imageElement--imagesection4{
     margin-left: 35rem;
 }
 .logoLink--logo, .container{
@@ -20,4 +20,7 @@
 .container--menu__departamento{
     align-items: center;
 }
-
+.imageElement--footer__ccs{
+    width: 100px;
+    height: 100px;
+}

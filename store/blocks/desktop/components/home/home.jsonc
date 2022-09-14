@@ -8,7 +8,8 @@
       "flex-layout.row#home__section--category1",
       "flex-layout.row#home__section--category2",
       "flex-layout.row#home__section--four",
-      "footer"
+      "slider-layout#home__slider--children"
+
       
       // "responsive-layout.phone#home__info--phone",
       // "responsive-layout.mobile#home__info--mobile",

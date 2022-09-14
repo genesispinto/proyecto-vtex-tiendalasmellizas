@@ -46,3 +46,6 @@
     display: flex;
     align-items: top;
 }
+.styledLinkContent--footer__menu{
+    color: white;
+}

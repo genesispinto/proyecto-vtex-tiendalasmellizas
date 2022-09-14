@@ -6,9 +6,24 @@
        "flex-layout.col#home__section--four":{
         "title":"parrafos",
          "children":[
+            "image#section__four--image",
              "rich-text#section__four--text1",
              "rich-text#section__four--text2"
          ]
+     },
+     "image#section__four--image":{
+        "title":"Imagen section4",
+        "props":{
+        "src":"assets/img/home-intro-date.png",
+        "maxWidth":200,
+        "title":"Image section4",
+        "blockClass": "imagesection4",
+        "link":{
+            "url":"#",
+            "newTab": true,
+            "attributeNoFollow":true
+        }
+    }
      },
      "rich-text#section__four--text1":{
         "title":"titulo seccion",

@@ -25,3 +25,18 @@
     font-size: 1rem;
   
 }
+.paragraph--footer__products, 
+.paragraph--footer__shop, 
+.paragraph--footer__contact,
+.paragraph--footer__bottom{
+    color:white
+}
+.container--footer__bottom{
+    background-color: #954613;
+    
+}
+.wrapper--footer__bottom{
+    border-top: 1px solid white;
+    margin-left: 30rem;
+    margin-top: 10px;
+}

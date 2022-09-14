@@ -6,6 +6,7 @@
           "flex-layout.col#section__two--image2",
           "flex-layout.col#section__two--image3"
           
+          
         ],
         "props":{
           "blockClass": "home__section--two",
@@ -51,7 +52,19 @@
       "rich-text#section__two--title3":{
         "title": "Nombre de Categoria de productos3",
         "props":{
-          "text":"Chocolate"
+          "text":"Semillas"
+        }
+      },
+      "rich-text#section__two--title4":{
+        "title": "Nombre de Categoria de productos3",
+        "props":{
+          "text":"Mix de frutos secos"
+        }
+      },
+      "rich-text#section__two--title5":{
+        "title": "Nombre de Categoria de productos3",
+        "props":{
+          "text":"Fruta deshidratada"
         }
       },
       "flex-layout.row#home__section--category2":{
@@ -59,7 +72,19 @@
           "colSizing":"equal"
         },
         "children":[
-          "flex-layout.col#section__two--image3",
-        "flex-layout.col#section__two--image3"]
-      }
+          "flex-layout.col#section__two--image4",
+          "flex-layout.col#section__two--image5"]
+      },
+      "flex-layout.col#section__two--image4":{
+        "children":[
+          "image#home__image4",
+          "rich-text#section__two--title4"
+        ]
+      },
+          "flex-layout.col#section__two--image5":{
+            "children":[
+              "image#home__image5",
+              "rich-text#section__two--title5"
+            ]
+          }
 }

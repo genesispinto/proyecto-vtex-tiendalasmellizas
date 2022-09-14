@@ -4,23 +4,46 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer--desktop"
+      "flex-layout.row#footer--desktop__top",
+      "flex-layout.row#footer--desktop__middle",
+      "flex-layout.row#footer--desktop__bottom"
     ]
   },
-  "flex-layout.row#footer--desktop":{
+  "flex-layout.row#footer--desktop__top":{
+    "props":{
+      "blockClass":"footer--desktop"
+    },
   "children":[
-    "flex-layout.col#footer--desktop__col1"
-    // "flex-layout.col#footer--desktop__col2",
-    // "flex-layout.col#footer--desktop__col3",
-    // "flex-layout.col#footer--desktop__col4"
+    "flex-layout.col#footer--desktop__col1",
+    "flex-layout.col#footer--desktop__col2",
+    "flex-layout.col#footer--desktop__col3",
+    "flex-layout.col#footer--desktop__col4"
   ]
   },
   "flex-layout.col#footer--desktop__col1":{
     "children":[
-      "logo",
-      "social-networks"
+      "image#footer__logo",
+      "social-networks",
+      "rich-text#footer__contact",
+      "menu#footer__contact"
     ]
   },
+
+  "image#footer__logo":{
+    "title":"Imagen logo",
+    "props":{
+        "src":"assets/img/logo.png",
+        "maxWidth":200,
+        "title":"logo",
+        "blockClass": "footer__logo",
+        "link":{
+            "url":"#",
+            "newTab": true,
+            "attributeNoFollow":true
+        }
+    }
+},
+
   "social-networks":{
     "props":{
       "socialNetworks":[
@@ -39,10 +62,384 @@
       ]
     }
   },
+  "rich-text#footer__contact":{
+    "props":{
+      "text":"CONTACTO",
+      "blockClass":"footer__contact"
+    }
+  },
+  "menu#footer__contact":{
+    "children":[
+      "menu-item#contact__direction",
+      "menu-item#contact__phone1",
+      "menu-item#contact__phone2",
+      "menu-item#contact__phone3"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"footer__contact"
+    }
+  },
+  "menu-item#contact__direction":{
+    "title":"direction",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "direction",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "https://www.google.com/maps/place/Cam.+Padre+Hurtado+5696,+Buin,+Regi%C3%B3n+Metropolitana/@-33.6856319,-70.6748904,17z/data=!3m1!4b1!4m5!3m4!1s0x96632774da356675:0x4a2a5c20cd39e6f0!8m2!3d-33.6856408!4d-70.6727971",
+        "noFollow": true,
+        "tagTitle": "direction",
+        "text": "Camino Padre Hurtado 5696, Buin, Chile",
+        "isActive":"true"
+      }        
+    }
+  },
+  "menu-item#contact__phone1":{
+    "title":"phone1",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "phone1",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "phone1",
+        "text": "planta Envasado: +562 2821 1933",
+        "isActive":"true"
+      }        
+    }
+  },
+  "menu-item#contact__phone2":{
+    "title":"phone2",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "phone2",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "phone2",
+        "text": "Ventas: +569 4015 9557",
+        "isActive":"true"
+      }        
+    }
+  },
+  "menu-item#contact__phone3":{
+    "title":"phone3",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "phone3",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "phone3",
+        "text": "Ventas: +569 5409 6272",
+        "isActive":"true"
+      }        
+    }
+  },
+  "flex-layout.col#footer--desktop__col2":{
+      "children":[
+      "rich-text#footer__shop",
+      "menu#footer__shop"
+      ]
+
+  },
+  "rich-text#footer__shop":{
+    "props":{
+      "text":"TIENDA",
+      "blockClass":"footer__shop"
+    }
+  },
+  "menu#footer__shop":{
+    "children":[
+      "menu-item#shop__about",
+      "menu-item#shop__contact",
+      "menu-item#shop__buy",
+      "menu-item#shop__terms&conditions",
+      "menu-item#shop__policies",
+      "menu-item#shop__commitment"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"footer__shop"
+    }
+  },
+  "menu-item#shop__about":{
+    "title":"about",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "about",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "about",
+        "text": "¿Quienes somos?",
+        "isActive":"true"
+      }        
+    }
+  },
+  "menu-item#shop__contact":{
+    "title":"contact",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "contact",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "contact",
+        "text": "Contacto",
+        "isActive":"true"
+      }        
+    }
+  },
+  "menu-item#shop__buy":{
+    "title":"buy",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "buy",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "buy",
+        "text": "¿Como comprar?",
+        "isActive":"true"
+      }        
+    }
+  },
+  "menu-item#shop__terms&conditions":{
+    "title":"terms&conditions",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "terms&conditions",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "terms&conditions",
+        "text": "Términos y Condiciones",
+        "isActive":"true"
+      }        
+    }
+  },
+  "menu-item#shop__policies":{
+    "title":"policies",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "policies",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "policies",
+        "text": "Politicas de Cookies",
+        "isActive":"true"
+      }        
+    }
+  },
+  "menu-item#shop__commitment":{
+    "title":"commitment",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "commitment",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "commitment",
+        "text": "Nuestro Compromiso",
+        "isActive":"true"
+      }        
+    }
+  },
+  "flex-layout.col#footer--desktop__col3":{
+
+    "children":[
+      "rich-text#footer__products",
+      "menu#footer__products"
+      ]
+
+  },
+  "rich-text#footer__products":{
+    "props":{
+      "text":"PRODUCTOS",
+      "blockClass":"footer__products"
+    }
+  },
+  "menu#footer__products":{
+    "children":[
+      "menu-item#products__almonds",
+      "menu-item#products__nuts",
+      "menu-item#products__dehydratedfruit",
+      "menu-item#products__seeds",
+      "menu-item#products__bestsellers"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#products__almonds":{
+    "title":"almonds",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "almonds",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "almonds",
+        "text": "Almendras",
+        "isActive":"true"
+      }        
+    }
+  },
+  "menu-item#products__nuts":{
+    "title":"nuts",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "nuts",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "nuts",
+        "text": "Frutos Secos",
+        "isActive":"true"
+      }        
+    }
+  },
+  "menu-item#products__dehydratedfruit":{
+    "title":"dehydratedfruit",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "dehydratedfruit",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "dehydratedfruit",
+        "text": "Fruta Deshidratada",
+        "isActive":"true"
+      }        
+    }
+  },
+  "menu-item#products__seeds":{
+    "title":"seeds",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "seeds",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "seeds",
+        "text": "Semillas",
+        "isActive":"true"
+      }        
+    }
+  },
+  "menu-item#products__bestsellers":{
+    "title":"bestsellers",
+    "props": {
+      "blockClass":"footer__menu",
+      "id": "bestsellers",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type":"external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "bestsellers",
+        "text": "Mas Vendidos",
+        "isActive":"true"
+      }        
+    }
+  },
+  "flex-layout.col#footer--desktop__col4":{
+    "children":[
+      "image#footer__ccs"
+    ]
+  },
+  "image#footer__ccs":{
+    "title":"Imagen ccs",
+    "props":{
+        "src":"assets/img/CCS.png",
+        "maxWidth":200,
+        "title":"logo",
+        "blockClass": "footer__ccs",
+        "link":{
+            "url":"#",
+            "newTab": true,
+            "attributeNoFollow":true
+        }
+    }
+},
+"flex-layout.row#footer--desktop__middle":{
+  "children":[
+    "newsletter-form"
+  ]
+},
+"newsletter-form": {
+  "children": [
+    "newsletter-input-email",
+    "newsletter-submit"
+  ]
+},
+"newsletter-input-email":{
+  "props":{
+    "placeholderText":"e-mal"
+  }
+},
+"flex-layout.row#footer--desktop__bottom":{
+  "props":{
+    "blockClass":"footer__bottom"
+  },
+  "children":["rich-text#footer__bottom"]
+},
+"rich-text#footer__bottom":{
+  "props":{
+    "blockClass":"footer__bottom",
+    "text":" Las Mellizas © 2022 ¿Te gusta mi tienda? Yo vendo con Bsale "
+  }
+},
 
 
 
 
+////////////////////////////////////////////////
   "footer-layout.mobile": { 
     "children": [
       "flex-layout.row#footer"
