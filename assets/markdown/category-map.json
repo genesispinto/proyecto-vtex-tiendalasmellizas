@@ -1,0 +1,34 @@
+{
+    "data":{
+        "categories":[
+            {
+                "id":1,
+                "name":"Categoria",
+                "href":"/construccion",
+                "children":[
+                    {
+                        "id":2,
+                        "name":"Mulher",
+                        "href":"/category/mujer"
+                    },
+                    {
+                        "id":3,
+                        "name":"Homen",
+                        "href":"/category/hombre"
+                    },
+                    {
+                        "id":4,
+                        "name":"bebe",
+                        "href":"/category/bebe"
+                    },
+                    {
+                        "id":5,
+                        "name":"Criancas",
+                        "href":"/category/ninos"
+                    }
+
+                ]
+            }
+        ]
+    }
+}

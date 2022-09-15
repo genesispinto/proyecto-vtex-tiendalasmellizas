@@ -63,8 +63,8 @@
       "flex-layout.row#minicart__row--mobile":{
         "children":[
             "flex-layout.col#minicart__col--image",
-            "flex-layout.col#minicart__col--info"
-            // "flex-layout.col#minicart__col--remove"
+            "flex-layout.col#minicart__col--info",
+            "flex-layout.col#minicart__col--remove"
         ]
       },
       "flex-layout.col#minicart__col--image":{
@@ -81,5 +81,8 @@
         "props":{
             "mode":"stepper"
         }
+      },
+      "flex-layout.col#minicart__col--remove":{
+        "children":["remove-button"]
       }
 }

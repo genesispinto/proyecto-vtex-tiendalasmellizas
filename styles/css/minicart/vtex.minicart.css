@@ -1,6 +1,9 @@
 .minicartQuantityBadgeDefault{
     top:-1rem;
     right: -1.8rem;
+    background-color: #954613;
+    border-radius: 4px;
+    
 }
 .minicartIconContainer::before{
     content: " ";
@@ -9,4 +12,5 @@
     height: 26px;
     padding: 19px 13px;
     background-repeat: no-repeat;
+    margin-left: 0;
 }

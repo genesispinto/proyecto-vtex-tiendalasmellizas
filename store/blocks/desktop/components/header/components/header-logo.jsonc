@@ -11,7 +11,7 @@
       "logo": {
         "title":"imagen logo",
         "props": {
-          "blockClass":"logo",
+          "blockClass":"logo_desktop",
           "title": "Las Mellizas",
           "href": "/",
           "url": "assets/img/logo.png",

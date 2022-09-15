@@ -8,14 +8,27 @@
       "flex-layout.row#home__section--category1",
       "flex-layout.row#home__section--category2",
       "flex-layout.row#home__section--four",
-      "slider-layout#home__slider--children"
+      "slider-layout#home__slider--children",
 
-      
+      "responsive-layout.desktop",
+      "slider-layout#home__slider--children",
+      "responsive-layout.mobile"
       // "responsive-layout.phone#home__info--phone",
-      // "responsive-layout.mobile#home__info--mobile",
+      // "responsive-layout.mobile#home__info--mobile"
       // "responsive-layout.tablet#home__info--tablet",
       // "responsive-layout.desktop#home__info--desktop"
     ]
-  }
+  },
 
+  "responsive-layout.desktop":{
+    "children":[
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#home__section--information",
+      "flex-layout.row#home__section--three",
+      "flex-layout.row#home__section--category1",
+      "flex-layout.row#home__section--category2",
+      "flex-layout.row#home__section--four"
+    ]
+
+}
 }

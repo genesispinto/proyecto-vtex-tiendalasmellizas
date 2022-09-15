@@ -1,36 +1,82 @@
 {
-        "header-layout.mobile": {
-        "children": ["flex-layout.row#mobile"]
+    "header-layout.mobile":{
+        "children":[
+            "flex-layout.row#menu__mobile"
+        ]
     },
-    "flex-layout.row#mobile": {
+    "flex-layout.row#menu__mobile":{
+        "props":{
+            "fullWidth":"100%",
+            "preserveLayoutOnMobile": true,
+            "blockClass":"center_items_mobile"
+        },
+        "children":[
+           "flex-layout.col#drawe__mobile",
+           "flex-layout.col#logo__mobile",
+           "flex-layout.col#login__mobile",
+           "flex-layout.col#minicart__mobile" 
+        ]
+    },
+    "flex-layout.col#drawe__mobile":{
+        "props":{
+            "width":"10%"
+        },
+        "children":["drawer#mobile"]
+    },
+    "flex-layout.col#logo__mobile":{
+        "children":["logo#mobile"]
+    },
+    "flex-layout.col#login__mobile":{
+        "children":["login"]
+    },
+    "flex-layout.col#minicart__mobile":{
+        "children":["minicart.v2"]
+    },
+    "drawer#mobile": {
         "children": [
-        "drawer#header__mobile--menu",
-        "logo",
-        "login",
-        "minicart.v2"
+            "menu#header__deparment--mobile"
+        ],
+        "props":{
+            "blockClass":"mobile"
+        }
+        // "blocks": ["drawer-trigger"]
+      },
+    //   "drawer-trigger": {
+    //     "children": ["rich-text#open-drawer"]
+    //   },
+    //   "rich-text#open-drawer": {
+    //     "props": {
+    //       "text": "Tienda"
+    //     }
+    //   }, 
+      "menu#header__deparment--mobile":{
+        "children":[
+            "menu-item#department__one", 
+            "menu-item#department__two",
+            "menu-item#department__three",
+            "menu-item#department__four",
+            "menu-item#department__five",
+            "menu-item#department__six",
+            "menu-item#department__seven",
+            "menu-item#department__eigth"
         ],
         "props": {
-        "blockClass": "main-header-mobile",
-        "preventHorizontalStretch": true,
-        "preserveLayoutOnMobile": true,
-        "fullWidth": true
-        }
-    },
-    "drawer#header__mobile--menu":{
-        "children":["flex-layout.row#menu"],
-        "blocks":["drawer-trigger"]
-    },
-    "drawer-trigger":{
-        "children":["rich-text#mobile--menu"]
-    },
-    "rich-text#mobile--menu": {
+            "orientation": "vertical",
+            "blockClass":"menu_mobile"
+          }
+      },
+      "logo#mobile":{
+        "title":"imagen logo",
         "props": {
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "Tienda",
-        "textColor": "c-on-emphasis",
-        "font": "t-heading-5",
-        "blockClass": "help-message"
-        }
+          "blockClass":"logo-mobile",
+          "title": "Las Mellizas",
+          "href": "/",
+          "url": "assets/img/mobile-nav-logo.svg",
+          "width": 82,
+          "height": 12,
+          "mobileWidth": 82,
+          "mobileHeight": 12
+      }
     }
+      
 }

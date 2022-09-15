@@ -1,6 +1,10 @@
 .flexRowContent--networks{
     margin-left: 4rem;
 }
+
+.flexRowContent--center_items_mobile{
+    align-items: center;
+}
 .flexRow--sectinformation{
     margin-left: 4rem;
     margin-right: 3rem;
@@ -9,3 +13,4 @@
 .flexRowContent--footer--desktop{
     background-color: #954613;
 }
+
