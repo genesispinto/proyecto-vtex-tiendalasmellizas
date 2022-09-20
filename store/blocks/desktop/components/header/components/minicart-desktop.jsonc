@@ -24,8 +24,7 @@
     },
     "flex-layout.col#minicart__empty":{
        "children": [
-        "icon-cart#hpa-bag",
-        "rich-text#minicart__empty--text"]
+        "icon-cart#hpa-bag"]
     },
     "icon-cart#mpa-bag":{
         "props":{
@@ -37,18 +36,11 @@
             "size":20
         }
     },
-    "rich-text#minicart__empty--text":{
-        "props": {
-            "textAlignment": "CENTER",
-            "text": "Su carrito esta vacio"
-          }
-    },
     //////////////////////////////////////////////////////////////
     "flex-layout.row#minicart__footer":{
         "children": [
             "minicart-summary",
-            "minicart-checkout-button",
-            "rich-text#minicart__empty--text"]
+            "minicart-checkout-button"]
 
     },
     "minicart-product-list": {

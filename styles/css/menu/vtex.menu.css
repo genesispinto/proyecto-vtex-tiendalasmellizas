@@ -11,6 +11,7 @@
     font-weight: bold;
     font-size: 0.85rem;
     
+    
 }
 .styledLinkContent:hover{
     color: #57280A;
@@ -36,6 +37,7 @@
 .menuContainerNav--menu{
     margin-left: 4rem;
     margin-right: 4rem;
+
 }
 
 .submenuWrapper--isOpen{

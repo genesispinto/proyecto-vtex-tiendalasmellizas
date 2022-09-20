@@ -15,6 +15,7 @@
            "flex-layout.col#logo__mobile",
            "flex-layout.col#login__mobile",
            "flex-layout.col#minicart__mobile" 
+           
         ]
     },
     "flex-layout.col#drawe__mobile":{
@@ -38,17 +39,17 @@
         ],
         "props":{
             "blockClass":"mobile"
-        }
-        // "blocks": ["drawer-trigger"]
+        },
+        "blocks": ["drawer-trigger"]
       },
-    //   "drawer-trigger": {
-    //     "children": ["rich-text#open-drawer"]
-    //   },
-    //   "rich-text#open-drawer": {
-    //     "props": {
-    //       "text": "Tienda"
-    //     }
-    //   }, 
+      "drawer-trigger": {
+        "children": ["rich-text#open-drawer"]
+      },
+      "rich-text#open-drawer": {
+        "props": {
+          "text": "Tienda"
+        }
+      }, 
       "menu#header__deparment--mobile":{
         "children":[
             "menu-item#department__one", 

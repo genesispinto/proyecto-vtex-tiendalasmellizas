@@ -410,7 +410,11 @@
 "flex-layout.row#footer--desktop__middle":{
   "children":[
     "newsletter-form"
-  ]
+  ],
+  "props":{
+    "horizontalAlign":"center",
+    "colSizing":"auto"
+  }
 },
 "newsletter-form": {
   "children": [
@@ -424,36 +428,17 @@
   }
 },
 "flex-layout.row#footer--desktop__bottom":{
+  "children":["rich-text#footer__bottom"],
   "props":{
-    "blockClass":"footer__bottom"
-  },
-  "children":["rich-text#footer__bottom"]
+    "horizontalAlign":"center",
+    "colSizing":"auto"
+  }
 },
 "rich-text#footer__bottom":{
   "props":{
     "blockClass":"footer__bottom",
     "text":" Las Mellizas © 2022 ¿Te gusta mi tienda? Yo vendo con Bsale "
   }
-},
-
-
-
-
-////////////////////////////////////////////////
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
-    }
-  }
+}
+ 
 }

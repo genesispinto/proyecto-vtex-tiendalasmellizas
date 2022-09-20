@@ -1,17 +1,56 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout"],
+    "props":{
+      "context":{
+        "skusFilter":"FIRT_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
-  "store.search#department":{
-    "blocks":["search-result-layout"]
+  "store.search#construccion":{
+    "blocks":["search-result-layout"],
+    "props":{
+      "context":{
+        "skusFilter":"FIRT_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#category":{
-    "blocks":["search-result-layout"]
+    "blocks":["search-result-layout"],
+    "props":{
+      "context":{
+        "skusFilter":"FIRT_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#subcategory":{
-    "blocks":["search-result-layout"]
+    "blocks":["search-result-layout"],
+    "props":{
+      "context":{
+        "skusFilter":"FIRT_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#brand ":{
-    "blocks":["search-result-layout"]
+    "blocks":["search-result-layout"],
+    "props":{
+      "context":{
+        "skusFilter":"FIRT_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   }
+  // "product-sumary.shelf":{
+  //   "children":[
+  //       "product-sumary-image",
+  //       "product-sumary-name",
+  //       "product-list-price",
+  //       "product-selling-price",
+  //       "product-sumary-sku-selector"
+  //  ]
+  // }
 }

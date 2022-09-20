@@ -14,3 +14,10 @@
     background-color: #954613;
 }
 
+.flexRowContent--socialnetworks-mobile{
+    justify-content: center;
+    display: flex;
+}
+
+
+

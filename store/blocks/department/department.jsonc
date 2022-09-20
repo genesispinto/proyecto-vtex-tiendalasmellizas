@@ -19,19 +19,24 @@
       // "flex-layout.col#deparment__breadcrumb":{
       //   "children":[ "breadcrumb.search" ]
       // },
-      // // "flex-layout.row#deparment__results":{
-      // //   "title":"Deparment Results",
-      // //   "children":[
-      // //       // "gallery.layout-switcher",
-      // //       "search-content#phone"
-      // //   ]
-      // // },
-      // // "gallery.layout-switcher":{
-      // //   "children":[
-      // //       "gallery-layout-option#grid__two-columns",
-      // //       "gallery-layout-option#grid__one-columns"
-      // //   ]      
-      // //   },
+      // "flex-layout.row#deparment__results":{
+      //   "title":"Deparment Results",
+      //   "blocks":["product-sumary.shelf"],
+      //   "children":[
+      //       "gallery-layout-switcher",
+      //       "search-content#phone",
+      //       "list-context.product-lists"
+      //   ]
+      // },
+      // "list-context.product-lists": {
+      //       "blocks": ["product-summary.shelf"]
+      //     },
+      // "gallery-layout-switcher":{
+      //   "children":[
+      //       "gallery-layout-option#grid__two-columns",
+      //       "gallery-layout-option#grid__one-columns"
+      //   ]      
+      //   },
       //   "gallery-layout-option#grid__two-columns":{
       //       "props":{
       //           "name":"grid-two-columns",
@@ -44,7 +49,7 @@
       //           "blockClass":"grid__selector--one-colunn"
       //       }
       //   },
-      // //  "search-content#phone":{},
+      // // "search-content#phone":{},
       // /////////////////////
       // "search-result-layout.mobile#department":{
       //   "children":[
@@ -64,3 +69,4 @@
       //   }
       // }
 }
+      

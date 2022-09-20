@@ -5,6 +5,10 @@
     height: 1rem;
     
 }
+.imageElementLink--logo-mobile{
+    text-align: center; 
+}
+
 .logoImage--logo_desktop,.imageElement--imagesection4{
     margin-left: 35rem;
 }
@@ -23,4 +27,8 @@
 .imageElement--footer__ccs{
     width: 100px;
     height: 100px;
+}
+
+.container{
+    background-color: transparent;
 }
