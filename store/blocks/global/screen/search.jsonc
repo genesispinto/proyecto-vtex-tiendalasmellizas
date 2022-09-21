@@ -3,16 +3,16 @@
     "blocks": ["search-result-layout"],
     "props":{
       "context":{
-        "skusFilter":"FIRT_AVAILABLE",
+        "skusFilter":"ALL",
         "simulationBehavior": "default"
       }
     }
   },
-  "store.search#construccion":{
-    "blocks":["search-result-layout"],
+  "store.search#department":{
+    "blocks":["search-result-layout#department"],
     "props":{
       "context":{
-        "skusFilter":"FIRT_AVAILABLE",
+        "skusFilter":"ALL",
         "simulationBehavior": "default"
       }
     }
@@ -21,7 +21,7 @@
     "blocks":["search-result-layout"],
     "props":{
       "context":{
-        "skusFilter":"FIRT_AVAILABLE",
+        "skusFilter":"ALL",
         "simulationBehavior": "default"
       }
     }
@@ -30,7 +30,7 @@
     "blocks":["search-result-layout"],
     "props":{
       "context":{
-        "skusFilter":"FIRT_AVAILABLE",
+        "skusFilter":"ALL",
         "simulationBehavior": "default"
       }
     }
@@ -39,18 +39,61 @@
     "blocks":["search-result-layout"],
     "props":{
       "context":{
-        "skusFilter":"FIRT_AVAILABLE",
+        "skusFilter":"ALL",
         "simulationBehavior": "default"
       }
     }
-  }
-  // "product-sumary.shelf":{
-  //   "children":[
-  //       "product-sumary-image",
-  //       "product-sumary-name",
-  //       "product-list-price",
-  //       "product-selling-price",
-  //       "product-sumary-sku-selector"
-  //  ]
-  // }
+  },
+  "search-result-layout":{
+    "blocks":[
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop":{
+    "children":["rich-text#desktop-response",
+    "flex-layout.row#desktop__results"]
+  },
+  "flex-layout.row#desktop__results":{
+    "children":["flex-layout.col#desktop__results--search"]
+  },
+  "flex-layout.col#desktop__results--search":{
+    "children":["search-content#desktop__results--search"]
+  },
+  "search-content#desktop__results--search":{
+    "blocks":["gallery#desktop","not-found"]
+  },
+  "gallery#desktop":{
+    "blocks":["product-summary.shelf#desktop"]
+  },
+
+  //////////////////////
+  "search-result-layout.mobile":{
+    "children":["rich-text#mobile-response"]
+  },
+  "rich-text#desktop-response":{
+    "props":{
+      "text":"Productos para desktop"
+    }
+  },
+  "rich-text#mobile-response":{
+    "props":{
+      "text":"Productos para mobile"
+    }
+  },
+  "product-summary.shelf#desktop":{
+    "children":[
+      "product-summary-image",
+      "product-summary-name",
+      // "product-summary-price",
+
+      "product-list-price",
+      "product-price-savings",
+      "product-installments",
+
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+   ]
+  } 
 }

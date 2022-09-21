@@ -16,22 +16,5 @@
         "children":[
           "flex-layout.col#home__results--search"]
         
-      }
-      // "image#home__slider--one":{
-      //   "props":{
-      //     "src":"assets/img/img1_slider.jpg"
-      //   }
-      // },
-      // "image#home__slider--two":{
-      //   "props":{
-      //     "src":"assets/img/img2_slider.jpg"
-      //   }
-    
-      // },
-      // "image#home__slider--three":{
-      //   "props":{
-      //     "src":"assets/img/img3_slider.jpg"
-      //   }
-    
-      // }
+        }
 }
