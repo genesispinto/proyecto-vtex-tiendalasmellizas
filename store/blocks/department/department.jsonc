@@ -21,21 +21,10 @@
       },
       "flex-layout.row#deparment__results":{
         "title":"Deparment Results",
-      //   "blocks":["product-summary.shelf"],
         "children":[
-            "search-content#desktop"
+            "search-content#desktop__results--search"
         ]
-      },
-      // "list-context.product-list": {
-      //       "blocks": ["product-summary.shelf#construccion"]
-      //     },
-      
-      "search-content#desktop":{
-            "blocks":["gallery#desktop","not-found"]
-      },
-      "gallery#desktop":{
-            "blocks":["product-summary.shelf#desktop"]
-          },
+      },      
       /////////////////////
       "search-result-layout.mobile#department":{
         "children":[

@@ -42,10 +42,10 @@
             "highlight": false,
             "itemProps": {
               "type": "external",
-              "href": "#",
+              "href": "/construccion",
               "noFollow": true,
               "tagTitle": "Shop",
-              "text": "Snackbox"
+              "text": "Construccion"
             }
         }
     },
@@ -105,7 +105,7 @@
         "highlight": false,
         "itemProps": {
           "type": "external",
-          "href": "#",
+          "href": "/sobrenosotros",
           "noFollow": true,
           "tagTitle": "Shop",
           "text": "Nosotros"
