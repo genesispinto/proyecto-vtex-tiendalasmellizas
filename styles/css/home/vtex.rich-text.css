@@ -7,7 +7,7 @@
 .paragraph--text2section3, .paragraph--text2section4{
     font-weight: bold;
     color: #a09289;
-    font-family: 'Source Sans Pro', sans-serif;
+
 
 }
 .wrapper--text2section3,.wrapper--text2section4{
@@ -19,7 +19,6 @@
 .paragraph--text1,.paragraph--text2{
     font-weight: bold;
     color: #a09289;
-    font-family: 'Source Sans Pro', sans-serif;
     padding-right: 15px;
     padding-left: 15px;
     font-size: 1rem;
