@@ -1,40 +1,46 @@
 {
  "store.custom#about-us": {
     "blocks": [
-      "flex-layout.row#about-us"
+      "flex-layout.row#about-us__image",
+      "flex-layout.row#about-us__info",
+      "flex-layout.row#about-us__share"
     ]
   },
-  "flex-layout.row#about-us": {
+  "flex-layout.row#about-us__image": {
     "children": [
-      "image#about-us",
-      "flex-layout.col#text-about-us"
+      "info-card"
+      
     ]
   },
-  "flex-layout.col#text-about-us": {
+  "flex-layout.row#about-us__info": {
     "children": [
-      "rich-text#about-title",
       "rich-text#about-content"
-    ],
-        "props": {
-      "preventVerticalStretch": true
-    }
+    ]
   },
- "rich-text#about-title": {
-    "props": {
-      "text":
-      "# About us Title"
-    }
+  "flex-layout.row#about-us__share": {
+    "children": [
+      "share"
+    ]
   },
   "rich-text#about-content": {
     "props": {
       "text":
-      " About us content - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+      "Queridos Amigos,\n Llevamos un largo recorrido comercializando frutos secos, siendo la almendra uno de nuestros pilares basados en la experiencia en los huertos familiares.\n Hoy nos encontramos muy diversificados a una amplia variedad de productos, que podrás encontrar en nuestra tienda online. La gran mayoría son productos bajo nuestra marca Las Mellizas enfocada principalmente a productos naturales y saludables. Además, contamos con una sección llamada Mercado Las Mellizas, donde encontratrás productos complementarios, de interés para nuestros clientes. \n Hay diversos formatos de productos, desde cajas a granel, porcionados en 1kg y 400grs, hasta más pequeños como aperitivos de 80grs y snacks individuales. Sin duda, encontrarás el formato perfecto para tus necesidades.\n Estamos seguros que te encantarán nuestros productos y, como muchos clientes nuevos, te sorprenderás con la calidad. Sólo debes realizar tu primer pedido, el primero, pero no el último…\n Un saludo desde Buin,\n Comercial Las Mellizas SpA."
     }
   },
-  "image#about-us": {
+  "info-card": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
-      "maxHeight": "600px"
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/img/L_about-banner7525.jpg",
+      "headline": "Sobre Nosotros",
+      "callToActionText": "Ir al home",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
     }
   }
+
+
 }

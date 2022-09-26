@@ -32,3 +32,6 @@
 .container{
     background-color: transparent;
 }
+.imageElement--home__image{
+    margin-right: 0;
+}

@@ -18,6 +18,17 @@
     justify-content: center;
     display: flex;
 }
-
-
-
+.flexRowContent--modal_quick-view{
+    width: 800px;
+    height: 450px;
+    padding: 1rem;
+}
+.flexRowContent--menu__departament{
+    background-color: white;
+}
+.flexColChild--category1{
+    width: 40%;
+}
+.flexColChild--category2{
+    width: 40%;
+}

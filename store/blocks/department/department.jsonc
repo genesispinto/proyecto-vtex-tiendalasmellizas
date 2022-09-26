@@ -8,7 +8,6 @@
       },
       "search-result-layout.desktop#department":{
         "children":[
-          "rich-text#desktop-response-department",
           "flex-layout.row#deparment__breadcrumb",
           "flex-layout.row#deparment__results"
         ]
@@ -50,11 +49,6 @@
             "name":"grid-one-columns",
             "blockClass":"grid__selector--one-colunn"
             }
-      },
-      "rich-text#desktop-response-department":{
-        "props":{
-          "text": "# Desktop search department"
-        }
       },
       "rich-text#mobile-response-department":{
         "props":{
