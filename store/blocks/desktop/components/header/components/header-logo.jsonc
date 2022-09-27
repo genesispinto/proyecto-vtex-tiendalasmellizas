@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#logo-desktop": {
+        "title":"fila logo",
+        "props": {
+          "blockClass":"header__logo",
+          "horizontalAlign":"center"
+        },
+        "children":["logo"]
+      },
+    
+      "logo": {
+        "title":"imagen logo",
+        "props": {
+          "blockClass":"logo_desktop",
+          "title": "Las Mellizas",
+          "href": "/",
+          "url": "assets/img/logo.png",
+          "width": "200"
+        }
+      }
+}

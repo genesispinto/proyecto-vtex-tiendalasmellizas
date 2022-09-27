@@ -1,0 +1,53 @@
+.styledLinkContainer{
+    margin: 0 ;
+    margin-left: 1rem;
+    padding: 0;
+}
+
+
+.styledLinkContent{
+    color: #954613;
+    font-family: 'Sintony', sans-serif;
+    font-weight: bold;
+    font-size: 0.85rem;
+    
+    
+}
+.styledLinkContent:hover{
+    color: #57280A;
+}
+
+.styledLinkContent--flecha::after{
+    display: inline-block;
+    margin-left: .6em;
+    margin-top: .3em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    color: #954613;
+}
+
+.styledLinkContent--department__four, .styledLinkContent--department__five{
+    padding: 0 0.5rem;
+    white-space: normal;
+}
+.menuContainerNav--menu{
+    margin-left: 4rem;
+    margin-right: 4rem;
+
+}
+
+.submenuWrapper--isOpen{
+    margin-top: 2.5rem;
+}
+
+.menuItem{
+    display: flex;
+    align-items: top;
+}
+.styledLinkContent--footer__menu{
+    color: #e4d0c3;
+}

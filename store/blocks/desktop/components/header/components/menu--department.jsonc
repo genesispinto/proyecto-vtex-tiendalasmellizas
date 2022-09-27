@@ -1,0 +1,147 @@
+{
+    "menu#header__menu--deparment":{
+        "title":"Menu",
+        "children":[
+            "menu-item#department__one", 
+            "menu-item#department__two",
+            "menu-item#department__three",
+            "menu-item#department__four",
+            "menu-item#department__five",
+            "menu-item#department__six",
+            "menu-item#department__seven",
+            "menu-item#department__eigth"
+    
+        ],
+        "props": {
+            "orientation": "horizontal",
+            "blockClass":"menu"
+          }
+    },
+    "menu-item#department__one":{
+        "title":"Menu department__one ",
+        "props": {
+            "id": "department__one",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type":"internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "shopGene",
+              "text": "TIENDA ONLINE"
+            },
+            "blockClass":"flecha"
+          },          
+          "blocks": ["submenu#department__one"]
+    },
+    "menu-item#department__two":{
+        "title":"Menu department__two",
+        "props": {
+            "id": "department__two",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "external",
+              "href": "/construccion",
+              "noFollow": true,
+              "tagTitle": "Shop",
+              "text": "Construccion"
+            }
+        }
+    },
+    "menu-item#department__three":{
+        "title":"Menu department__three ",
+        "props": {
+            "id": "department__three",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "external",
+              "href": "#",
+              "noFollow": true,
+              "tagTitle": "Shop",
+              "text": "Tipo de Alimentacion"
+            },
+            "blockClass":"flecha"
+        }
+    },
+    "menu-item#department__four":{
+        "title":"Menu department__four ",
+        "props": {
+            "id": "department__four",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "external",
+              "href": "#",
+              "noFollow": true,
+              "tagTitle": "Shop",
+              "text": "Productos Solidarios"
+            },
+            "blockClass":"department__four"
+        }
+    },
+    "menu-item#department__five":{
+        "title":"Menu department__five ",
+      "props": {
+          "id": "department__five",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Shop",
+            "text": "Preguntas Frecuentes"
+          },
+          "blockClass":"department__five"
+      }
+  },
+  "menu-item#department__six":{
+    "title":"Menu department__six ",
+    "props": {
+        "id": "department__six",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "external",
+          "href": "/sobrenosotros",
+          "noFollow": true,
+          "tagTitle": "Shop",
+          "text": "Nosotros"
+        }
+    }
+},
+"menu-item#department__seven":{
+    "title":"Menu department__seven ",
+  "props": {
+      "id": "department__seven",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Shop",
+        "text": "Seguimiento"
+      }
+  }
+},
+"menu-item#department__eigth":{
+    "title":"Menu department__eigth ",
+  "props": {
+      "id": "department__eigth",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Shop",
+        "text": "Contacto"
+      }
+  }
+}
+
+
+}
