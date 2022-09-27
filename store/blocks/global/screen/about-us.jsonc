@@ -2,7 +2,12 @@
  "store.custom#about-us": {
     "blocks": [
       "flex-layout.row#about-us__image",
-      "flex-layout.row#about-us__info",
+      "flex-layout.row#about-us__info1",
+      "flex-layout.row#about-us__info2",
+      "flex-layout.row#about-us__info3",
+      "flex-layout.row#about-us__info4",
+      "flex-layout.row#about-us__info5",
+      "flex-layout.row#about-us__info6",
       "flex-layout.row#about-us__share"
     ]
   },
@@ -12,22 +17,82 @@
       
     ]
   },
-  "flex-layout.row#about-us__info": {
+  "flex-layout.row#about-us__info1": {
     "children": [
-      "rich-text#about-content"
+      "rich-text#about-text1"
     ]
   },
+  "flex-layout.row#about-us__info2": {
+    "children": [
+      "rich-text#about-text2"
+    ]
+  },
+  "flex-layout.row#about-us__info3": {
+    "children": [
+      "rich-text#about-text3"
+    ]
+  },
+  "flex-layout.row#about-us__info4": {
+    "children": [
+      "rich-text#about-text4"
+    ]
+  },
+  "flex-layout.row#about-us__info5": {
+    "children": [
+      "rich-text#about-text5"
+    ]
+  },
+  "flex-layout.row#about-us__info6": {
+    "children": [
+      "rich-text#about-text6"
+    ]
+  },
+
   "flex-layout.row#about-us__share": {
     "children": [
       "share"
     ]
   },
-  "rich-text#about-content": {
+  "rich-text#about-text1": {
     "props": {
-      "text":
-      "Queridos Amigos,\n Llevamos un largo recorrido comercializando frutos secos, siendo la almendra uno de nuestros pilares basados en la experiencia en los huertos familiares.\n Hoy nos encontramos muy diversificados a una amplia variedad de productos, que podrás encontrar en nuestra tienda online. La gran mayoría son productos bajo nuestra marca Las Mellizas enfocada principalmente a productos naturales y saludables. Además, contamos con una sección llamada Mercado Las Mellizas, donde encontratrás productos complementarios, de interés para nuestros clientes. \n Hay diversos formatos de productos, desde cajas a granel, porcionados en 1kg y 400grs, hasta más pequeños como aperitivos de 80grs y snacks individuales. Sin duda, encontrarás el formato perfecto para tus necesidades.\n Estamos seguros que te encantarán nuestros productos y, como muchos clientes nuevos, te sorprenderás con la calidad. Sólo debes realizar tu primer pedido, el primero, pero no el último…\n Un saludo desde Buin,\n Comercial Las Mellizas SpA."
+      "blockClass":"about-us",
+      "text":"Queridos Amigos,"
     }
   },
+  "rich-text#about-text2": {
+    "props": {
+      "blockClass":"about-us",
+      "text":
+      "Llevamos un largo recorrido comercializando frutos secos, siendo la almendra uno de nuestros pilares basados en la experiencia en los huertos familiares."
+    }
+  },
+  "rich-text#about-text3": {
+    "props": {
+      "blockClass":"about-us",
+      "text":
+      "Hoy nos encontramos muy diversificados a una amplia variedad de productos, que podrás encontrar en nuestra tienda online. La gran mayoría son productos bajo nuestra marca Las Mellizas enfocada principalmente a productos naturales y saludables. Además, contamos con una sección llamada Mercado Las Mellizas, donde encontratrás productos complementarios, de interés para nuestros clientes."
+    }
+  },
+  "rich-text#about-text4": {
+    "props": {
+      "blockClass":"about-us",
+      "text":
+      "Hay diversos formatos de productos, desde cajas a granel, porcionados en 1kg y 400grs, hasta más pequeños como aperitivos de 80grs y snacks individuales. Sin duda, encontrarás el formato perfecto para tus necesidades"
+    }
+  },
+  "rich-text#about-text5": {
+    "props": {
+      "blockClass":"about-us",
+      "text": "Estamos seguros que te encantarán nuestros productos y, como muchos clientes nuevos, te sorprenderás con la calidad. Sólo debes realizar tu primer pedido, el primero, pero no el último…\n Un saludo desde Buin,\n Comercial Las Mellizas SpA."
+    }
+  },
+  "rich-text#about-text6": {
+    "props": {
+      "blockClass":"about-us",
+      "text":"Un saludo desde Buin,\n Comercial Las Mellizas SpA."
+    }
+  },
+  
   "info-card": {
     "props": {
       "id": "info-card-example",

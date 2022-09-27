@@ -20,24 +20,35 @@
     "flex-layout.col#product__info--data":{
         "title":"Info de producto",
         "children": [
-            "share",
+            
             "vtex.store-components:product-name",
-            "product-list-price",
             "product-rating-inline",
+            "product-list-price",
             "product-selling-price",
-            "product-separator",
-            "product-quantity",
             "product-description",
-            "rich-text#product__promo-info",
-            "product-identifier.product",
-            "add-to-cart-button"
+            "flex-layout.row#product__quantity&button",
+            // "product-identifier.product",
+            "share"
             
           ]
     },
-    "rich-text#product__promo-info":{
-        "title":"texto adicional de producto",
+    "flex-layout.row#product__quantity&button":{
+        "children":[
+            "flex-layout.col#product__quantity",
+            "flex-layout.col#product__button"
+        ]
+    },
+    "flex-layout.col#product__quantity":{
+        "children":[
+            "product-quantity"
+        ]
+    },
+    "flex-layout.col#product__button":{
         "props":{
-            "text":" "
-        }
+            "blockClass":"button_pdp"
+        },
+        "children":[
+            "add-to-cart-button"
+        ]
     }
 }

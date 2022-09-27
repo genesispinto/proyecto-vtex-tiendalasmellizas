@@ -23,19 +23,6 @@
           "filter-navigator.v3"
         ]
         },
-        // "filter-navigator.v3": {
-        //   "blocks": ["sidebar-close-button"],
-        //   "props": {
-        //   "truncateFilters": true,
-        //   "showClearByFilter": true,
-        //   "fullWidthOnMobile": true,
-        //   "navigationTypeOnMobile": "collapsible",
-        //  "appliedFiltersOverview": "show",
-        //   "totalProductsOnMobile": "show",
-        //   "updateOnFilterSelectionOnMobile": true,
-        //   "priceRangeLayout": "inputAndSlider"
-        //   }
-        //  },
           
       "flex-layout.col#desktop__results--search":{
         "children":["search-content#desktop__results--search"]

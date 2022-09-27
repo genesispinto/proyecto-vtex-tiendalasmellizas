@@ -28,6 +28,7 @@
 .paragraph--footer__shop, 
 .paragraph--footer__contact,
 .paragraph--footer__bottom{
+    font-size: 20px;
     color:white
 }
 .container--footer__bottom{
@@ -37,4 +38,12 @@
 .wrapper--footer__bottom{
     border-top: 1px solid white;
     margin-top: 10px;
+}
+.container--footer__shop, 
+.container--footer__products, 
+.container--footer__contact{
+    padding-left: 1rem;
+}
+.wrapper--about-us {
+    display: block;
 }

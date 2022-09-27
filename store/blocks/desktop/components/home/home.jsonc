@@ -2,15 +2,24 @@
   "store.home": { 
     "title":"home",
     "blocks": [
+      // "whatsapp-button",
       "responsive-layout.desktop",
       "responsive-layout.mobile"
       // "responsive-layout.phone#home__info--phone",
       // "responsive-layout.tablet#home__info--tablet",
     ]
   },
+  "whatsapp-button":{
+    "props":{
+      "logo":"logo.png",
+      "phone":"334566778",
+      "message": "Hola desde app Vtex"
+    }
 
+  },
   "responsive-layout.desktop":{
     "children":[
+      
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--information",
       "flex-layout.row#home__section--three",
