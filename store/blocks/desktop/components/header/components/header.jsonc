@@ -1,0 +1,46 @@
+{
+  "header": {
+    "title":"header",
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "title":"header",
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "title":"header interactivo",
+    "children": ["sticky-layout#desktop"]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "header-row#header__top",
+      // "flex-layout.row#logo-desktop",
+      "flex-layout.row#menu"
+    ]
+  },
+  "header-row#header__top":{
+    "title":"fila redes y search",
+    "props":{"blockClass":"header__top"},
+    "children":[
+      "flex-layout.row#networks",
+      "header-spacer",
+      "search-bar"
+    ]
+  },
+  "flex-layout.row#menu":{
+    "title":"fila menu",
+    "children":[
+      "menu#header__menu--deparment",
+      "login",
+      "minicart.v2" 
+    ],
+    "props":{
+      "blockClass":"menu__departament"
+    }
+}
+  
+  
+}

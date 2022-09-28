@@ -1,0 +1,13 @@
+{
+    "login": {
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "width":"10%",
+          "showIconProfile":true,
+          "iconLabel":" "
+        }
+    }
+}

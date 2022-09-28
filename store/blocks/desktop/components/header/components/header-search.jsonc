@@ -1,0 +1,8 @@
+{
+    "search-bar":{
+        "title":"barra de navegacion",
+        "props":{
+          "placeholder":"¿Que estas buscando?"
+        }
+      }
+}

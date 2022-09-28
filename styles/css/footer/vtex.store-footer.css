@@ -1,0 +1,10 @@
+.footerLayout{
+    background-color: #954613;
+    padding: 1rem 0;
+}
+.footerLayout--footer__mobile{
+    background-color: #954613;
+}
+.socialNetworkLink{
+    margin-right: 1.5rem;
+}

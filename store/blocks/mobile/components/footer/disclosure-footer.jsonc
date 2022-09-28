@@ -1,0 +1,50 @@
+{
+  /////////// flex Row disclouser Shop mobile
+    "flex-layout.row#disclouser1-mobile":{
+        "children":["disclosure-layout-group#footer-mobile__shop"]
+      },
+      "disclosure-layout-group#footer-mobile__shop": {
+        "children": ["disclosure-layout#footer-mobile__shop"]
+      },
+      "disclosure-layout#footer-mobile__shop": {
+        "children": ["disclosure-trigger#footer-mobile__shop", "disclosure-content#footer-mobile__shop"]
+      },
+      "disclosure-trigger#footer-mobile__shop": {
+        "props":{
+            "Show":"menu#footer__shop"
+        },
+        "children": ["rich-text#footer-mobile__shop"]
+      },
+      "disclosure-content#footer-mobile__shop": {
+        "children": ["menu#footer__shop"]
+      },
+      "rich-text#footer-mobile__shop": {
+        "props": {
+          "text": "TIENDA"
+        }
+      },
+  /////////// flex Row disclouser Products mobile
+    "flex-layout.row#disclouser2-mobile":{
+        "children":["disclosure-layout-group#footer-mobile__products"]
+      },
+      "disclosure-layout-group#footer-mobile__products": {
+        "children": ["disclosure-layout#footer-mobile__products"]
+      },
+      "disclosure-layout#footer-mobile__products": {
+        "children": ["disclosure-trigger#footer-mobile__products", "disclosure-content#footer-mobile__products"]
+      },
+      "disclosure-trigger#footer-mobile__products": {
+        // "props":{
+        //     "Show":"menu#footer__products"
+        // },
+        "children": ["rich-text#footer-mobile__products"]
+      },
+      "disclosure-content#footer-mobile__products": {
+        "children": ["menu#footer__products"]
+      },
+      "rich-text#footer-mobile__products": {
+        "props": {
+          "text": "Productos"
+        }
+      }
+}

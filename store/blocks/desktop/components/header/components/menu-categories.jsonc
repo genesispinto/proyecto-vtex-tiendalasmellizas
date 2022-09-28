@@ -1,0 +1,116 @@
+{
+    "submenu#department__one": {
+      "title":"Submenu department__one",
+      "children": [
+        "menu#submenu--department__one"
+      ]
+    },
+    
+    "menu#submenu--department__one": {
+      "title":"fila Submenu department__one",
+      "children": [
+        "flex-layout.row#submenu--department__one"
+      ],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+    "flex-layout.row#submenu--department__one":{
+      "title":"columnas Submenu department__one",
+      "children": [
+        "flex-layout.col#category--one__department1",
+        "flex-layout.col#category--two__department1",
+        "flex-layout.col#category--three__department1",
+        "flex-layout.col#category--four__department1"
+      ]
+    },
+    "flex-layout.col#category--one__department1":{
+      "title":"Items Submenu department__one columna1",
+      "props":{
+
+      },
+      "children": [
+        "menu-item#category--almendras",
+        "menu-item#category--fsecos",
+        "menu-item#category--fchocolate"
+      ]
+    },
+    "flex-layout.col#category--two__department1":{
+      "title":"Items Submenu department__one columna2",
+      "props":{
+
+      },
+      "children": [
+        "menu-item#category--almendras",
+        "menu-item#category--fsecos",
+        "menu-item#category--fchocolate"
+      ]
+    },
+    "flex-layout.col#category--three__department1":{
+      "title":"Items Submenu department__one columna3",
+      "props":{
+
+      },
+      "children": [
+        "menu-item#category--almendras",
+        "menu-item#category--fsecos",
+        "menu-item#category--fchocolate"
+    ]},
+    "flex-layout.col#category--four__department1":{
+      "title":"Items Submenu department__one columna4",
+      "children": [
+        "menu-item#category--almendras",
+        "menu-item#category--fsecos",
+        "menu-item#category--fchocolate"
+      ]
+    },
+
+    "menu-item#category--almendras": {
+      "title":"product1",
+      "props": {
+        "id": "menu-item-shop",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Almendras",
+          "text": "ALMENDRAS",
+          "isActive":"true"
+        }        
+      }
+    },
+    "menu-item#category--fsecos": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Almendras",
+          "text": "MIX DE FRUTOS SECOS",
+          "isActive":"true"
+        }        
+      }
+    },
+
+    "menu-item#category--fchocolate": {
+      "props": {
+        "id": "menu-item-shop",
+        "type": "custom",
+        "highlight": false,
+        "isActive":"true",
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Almendras",
+          "text": "FRUTOS BAÑADOS E CHOCOLATE"
+          
+        }        
+      }
+    }
+ }

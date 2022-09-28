@@ -1,0 +1,50 @@
+{
+    "footer-layout.mobile": { 
+        "children": [
+            "flex-layout.row#logo-mobile",
+            "flex-layout.row#socialnetworks-mobile",
+            "flex-layout.row#disclouser1-mobile",
+            "flex-layout.row#disclouser2-mobile",
+            "flex-layout.row#logoccs-mobile",
+            "menu#footer__contact",
+            "flex-layout.row#footer--desktop__middle",
+            "flex-layout.row#footer--desktop__bottom"
+        ],
+        "props":{
+          "blockClass":"footer__mobile"
+        }
+      },
+      "flex-layout.row#logo-mobile":{
+        "children":["image#logo-mobile"],
+        "props":{
+          "horizontalAlign":"center",
+          "colSizing":"auto"
+        }
+      },
+      "image#logo-mobile":{
+        "title":"Imagen logo",
+        "props":{
+            "src":"assets/img/logo.png",
+            "maxWidth":210,
+            "maxHeight":112,
+            "title":"logo",
+            "blockClass": "logo-mobile",
+            "link":{
+                "url":"#",
+                "newTab": true,
+                "attributeNoFollow":true
+            }
+        }
+    },
+      "flex-layout.row#socialnetworks-mobile":{
+        "children":["social-networks"],
+        "props":{
+          "preventHorizontalStretch":true,
+          "blockClass":"socialnetworks-mobile"
+        }
+      },
+      
+      "flex-layout.row#logoccs-mobile":{
+        "children":["image#footer__ccs"]
+      }
+}
