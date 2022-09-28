@@ -44,6 +44,23 @@
 .flexRowContent--header__logo{
     background-color: white;
 }
-.flexColChild--button_pdp{
-    width: 12rem;
+.flexColChild--button_pdp :global(.vtex-button){
+    background-color: #9FD668;
+    border: #9FD668;
+    margin: 22px;
+    margin-top: 32px;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+  }
+
+.flexColChild--quantity_pdp{
+    margin-right: 5rem;
+    padding: 20px;
+    width: 5rem;
+}
+.flexCol--quantity_pdp{
+    margin-right: 10rem;
+    padding-top: -1rem;
 }

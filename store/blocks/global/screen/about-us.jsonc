@@ -14,7 +14,6 @@
   "flex-layout.row#about-us__image": {
     "children": [
       "info-card"
-      
     ]
   },
   "flex-layout.row#about-us__info1": {
@@ -92,9 +91,15 @@
       "text":"Un saludo desde Buin,\n Comercial Las Mellizas SpA."
     }
   },
-  
-  "info-card": {
+  "share":{
     "props": {
+      "blockClass":"about-us"
+    }
+  },
+  "info-card": {
+
+    "props": {
+      "blockClass":"margin_about us",
       "id": "info-card-example",
       "isFullModeStyle": false,
       "textPosition": "right",
@@ -102,7 +107,6 @@
       "headline": "Sobre Nosotros",
       "callToActionText": "Ir al home",
       "callToActionUrl": "/",
-      "blockClass": "info-card-example",
       "textAlignment": "center"
     }
   }

@@ -46,4 +46,13 @@
 }
 .wrapper--about-us {
     display: block;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    text-align: justify;
+}
+.paragraph--name_category{
+    margin-left: 2rem;
+}
+.paragraph--name_category1{
+    margin-right: 5rem;
 }

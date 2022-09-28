@@ -14,11 +14,14 @@
         "title":"Imagenes",
         "props":{
          "aspectRatio":"1.1",
-         "displayThumbnailsArrows":false
+         "thumbnailsOrientation":"horizontal"
         }
     },
     "flex-layout.col#product__info--data":{
         "title":"Info de producto",
+        "props":{
+            "horizontalAlign":"center"
+        },
         "children": [
             
             "vtex.store-components:product-name",
@@ -32,6 +35,16 @@
             
           ]
     },
+    "vtex.store-components:product-name":{
+        "props":{
+            "blockClass":"name_product"
+        }
+    },
+    "product-rating-inline":{
+        "props":{
+            "blockClass":"stars_product"
+        }
+    },
     "flex-layout.row#product__quantity&button":{
         "children":[
             "flex-layout.col#product__quantity",
@@ -39,16 +52,27 @@
         ]
     },
     "flex-layout.col#product__quantity":{
+        "props":{
+            "blockClass":"quantity_pdp",
+            "horizontalAlign":"right"
+        },
         "children":[
             "product-quantity"
         ]
     },
     "flex-layout.col#product__button":{
         "props":{
-            "blockClass":"button_pdp"
+            "blockClass":"button_pdp",
+            "horizontalAlign":"left"
         },
         "children":[
             "add-to-cart-button"
         ]
+    },
+    "product-quantity":{
+        "props":{
+            "blockClass":"quantity_pdp",
+            "text": "### Cantidad"
+        }
     }
 }

@@ -63,7 +63,8 @@
               "text": "Tipo de Alimentacion"
             },
             "blockClass":"flecha"
-        }
+        },
+        "blocks": ["submenu#department__three"]
     },
     "menu-item#department__four":{
         "title":"Menu department__four ",
