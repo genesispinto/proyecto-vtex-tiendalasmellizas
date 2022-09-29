@@ -17,7 +17,7 @@
     },
     "children": [
       "header-row#header__top",
-      // "flex-layout.row#logo-desktop",
+      "flex-layout.row#logo-desktop",
       "flex-layout.row#menu"
     ]
   },

@@ -9,7 +9,7 @@
     }
   },
   "store.search#department":{
-    "blocks":["search-result-layout#department"],
+    "blocks":["search-result-layout"],
     "props":{
       "context":{
         "skusFilter":"ALL",
@@ -51,41 +51,22 @@
       "search-not-found-layout"
     ]
   },
-  "search-result-layout.desktop":{
-    "children":["flex-layout.row#desktop__results"]
-  },
-  "flex-layout.row#desktop__results":{
-    "children":["flex-layout.col#desktop__results--search"]
-  },
-  "flex-layout.col#desktop__results--search":{
-    "children":["search-content#desktop__results--search"]
-  },
-  "search-content#desktop__results--search":{
-    "blocks":["gallery","not-found"]
-  },
   "gallery":{
     "blocks":["product-summary.shelf"]
   },
-
-  //////////////////////
-  "search-result-layout.mobile":{
-    "children":["rich-text#mobile-response"]
-  },
-  "rich-text#mobile-response":{
-    "props":{
-      "text":"Productos para mobile"
-    }
-  },
   "product-summary.shelf":{
+    "props":{
+      "blockClass":"image-product"
+    },
     "children":[
       "add-to-list-btn",
       "product-summary-image",
       "product-summary-name",
-      "product-rating-inline",
       "product-list-price",
       "product-selling-price",
       "product-summary-sku-selector",
       "add-to-cart-button",
+      "product-rating-inline",
       "modal-trigger#global__quick-view"
    ]
   },
@@ -93,51 +74,6 @@
     "props":{
       "hideImpossibleCombinations": false
     }
-  },
-  "modal-trigger#global__quick-view":{
-    "children":[
-      "rich-text#global__quick-view--trigger",
-      "modal-layout#global__quick-view"
-    ]
-  },
-  "rich-text#global__quick-view--trigger":{
-    "props":{
-      "text":"Ver Detalle",
-      "blockClass":"quick-view__trigger"
-    }
-  },
-      "modal-layout#global__quick-view":{
-        "children":[
-          "flex-layout.row#quick-view__modal"
-        ]
-      },
-      "product-quantity": {
-        "props": {
-          "showUnit": true,
-          "quantitySelectorStep":"singleUnit"
-        }
-      },
-      "flex-layout.row#quick-view__modal":{
-        "children":[
-          "flex-layout.col#quick-view__image",
-          "flex-layout.col#quick-view__info"
+  }
 
-        ]
-      },
-      "flex-layout.col#quick-view__image":{
-        "children":[
-          "add-to-list-btn",
-          "product-images"]
-      },
-      "flex-layout.col#quick-view__info":{
-        "children":[
-          
-          "vtex.store-components:product-name",
-          "product-selling-price",
-          "product-description",
-          "product-quantity",
-          "add-to-cart-button",
-          "share"
-        ]
-      }
 }

@@ -1,0 +1,37 @@
+{
+    "submenu#department__three": {
+        "title":"Submenu department__three",
+        "children": [
+          "menu#submenu--department__three"
+        ]
+      },
+      
+      "menu#submenu--department__three": {
+        "title":"fila Submenu department__three",
+        "children": [
+          "flex-layout.row#submenu--department__three"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+      },
+      "flex-layout.row#submenu--department__three":{
+        "title":"columnas Submenu department__three",
+        "children": [
+          "flex-layout.col#category--one__department3"
+        ]
+      },
+      "flex-layout.col#category--one__department3":{
+        "title":"Items Submenu department__one columna1",
+        "props":{
+        },
+        "children": [
+          "menu-item#category--fsecos",
+          "menu-item#category--fchocolate",
+          "menu-item#category--almendras",
+          "menu-item#category--fsecos",
+          "menu-item#category--fchocolate",
+          "menu-item#category--almendras"
+        ]
+      }
+}

@@ -12,9 +12,6 @@
 .logoImage--logo_desktop,.imageElement--imagesection4{
     margin-left: 35rem;
 }
-.logoLink--logo, .container{
-    background-color: white;
-}
 .searchBarContainer{
     width: 20rem;
     margin-right: 4rem;
@@ -32,3 +29,33 @@
 .container{
     background-color: transparent;
 }
+.imageElement--home__image{
+    margin-right: 0;
+}
+.productBrand--name_product{
+    font-size: 1.75rem;
+    color: #954613;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.productDescriptionTitle{
+    display: none;
+}
+.productDescriptionText{
+    font-size: 1.15rem;
+    color: #BFA760;
+    margin: 0 0 0.9375rem;
+    text-align: center;
+}
+.carouselThumbBorder{
+    width: 50px;
+    height: 50px;
+   
+}
+.carouselGaleryThumbs{
+    margin-left: 5rem;
+}
+/* .shareContainer{
+    margin: 3rem;
+
+} */

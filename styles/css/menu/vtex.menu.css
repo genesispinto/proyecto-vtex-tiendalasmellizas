@@ -39,15 +39,23 @@
     margin-right: 4rem;
 
 }
-
-.submenuWrapper--isOpen{
-    margin-top: 2.5rem;
-}
-
-.menuItem{
-    display: flex;
-    align-items: top;
-}
 .styledLinkContent--footer__menu{
+    margin-bottom: 0.4rem;
+    margin-left: 0;
     color: #e4d0c3;
+}
+.submenuWrapper--isOpen{
+   height: 15rem;
+   margin-left: 5rem;
+   margin-top: 2.5rem;
+}
+.menuItem--menu_category{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+}
+.menuItem--menu_category1{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
 }

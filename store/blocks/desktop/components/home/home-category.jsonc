@@ -5,12 +5,9 @@
           "flex-layout.col#section__two--image1",
           "flex-layout.col#section__two--image2",
           "flex-layout.col#section__two--image3"
-          
-          
         ],
         "props":{
-          "blockClass": "home__section--two",
-          "colSizing":"equal"
+          "blockClass": "home__section--two"
         }
       },
       "flex-layout.col#section__two--image1":{
@@ -18,7 +15,11 @@
         "children":[
           "image#home__image1",
           "rich-text#section__two--title1"
-        ]
+        ],
+        "props":{
+          "blockClass": "category1",
+          "horizontalAlign":"right"
+        }
     
       },
       "flex-layout.col#section__two--image2":{
@@ -26,8 +27,11 @@
         "children":[
           "image#home__image2",
           "rich-text#section__two--title2"
-    
-        ]
+        ],
+        "props":{
+          "blockClass": "category2",
+          "horizontalAlign":"center"
+        }
       },
       "flex-layout.col#section__two--image3":{
         "title": "Categoria de productos3",
@@ -35,36 +39,49 @@
           "image#home__image3",
           "rich-text#section__two--title3"
     
-        ]
+        ],
+        "props":{
+          "horizontalAlign":"left"
+        }
       },
       "rich-text#section__two--title1":{
         "title": "Nombre de Categoria de productos1",
         "props":{
-          "text":"Almedras"
+          "textColor": "c-on-emphasis",
+          "text":"Almedras",
+          "blockClass":"name_category"
         }
       },
       "rich-text#section__two--title2":{
         "title": "Nombre de Categoria de productos2",
         "props":{
-          "text":"Frutos secos"
+          "textColor": "c-on-emphasis",
+          "text":"Frutos secos",
+          "blockClass":"name_category"
         }
       },
       "rich-text#section__two--title3":{
         "title": "Nombre de Categoria de productos3",
         "props":{
-          "text":"Semillas"
+          "textColor": "c-on-emphasis",
+          "text":"Semillas",
+          "blockClass":"name_category"
         }
       },
       "rich-text#section__two--title4":{
         "title": "Nombre de Categoria de productos3",
         "props":{
-          "text":"Mix de frutos secos"
+          "textColor": "c-on-emphasis",
+          "text":" Mix de frutos secos",
+          "blockClass":"name_category1"
         }
       },
       "rich-text#section__two--title5":{
         "title": "Nombre de Categoria de productos3",
         "props":{
-          "text":"Fruta deshidratada"
+          "textColor": "c-on-emphasis",
+          "text":"Fruta deshidratada",
+          "blockClass":"name_category"
         }
       },
       "flex-layout.row#home__section--category2":{
@@ -79,12 +96,21 @@
         "children":[
           "image#home__image4",
           "rich-text#section__two--title4"
-        ]
+        ],
+        "props":{
+          "marginLeft":10,
+          "horizontalAlign":"right",
+          "marginRight":4
+        }
       },
           "flex-layout.col#section__two--image5":{
             "children":[
               "image#home__image5",
               "rich-text#section__two--title5"
-            ]
+            ],
+            "props":{
+              "marginRight":10,
+              "horizontalAlign":"left"
+            }
           }
 }
