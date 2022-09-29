@@ -64,3 +64,6 @@
     margin-right: 10rem;
     padding-top: -1rem;
 }
+.flexColChild--product__info :global(.vtex-reviews-and-ratings-3-x-star){
+    color: yellow;
+}

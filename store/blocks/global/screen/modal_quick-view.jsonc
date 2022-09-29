@@ -39,12 +39,12 @@
               "vtex.store-components:product-name",
               "product-selling-price",
               "product-description",
-              "product-quantity",
+              "product-quantity#quick-view",
               "add-to-cart-button",
               "share"
             ]
           },
-          "product-quantity": {
+          "product-quantity#quick-view": {
             "props": {
               "showUnit": true,
               "quantitySelectorStep":"singleUnit"

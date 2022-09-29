@@ -82,7 +82,7 @@
   "rich-text#about-text5": {
     "props": {
       "blockClass":"about-us",
-      "text": "Estamos seguros que te encantarán nuestros productos y, como muchos clientes nuevos, te sorprenderás con la calidad. Sólo debes realizar tu primer pedido, el primero, pero no el último…\n Un saludo desde Buin,\n Comercial Las Mellizas SpA."
+      "text": "Estamos seguros que te encantarán nuestros productos y, como muchos clientes nuevos, te sorprenderás con la calidad. Sólo debes realizar tu primer pedido, el primero, pero no el último."
     }
   },
   "rich-text#about-text6": {
