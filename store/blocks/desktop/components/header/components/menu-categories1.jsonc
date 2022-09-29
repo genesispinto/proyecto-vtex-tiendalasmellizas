@@ -27,12 +27,15 @@
     "flex-layout.col#category--one__department1":{
       "title":"Items Submenu department__one columna1",
       "props":{
-
       },
       "children": [
         "menu-item#category--almendras",
         "menu-item#category--fsecos",
-        "menu-item#category--fchocolate"
+        "menu-item#category--fchocolate",
+        "menu-item#category--almendras",
+        "menu-item#category--fsecos",
+        "menu-item#category--fchocolate",
+        "menu-item#category--almendras"
       ]
     },
     "flex-layout.col#category--two__department1":{
@@ -43,31 +46,39 @@
       "children": [
         "menu-item#category--almendras",
         "menu-item#category--fsecos",
-        "menu-item#category--fchocolate"
+        "menu-item#category--fchocolate",
+        "menu-item#category--almendras",
+        "menu-item#category--fsecos",
+        "menu-item#category--fchocolate",
+        "menu-item#category--almendras"
       ]
     },
     "flex-layout.col#category--three__department1":{
       "title":"Items Submenu department__one columna3",
-      "props":{
-
-      },
       "children": [
-        "menu-item#category--almendras",
-        "menu-item#category--fsecos",
-        "menu-item#category--fchocolate"
+        "menu-item#category--semillas",
+        "menu-item#category--snackbox",
+        "menu-item#category--fdeshidratada",
+        "menu-item#category--semillas",
+        "menu-item#category--snackbox",
+        "menu-item#category--fdeshidratada"
     ]},
     "flex-layout.col#category--four__department1":{
       "title":"Items Submenu department__one columna4",
       "children": [
-        "menu-item#category--almendras",
-        "menu-item#category--fsecos",
-        "menu-item#category--fchocolate"
+        "menu-item#category--semillas",
+        "menu-item#category--snackbox",
+        "menu-item#category--fdeshidratada",
+        "menu-item#category--semillas",
+        "menu-item#category--snackbox",
+        "menu-item#category--fdeshidratada"
       ]
     },
 
     "menu-item#category--almendras": {
       "title":"product1",
       "props": {
+        "blockClass":"menu_category",
         "id": "menu-item-shop",
         "type": "custom",
         "highlight": false,
@@ -83,6 +94,7 @@
     },
     "menu-item#category--fsecos": {
       "props": {
+        "blockClass":"menu_category",
         "id": "menu-item-shop",
         "type": "custom",
         "highlight": false,
@@ -99,6 +111,7 @@
 
     "menu-item#category--fchocolate": {
       "props": {
+        "blockClass":"menu_category",
         "id": "menu-item-shop",
         "type": "custom",
         "highlight": false,
@@ -109,6 +122,57 @@
           "noFollow": true,
           "tagTitle": "Almendras",
           "text": "FRUTOS BAÑADOS E CHOCOLATE"
+          
+        }        
+      }
+    },
+    "menu-item#category--semillas": {
+      "props": {
+        "blockClass":"menu_category1",
+        "id": "menu-item-shop",
+        "type": "custom",
+        "highlight": false,
+        "isActive":"true",
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Semillas",
+          "text": "SEMILLAS"
+          
+        }        
+      }
+    },
+    "menu-item#category--snackbox": {
+      "props": {
+        "blockClass":"menu_category1",
+        "id": "menu-item-shop",
+        "type": "custom",
+        "highlight": false,
+        "isActive":"true",
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "MANTEQUILLA Y FRUTOS SECOS",
+          "text": "MANTEQUILLA Y FRUTOS SECOS"
+          
+        }        
+      }
+    },
+    "menu-item#category--fdeshidratada": {
+      "props": {
+        "blockClass":"menu_category1",
+        "id": "menu-item-shop",
+        "type": "custom",
+        "highlight": false,
+        "isActive":"true",
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "FRUTA DESHIDRATADA",
+          "text": "FRUTA DESHIDRATADA"
           
         }        
       }

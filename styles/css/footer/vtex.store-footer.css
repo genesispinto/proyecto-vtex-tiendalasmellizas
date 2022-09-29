@@ -1,10 +1,10 @@
 .footerLayout{
     background-color: #954613;
-    padding: 1rem 0;
+    overflow: hidden;
 }
 .footerLayout--footer__mobile{
     background-color: #954613;
 }
 .socialNetworkLink{
-    margin-right: 1.5rem;
+    margin-right: 1.5rem;   
 }

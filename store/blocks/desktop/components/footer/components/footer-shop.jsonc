@@ -1,0 +1,135 @@
+{
+    "flex-layout.col#footer--desktop__shop":{
+        "children":[
+        "rich-text#footer__shop",
+        "menu#footer__shop"
+        ],
+        "props":{
+          "blockClass":"col_shop",
+          "borderWidth":2
+        }
+  
+    },
+    "rich-text#footer__shop":{
+      "props":{
+        "text":" TIENDA",
+        "blockClass":"footer__shop"
+      }
+    },
+    "menu#footer__shop":{
+      "children":[
+        "menu-item#shop__about",
+        "menu-item#shop__contact",
+        "menu-item#shop__buy",
+        "menu-item#shop__terms&conditions",
+        "menu-item#shop__policies",
+        "menu-item#shop__commitment"
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass":"footer__shop"
+      }
+    },
+    "menu-item#shop__about":{
+      "title":"about",
+      "props": {
+        "blockClass":"footer__menu",
+        "id": "about",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "about",
+          "text": "¿Quienes somos?",
+          "isActive":"true"
+        }        
+      }
+    },
+    "menu-item#shop__contact":{
+      "title":"contact",
+      "props": {
+        "blockClass":"footer__menu",
+        "id": "contact",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "contact",
+          "text": "Contacto",
+          "isActive":"true"
+        }        
+      }
+    },
+    "menu-item#shop__buy":{
+      "title":"buy",
+      "props": {
+        "blockClass":"footer__menu",
+        "id": "buy",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "buy",
+          "text": "¿Como comprar?",
+          "isActive":"true"
+        }        
+      }
+    },
+    "menu-item#shop__terms&conditions":{
+      "title":"terms&conditions",
+      "props": {
+        "blockClass":"footer__menu",
+        "id": "terms&conditions",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "terms&conditions",
+          "text": "Términos y Condiciones",
+          "isActive":"true"
+        }        
+      }
+    },
+    "menu-item#shop__policies":{
+      "title":"policies",
+      "props": {
+        "blockClass":"footer__menu",
+        "id": "policies",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "policies",
+          "text": "Politicas de Cookies",
+          "isActive":"true"
+        }        
+      }
+    },
+    "menu-item#shop__commitment":{
+      "title":"commitment",
+      "props": {
+        "blockClass":"footer__menu",
+        "id": "commitment",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type":"external",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "commitment",
+          "text": "Nuestro Compromiso",
+          "isActive":"true"
+        }        
+      }
+    }
+}
