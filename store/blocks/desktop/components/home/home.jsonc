@@ -3,6 +3,7 @@
     "title":"home",
     "blocks": [
       "whatsapp-button",
+      "list-context.bullet-group",
       "responsive-layout.desktop",
       "responsive-layout.mobile"
       // "responsive-layout.phone#home__info--phone",
@@ -12,14 +13,14 @@
   "whatsapp-button":{
     "props":{
       "logo":"assets/img/whatsapp.png",
-      "phone":"334566778",
-      "message": "Hola, en que puedo ayudarte"
+      "phone":"+56947844634",
+      "message": "Hola buen dia, necesito ayuda"
     }
 
   },
   "responsive-layout.desktop":{
     "children":[
-      // "bullets-diagramation",
+      // "list-context.bullet-group",
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--information",
       "flex-layout.row#home__section--three",
@@ -45,7 +46,8 @@
   "children":["list-context.product-list"]
 },
 "search-result-layout.mobile#home__search":{
-  "children":["rich-text#test"]
+  "children":[
+    "rich-text#test"]
 },
 
 "rich-text#test":{

@@ -59,3 +59,6 @@
     margin-bottom: 0;
     margin-right: 0;
 }
+.menuItem--footer__menu--isClosed{
+    padding-left: 0;
+}
