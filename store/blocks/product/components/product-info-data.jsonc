@@ -80,5 +80,10 @@
             "blockClass":"quantity_pdp",
             "text": "### Cantidad"
         }
+    },
+    "add-to-cart-button":{
+        "props":{
+            "text":"Agregar al carro"
+        }
     }
 }

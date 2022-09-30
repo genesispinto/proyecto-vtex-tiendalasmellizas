@@ -41,7 +41,9 @@
             "src":"assets/img/T_icon1.png",
             "maxWidth":600,
             "title":"icon1",
-            "blockClass": "icon1"
+            "blockClass": "icon1",
+            "height": 30
+
         }
     },
     "flex-layout.col#section__information--text1":{
@@ -72,7 +74,9 @@
             "src":"assets/img/T_icon2.png",
             "maxWidth":600,
             "title":"icon2",
-            "blockClass": "icon2"
+            "blockClass": "icon2",
+            "height": 30
+
         }
     },
     "flex-layout.col#section__information--text2":{
@@ -85,7 +89,7 @@
     "rich-text#section__information--text2":{
         "props":{
             "blockClass": "text2",
-            "text":"No importa donde estés, tu pedido llegará donde tú quieras!"
+            "text":"NO IMPORTA DONDE ESTES, TU PEDIDO LLEGARA DONDE TU QUIERAS! "
         }
     }
 }

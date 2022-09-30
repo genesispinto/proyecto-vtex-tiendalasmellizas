@@ -41,7 +41,7 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-              "type": "external",
+              "type": "internal",
               "href": "/construccion",
               "noFollow": true,
               "tagTitle": "Shop",
@@ -56,7 +56,7 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-              "type": "external",
+              "type": "internal",
               "href": "#",
               "noFollow": true,
               "tagTitle": "Shop",
@@ -73,8 +73,8 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-              "type": "external",
-              "href": "#",
+              "type": "internal",
+              "href": "/sobrenosotros",
               "noFollow": true,
               "tagTitle": "Shop",
               "text": "Productos Solidarios"
@@ -89,8 +89,8 @@
           "type": "custom",
           "highlight": false,
           "itemProps": {
-            "type": "external",
-            "href": "#",
+            "type": "internal",
+            "href": "/sobrenosotros",
             "noFollow": true,
             "tagTitle": "Shop",
             "text": "Preguntas Frecuentes"
@@ -120,8 +120,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/sobrenosotros",
         "noFollow": true,
         "tagTitle": "Shop",
         "text": "Seguimiento"
@@ -135,8 +135,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/sobrenosotros",
         "noFollow": true,
         "tagTitle": "Shop",
         "text": "Contacto"

@@ -11,10 +11,11 @@
 
 }
 .wrapper--text2section3,.wrapper--text2section4{
-    margin-left: 15rem;
-    margin-right: 15rem;
+    /* margin-left: 15rem;
+    margin-right: 15rem; */
     margin-bottom: 1rem;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 .paragraph--text1,.paragraph--text2{
     font-weight: bold;
