@@ -67,3 +67,9 @@
 .flexColChild--product__info :global(.vtex-reviews-and-ratings-3-x-star){
     color: yellow;
 }
+.flexRowContent--home__mobile-infomation1 :global(.vtex-rich-text-0-x-paragraph){
+    font-size: small;
+}
+.flexRowContent--home__mobile-section3 :global(.vtex-rich-text-0-x-paragraph){
+    text-align: center;
+}
