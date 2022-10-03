@@ -1,34 +1,54 @@
 {
     "flex-layout.row#home__section--four":{
         "title":"Seccion PRODUCTOS NATURALES",
-        "children":["flex-layout.col#home__section--four"]
+        "children":["flex-layout.col#home__section--four"],
+        "props":{
+            "blockClass":"home-sectiom-four",
+            "preserveLayoutOnMobile":true,
+            "preventHorizontalStretch":true,
+            "horizontalAlign":"center"
+        }
        },
        "flex-layout.col#home__section--four":{
+        "props":{
+            "horizontalAlign":"center",
+            "paddingLeft":10,
+            "paddingRight":10,
+            "marginLeft":10,
+            "marginRight":10
+        },
         "title":"parrafos",
          "children":[
             "image#section__four--image",
-             "rich-text#section__four--text1",
-             "rich-text#section__four--text2"
+            "rich-text#section__four--text1",
+            "rich-text#section__four--text2",
+            "link"
          ]
      },
+     "link": {
+        "props": {
+          "href": "/{slug}/p",
+          "label": "Conoce más -->",
+          "displayMode":"button",
+          "buttonProps":{
+            "props":{
+                "size": "small"
+            }
+          }
+        }
+      },
+
      "image#section__four--image":{
         "title":"Imagen section4",
         "props":{
-        "src":"assets/img/home-intro-date.png",
-        "maxWidth":200,
-        "title":"Image section4",
-        "blockClass": "imagesection4",
-        "link":{
-            "url":"#",
-            "newTab": true,
-            "attributeNoFollow":true
+            "src":"assets/img/home-intro-date.png",
+            "maxWidth":200,
+            "title":"Image section4"
         }
-    }
      },
      "rich-text#section__four--text1":{
         "title":"titulo seccion",
          "props":{
-             "textPosition": "CENTER",
              "text":"PRODUCTOS NATURALES",
              "blockClass":"text1section4"
          }
@@ -36,9 +56,9 @@
      "rich-text#section__four--text2":{
         "title":"Cuerpo de la seccion",
          "props":{
-             "textPosition": "CENTER",
-             "text":"En Agrícola Las Mellizas hemos sido productores de frutas en la zona de Buin desde hace muchos años y hoy estamos enfocados en el cultivo de almendras de exportación. ",
-             "blockClass":"text2section4"
+            "textAlignment": "CENTER",
+             "text":"En Agrícola Las Mellizas hemos sido productores de frutas en la zona de Buin desde hace muchos años y hoy estamos enfocados en el cultivo de almendras de exportación. "
+            //  "blockClass":"text2section4"
          }
      }
 }

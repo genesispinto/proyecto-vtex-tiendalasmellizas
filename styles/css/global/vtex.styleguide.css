@@ -1,0 +1,6 @@
+.input{
+    border-bottom: 0.5px solid #954613;
+}
+.input :global(.vtex-input__suffix){
+    background-color: #954613;
+}

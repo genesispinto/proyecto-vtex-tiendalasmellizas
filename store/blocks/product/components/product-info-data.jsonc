@@ -26,7 +26,8 @@
         "title":"Info de producto",
         "props":{
             "blockClass":"product__info",
-            "horizontalAlign":"center"
+            "horizontalAlign":"center",
+            "preventVerticalStretch":true
         },
         "children": [
             

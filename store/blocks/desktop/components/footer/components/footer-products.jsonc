@@ -6,7 +6,8 @@
           "menu#footer__products"
           ],
           "props":{
-            "blockClass":"col_products"
+            "blockClass":"col_products",
+            "width":"25%"
           }
     
       },

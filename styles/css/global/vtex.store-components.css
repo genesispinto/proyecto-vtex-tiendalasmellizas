@@ -8,16 +8,14 @@
 .imageElementLink--logo-mobile{
     text-align: center; 
 }
-
-.logoImage--logo_desktop,.imageElement--imagesection4{
-    margin-left: 35rem;
-}
 .searchBarContainer{
     width: 20rem;
     margin-right: 4rem;
 
 }
-
+.searchIcon{
+    color: white;
+}
 .container--menu__departamento{
     align-items: center;
 }
@@ -47,6 +45,9 @@
     margin: 0 0 0.9375rem;
     text-align: center;
 }
+.productDescriptionContainer{
+    margin: 3.3rem;
+}
 .carouselThumbBorder{
     width: 50px;
     height: 50px;
@@ -54,4 +55,17 @@
 }
 .carouselGaleryThumbs{
     margin-left: 5rem;
+}
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+    border: 0
+}
+.autoCompleteOuterContainer :global(.vtex-input__suffix){
+    background-color: #954613;
+    width: 1rem;
+}
+.autoCompleteOuterContainer :global(.vtex-input) ::placeholder{
+    color: #954613;
+}
+.autoCompleteOuterContainer :global(.vtex-input) {
+    border-bottom: 0.5px solid #954613;
 }

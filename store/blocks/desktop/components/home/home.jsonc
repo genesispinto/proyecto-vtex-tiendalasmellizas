@@ -3,11 +3,11 @@
     "title":"home",
     "blocks": [
       "whatsapp-button",
-      "list-context.bullet-group",
-      "responsive-layout.desktop",
-      "responsive-layout.mobile"
+      "responsive-layout.mobile",
+      "responsive-layout.tablet",
+      "responsive-layout.desktop"
       // "responsive-layout.phone#home__info--phone",
-      // "responsive-layout.tablet#home__info--tablet",
+      
     ]
   },
   "whatsapp-button":{
@@ -18,10 +18,11 @@
     }
 
   },
+  
   "responsive-layout.desktop":{
     "children":[
-      // "list-context.bullet-group",
-      "flex-layout.row#home__section--one",
+      "list-context.bullet-group",
+      // "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--information",
       "flex-layout.row#home__section--three",
       "flex-layout.row#home__section--category1",
@@ -30,6 +31,7 @@
       "search-result-layout.customQuery#home__search" 
     ]
 },
+
 "search-result-layout.customQuery#home__search":{
   "props":{
     "querySchema":{

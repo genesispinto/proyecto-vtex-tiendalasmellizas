@@ -53,6 +53,7 @@
     "vtex.product-list": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.product-price": "1.x",
+    "vtex.store-link": "0.x",
     "itglobers.whatsapp-button": "0.x",
     "itglobers.bullets-diagramation": "0.x"
   },

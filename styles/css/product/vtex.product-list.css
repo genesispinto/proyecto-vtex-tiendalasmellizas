@@ -11,3 +11,12 @@
     width: 2rem;
     color: white !important;
 }
+.productListUnavailableItemsMessage{
+    display: none;
+}
+.quantitySelectorDecrease{
+    color: white !important;
+}
+.productName, .price{
+    color :#954613
+}

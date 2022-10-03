@@ -6,7 +6,7 @@
         ],
         "props":{
           "blockClass":"col_shop",
-          "borderWidth":2
+          "width":"25%"
         }
   
     },

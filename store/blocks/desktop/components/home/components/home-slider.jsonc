@@ -17,5 +17,45 @@
             "stopOnHover": true
           }
         }
+      },
+
+
+//// list context- custom
+"list-context.bullet-group":{
+  "title":"Mi contexto de lista de Bullets",
+  "children":["slider-layout#bullet-group"],
+  "props":{
+    "bullets":[ 
+      {
+        "image":"assets/img/sliderdespensa-despachotodochile2612.png",
+        "titleBullet":"Almendras",
+        "link":{
+        "url":"/"
+        }
+      },
+      {
+        "image":"assets/img/img1.jpeg",
+        "titleBullet":"Frutos secos",
+        "link":{
+        "url":"/"
+        }
       }
+    ]
+  }
+},
+"slider-layout#bullet-group":{
+  "props":{
+    "itemsPerPage":{
+    "desktop":1,
+    "tablet": 1,
+    "mobile": 1
+ },
+  "infinite":true,
+  "autoplay":{
+    "timeout":2000,
+    "showNavigationArrows": "desktopOnly"
+  }
+}
+
+}
 }

@@ -1,0 +1,21 @@
+{
+    "responsive-layout.tablet":{
+        "children":[
+            "flex-layout.row#home__mobile-section--one",
+            "flex-layout.row#section__information--webpay",
+            "flex-layout.row#home__tablet-section--information"
+        ]
+       
+    },
+    "flex-layout.row#home__tablet-section--information":{
+        "props":{
+            "preventHorizontalStretch":true
+        },
+        "children":[
+            "flex-layout.col#section__information--icon1",
+            "flex-layout.col#section__information--text1",
+            "flex-layout.col#section__information--icon2",
+            "flex-layout.col#section__information--text2"
+        ]
+    }
+}
