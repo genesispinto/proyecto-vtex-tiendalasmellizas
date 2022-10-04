@@ -1,0 +1,22 @@
+.quantitySelectorButton,
+.removeButton{
+    background: #CAA289;
+    border-color: #CAA289;
+}
+.quantitySelector{
+    border-color: #CAA289;
+}
+.removeButton{
+    height: 2.5rem;
+    width: 2rem;
+    color: white !important;
+}
+.productListUnavailableItemsMessage{
+    display: none;
+}
+.quantitySelectorDecrease{
+    color: white !important;
+}
+.productName, .price{
+    color :#954613
+}

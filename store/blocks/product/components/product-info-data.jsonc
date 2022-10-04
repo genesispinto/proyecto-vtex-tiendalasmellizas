@@ -1,0 +1,90 @@
+{
+    "flex-layout.row#product__info":{
+        "title":"Informacion general de PDP",
+        "children":[
+            "flex-layout.col#product__info--image",
+            "flex-layout.col#product__info--data"
+        ],
+        "props":{
+        }
+    },
+    "flex-layout.col#product__info--image":{
+        "title":"Imagenes de producto",
+        "children": ["product-images#product__info--image"]
+    },
+    "product-images#product__info--image":{
+        "title":"Imagenes",
+        "props":{
+         "aspectRatio":"1.1",
+         "thumbnailsOrientation":"horizontal",
+         "showNavigationArrows":false,
+         "showPaginationDots":false,
+         "maxHeight":500
+        }
+    },
+    "flex-layout.col#product__info--data":{
+        "title":"Info de producto",
+        "props":{
+            "blockClass":"product__info",
+            "horizontalAlign":"center",
+            "preventVerticalStretch":true
+        },
+        "children": [
+            // "add-to-cart-info",
+            "vtex.store-components:product-name",
+            "product-rating-inline",
+            "product-list-price",
+            "product-selling-price",
+            "product-description",
+            "flex-layout.row#product__quantity&button",
+            // "product-identifier.product",
+            "share"
+            
+          ]
+    },
+    "vtex.store-components:product-name":{
+        "props":{
+            "blockClass":"name_product"
+        }
+    },
+    "product-rating-inline":{
+        "props":{
+            "blockClass":"stars_product"
+        }
+    },
+    "flex-layout.row#product__quantity&button":{
+        "children":[
+            "flex-layout.col#product__quantity",
+            "flex-layout.col#product__button"
+        ]
+    },
+    "flex-layout.col#product__quantity":{
+        "props":{
+            "blockClass":"quantity_pdp",
+            "horizontalAlign":"right"
+        },
+        "children":[
+            "product-quantity#pdp"
+        ]
+    },
+    "flex-layout.col#product__button":{
+        "props":{
+            "blockClass":"button_pdp",
+            "horizontalAlign":"left"
+        },
+        "children":[
+            "add-to-cart-button"
+        ]
+    },
+    "product-quantity#pdp":{
+        "props":{
+            "blockClass":"quantity_pdp",
+            "text": "### Cantidad"
+        }
+    },
+    "add-to-cart-button":{
+        "props":{
+            "text":"Agregar al carro"
+        }
+    }
+}

@@ -8,7 +8,6 @@
       },
       "search-result-layout.desktop#department":{
         "children":[
-          "rich-text#desktop-response-department",
           "flex-layout.row#deparment__breadcrumb",
           "flex-layout.row#deparment__results"
         ]
@@ -21,21 +20,10 @@
       },
       "flex-layout.row#deparment__results":{
         "title":"Deparment Results",
-      //   "blocks":["product-summary.shelf"],
         "children":[
-            "search-content#desktop"
+            "search-content#desktop__results--search"
         ]
-      },
-      // "list-context.product-list": {
-      //       "blocks": ["product-summary.shelf#construccion"]
-      //     },
-      
-      "search-content#desktop":{
-            "blocks":["gallery#desktop","not-found"]
-      },
-      "gallery#desktop":{
-            "blocks":["product-summary.shelf#desktop"]
-          },
+      },      
       /////////////////////
       "search-result-layout.mobile#department":{
         "children":[
@@ -61,11 +49,6 @@
             "name":"grid-one-columns",
             "blockClass":"grid__selector--one-colunn"
             }
-      },
-      "rich-text#desktop-response-department":{
-        "props":{
-          "text": "# Desktop search department"
-        }
       },
       "rich-text#mobile-response-department":{
         "props":{

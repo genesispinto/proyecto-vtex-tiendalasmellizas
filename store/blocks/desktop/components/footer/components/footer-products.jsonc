@@ -1,0 +1,117 @@
+{
+    "flex-layout.col#footer--desktop__products":{
+
+        "children":[
+          "rich-text#footer__products",
+          "menu#footer__products"
+          ],
+          "props":{
+            "blockClass":"col_products",
+            "width":"25%"
+          }
+    
+      },
+      "rich-text#footer__products":{
+        "props":{
+          "text":"PRODUCTOS",
+          "blockClass":"footer__products"
+        }
+      },
+      "menu#footer__products":{
+        "children":[
+          "menu-item#products__almonds",
+          "menu-item#products__nuts",
+          "menu-item#products__dehydratedfruit",
+          "menu-item#products__seeds",
+          "menu-item#products__bestsellers"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+      },
+      "menu-item#products__almonds":{
+        "title":"almonds",
+        "props": {
+          "blockClass":"footer__menu",
+          "id": "almonds",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type":"internal",
+            "href": "/construccion",
+            "noFollow": true,
+            "tagTitle": "almonds",
+            "text": "Almendras",
+            "isActive":"true"
+          }        
+        }
+      },
+      "menu-item#products__nuts":{
+        "title":"nuts",
+        "props": {
+          "blockClass":"footer__menu",
+          "id": "nuts",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type":"internal",
+            "href": "/construccion",
+            "noFollow": true,
+            "tagTitle": "nuts",
+            "text": "Frutos Secos",
+            "isActive":"true"
+          }        
+        }
+      },
+      "menu-item#products__dehydratedfruit":{
+        "title":"dehydratedfruit",
+        "props": {
+          "blockClass":"footer__menu",
+          "id": "dehydratedfruit",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type":"internal",
+            "href": "/construccion",
+            "noFollow": true,
+            "tagTitle": "dehydratedfruit",
+            "text": "Fruta Deshidratada",
+            "isActive":"true"
+          }        
+        }
+      },
+      "menu-item#products__seeds":{
+        "title":"seeds",
+        "props": {
+          "blockClass":"footer__menu",
+          "id": "seeds",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type":"internal",
+            "href": "/construccion",
+            "noFollow": true,
+            "tagTitle": "seeds",
+            "text": "Semillas",
+            "isActive":"true"
+          }        
+        }
+      },
+      "menu-item#products__bestsellers":{
+        "title":"bestsellers",
+        "props": {
+          "blockClass":"footer__menu",
+          "id": "bestsellers",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type":"internal",
+            "href": "/construccion",
+            "noFollow": true,
+            "tagTitle": "bestsellers",
+            "text": "Mas Vendidos",
+            "isActive":"true"
+          }        
+        }
+      }
+}

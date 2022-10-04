@@ -1,0 +1,26 @@
+{
+  "flex-layout.col#footer--desktop__imageccs":{
+    "props":{
+      "horizontalAlign":"right",
+      "marginLeft":10
+    },
+    "children":[
+      "image#footer__ccs"
+      
+    ]
+  },
+  "image#footer__ccs":{
+    "title":"Imagen ccs",
+    "props":{
+        "src":"assets/img/CCS.png",
+        "maxWidth":200,
+        "title":"logo",
+        "blockClass": "footer__ccs",
+        "link":{
+            "url":"/",
+            "newTab": true,
+            "attributeNoFollow":true
+        }
+    }
+}
+}

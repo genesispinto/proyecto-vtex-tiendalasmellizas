@@ -41,11 +41,11 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-              "type": "external",
-              "href": "#",
+              "type": "internal",
+              "href": "/construccion",
               "noFollow": true,
               "tagTitle": "Shop",
-              "text": "Snackbox"
+              "text": "Construccion"
             }
         }
     },
@@ -56,14 +56,15 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-              "type": "external",
+              "type": "internal",
               "href": "#",
               "noFollow": true,
               "tagTitle": "Shop",
               "text": "Tipo de Alimentacion"
             },
             "blockClass":"flecha"
-        }
+        },
+        "blocks": ["submenu#department__three"]
     },
     "menu-item#department__four":{
         "title":"Menu department__four ",
@@ -72,8 +73,8 @@
             "type": "custom",
             "highlight": false,
             "itemProps": {
-              "type": "external",
-              "href": "#",
+              "type": "internal",
+              "href": "/sobrenosotros",
               "noFollow": true,
               "tagTitle": "Shop",
               "text": "Productos Solidarios"
@@ -88,8 +89,8 @@
           "type": "custom",
           "highlight": false,
           "itemProps": {
-            "type": "external",
-            "href": "#",
+            "type": "internal",
+            "href": "/sobrenosotros",
             "noFollow": true,
             "tagTitle": "Shop",
             "text": "Preguntas Frecuentes"
@@ -105,7 +106,7 @@
         "highlight": false,
         "itemProps": {
           "type": "external",
-          "href": "#",
+          "href": "/sobrenosotros",
           "noFollow": true,
           "tagTitle": "Shop",
           "text": "Nosotros"
@@ -119,8 +120,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/sobrenosotros",
         "noFollow": true,
         "tagTitle": "Shop",
         "text": "Seguimiento"
@@ -134,8 +135,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/sobrenosotros",
         "noFollow": true,
         "tagTitle": "Shop",
         "text": "Contacto"

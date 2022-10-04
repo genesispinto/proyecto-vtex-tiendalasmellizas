@@ -1,13 +1,21 @@
 {
     "flex-layout.row#home__section--three":{
+        "props":{
+            "preventHorizontalStretch":true,
+            "marginBottom":8
+        },
         "title":"Seccion Nuestros productos",
-        "children":[
-            "flex-layout.col#home__section--three"
-           
-        ]
+        "children":["flex-layout.col#home__section--three"]
     },
     "flex-layout.col#home__section--three":{
         "title":"parrafos",
+        "props":{
+            "horizontalAlign":"center",
+            "paddingLeft":10,
+            "paddingRight":10,
+            "marginLeft":10,
+            "marginRight":10
+        },
         "children":[
             "rich-text#section__three--text1",
             "rich-text#section__three--text2"
@@ -16,7 +24,7 @@
     "rich-text#section__three--text1":{
         "title":"titulo seccion",
         "props":{
-            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
             "text":"NUESTROS PRODUCTOS",
             "blockClass":"text1section3"
         }
@@ -24,7 +32,7 @@
     "rich-text#section__three--text2":{
         "title":"Cuerpo de la seccion",
         "props":{
-            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
             "text":"Contamos con una gran variedad de productos en almendras, frutos secos, fruta deshidratada, semillas y productos mezclados tipo mix. Todos de primera calidad para ser despachados en los mejores envases para garantizar que lleguen en perfectas condiciones a destino. ",
             "blockClass":"text2section3"
         }

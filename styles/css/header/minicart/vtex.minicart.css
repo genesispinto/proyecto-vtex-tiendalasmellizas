@@ -14,3 +14,13 @@
     background-repeat: no-repeat;
     margin-left: 0;
 }
+.minicartCheckoutButton :global(.vtex-button){
+    background: #CAA289;
+    border-color: #CAA289;
+}
+.minicartTitle{
+    display: none;
+}
+.minicartProductListContainer{
+    background-color: #f8f9fa;
+}

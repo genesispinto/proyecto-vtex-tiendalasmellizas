@@ -3,11 +3,11 @@
         "title":"Imagen categoria1",
         "props":{
             "src":"assets/img/almendras.png",
-            "maxWidth":500,
+            "maxWidth":300,
             "title":"Almonds",
             "blockClass": "home__image",
             "link":{
-                "url":"https://www.google.com",
+                "url":"/construccion",
                 "newTab": true,
                 "attributeNoFollow":true
             }
@@ -17,11 +17,11 @@
         "title":"Imagen categoria2",
         "props":{
             "src":"assets/img/frutosecos.png",
-            "maxWidth":500,
+            "maxWidth":300,
             "title":"nuts",
             "blockClass": "home__image",
             "link":{
-                "url":"https://www.google.com",
+                "url":"/construccion",
                 "newTab": true,
                 "attributeNoFollow":true
             }
@@ -31,11 +31,11 @@
         "title":"Imagen categoria3",
         "props":{
             "src":"assets/img/semillas.png",
-            "maxWidth":500,
+            "maxWidth":300,
             "title":"seeds",
             "blockClass": "home__image",
             "link":{
-                "url":"https://www.google.com",
+                "url":"/construccion",
                 "newTab": true,
                 "attributeNoFollow":true
             }
@@ -45,11 +45,11 @@
         "title":"Imagen categoria4",
         "props":{
             "src":"assets/img/mixfrutosecos.png",
-            "maxWidth":500,
+            "maxWidth":300,
             "title":"nuts mix",
             "blockClass": "home__image",
             "link":{
-                "url":"https://www.google.com",
+                "url":"/construccion",
                 "newTab": true,
                 "attributeNoFollow":true
             }
@@ -59,11 +59,11 @@
         "title":"Imagen categoria5",
         "props":{
             "src":"assets/img/frutadeshidratada.png",
-            "maxWidth":500,
+            "maxWidth":300,
             "title":"dehydratedfruit",
             "blockClass": "home__image",
             "link":{
-                "url":"https://www.google.com",
+                "url":"/construccion",
                 "newTab": true,
                 "attributeNoFollow":true
             }

@@ -2,35 +2,36 @@
   "store.home": { 
     "title":"home",
     "blocks": [
+      "whatsapp-button",
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+      
+    ]
+  },
+  "whatsapp-button":{
+    "props":{
+      "logo":"assets/img/whatsapp.png",
+      "phone":"+56947844634",
+      "message": "Hola buen dia, necesito ayuda"
+    }
+
+  },
+  
+  "responsive-layout.desktop":{
+    "children":[
+      
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--information",
+      "list-context.bullet-group",
       "flex-layout.row#home__section--three",
       "flex-layout.row#home__section--category1",
       "flex-layout.row#home__section--category2",
       "flex-layout.row#home__section--four",
-      "slider-layout#home__slider--children",
-
-      "responsive-layout.desktop",
-      "slider-layout#home__slider--children",
-      "responsive-layout.mobile",
-      "search-result-layout.customQuery#home__search"
-      // "responsive-layout.phone#home__info--phone",
-      // "responsive-layout.mobile#home__info--mobile"
-      // "responsive-layout.tablet#home__info--tablet",
-      // "responsive-layout.desktop#home__info--desktop"
-    ]
-  },
-
-  "responsive-layout.desktop":{
-    "children":[
-      "flex-layout.row#home__section--one",
-      "flex-layout.row#home__section--information",
-      "flex-layout.row#home__section--three",
-      "flex-layout.row#home__section--category1",
-      "flex-layout.row#home__section--category2",
-      "flex-layout.row#home__section--four"
+      "search-result-layout.customQuery#home__search" 
     ]
 },
+
 "search-result-layout.customQuery#home__search":{
   "props":{
     "querySchema":{
@@ -44,10 +45,11 @@
   ]
 },
 "search-result-layout.desktop#home__search":{
-  "children":["flex-layout.row#home__results"]
+  "children":["list-context.product-list"]
 },
 "search-result-layout.mobile#home__search":{
-  "children":["rich-text#test"]
+  "children":[
+    "rich-text#test"]
 },
 
 "rich-text#test":{
@@ -55,32 +57,7 @@
     "text":"prueba"
   }
 },
-"flex-layout.row#home__results":{
-  "children":[  
-  // "flex-layout.col#home__results--filter",
-  "slider-layout#home__slider--children"]
-},
-// "flex-layout.col#home__results--filter":{
-// "props":{
-//   "width":"30%"
-// }
-// },
-"flex-layout.col#home__results--search":{
-"children":["search-content#home__results--search"]
-},
-"search-content#home__results--search":{
-  "blocks":["gallery","not-found"]
-},
-"gallery":{
-  "blocks":["product-summary.shelf#home"]
-},
-"product-summary.shelf#home":{
-  "children":[
-    "product-summary-name",
-    "product-summary-image",
-    "product-summary-price",
-    "product-summary-sku-selector",
-    "product-summary-buy-button"
- ]
+"responsive-layout.mobile":{
+  "children":["list-context.bullet-group"]
 }
 }
