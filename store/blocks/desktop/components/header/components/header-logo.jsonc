@@ -3,7 +3,8 @@
         "title":"fila logo",
         "props": {
           "blockClass":"header__logo",
-          "horizontalAlign":"center"
+          "horizontalAlign":"center",
+          "preventHorizontalStretch":true
         },
         "children":["logo"]
       },

@@ -18,3 +18,9 @@
     background: #CAA289;
     border-color: #CAA289;
 }
+.minicartTitle{
+    display: none;
+}
+.minicartProductListContainer{
+    background-color: #f8f9fa;
+}

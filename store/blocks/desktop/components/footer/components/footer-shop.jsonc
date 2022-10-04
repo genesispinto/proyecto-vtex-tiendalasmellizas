@@ -6,7 +6,7 @@
         ],
         "props":{
           "blockClass":"col_shop",
-          "borderWidth":2
+          "width":"25%"
         }
   
     },
@@ -38,8 +38,8 @@
         "type": "custom",
         "highlight": false,
         "itemProps": {
-          "type":"external",
-          "href": "#",
+          "type":"internal",
+          "href": "/sobrenosotros",
           "noFollow": true,
           "tagTitle": "about",
           "text": "¿Quienes somos?",
@@ -55,8 +55,8 @@
         "type": "custom",
         "highlight": false,
         "itemProps": {
-          "type":"external",
-          "href": "#",
+          "type":"internal",
+          "href": "/sobrenosotros",
           "noFollow": true,
           "tagTitle": "contact",
           "text": "Contacto",
@@ -72,8 +72,8 @@
         "type": "custom",
         "highlight": false,
         "itemProps": {
-          "type":"external",
-          "href": "#",
+          "type":"internal",
+          "href": "/sobrenosotros",
           "noFollow": true,
           "tagTitle": "buy",
           "text": "¿Como comprar?",
@@ -89,8 +89,8 @@
         "type": "custom",
         "highlight": false,
         "itemProps": {
-          "type":"external",
-          "href": "#",
+          "type":"internal",
+          "href": "/sobrenosotros",
           "noFollow": true,
           "tagTitle": "terms&conditions",
           "text": "Términos y Condiciones",
@@ -106,8 +106,8 @@
         "type": "custom",
         "highlight": false,
         "itemProps": {
-          "type":"external",
-          "href": "#",
+          "type":"internal",
+          "href": "/sobrenosotros",
           "noFollow": true,
           "tagTitle": "policies",
           "text": "Politicas de Cookies",
@@ -123,8 +123,8 @@
         "type": "custom",
         "highlight": false,
         "itemProps": {
-          "type":"external",
-          "href": "#",
+          "type":"internal",
+          "href": "/sobrenosotros",
           "noFollow": true,
           "tagTitle": "commitment",
           "text": "Nuestro Compromiso",

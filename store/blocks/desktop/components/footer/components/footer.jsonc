@@ -11,7 +11,10 @@
   },
   "flex-layout.row#footer--desktop__top":{
     "props":{
-      "blockClass":"footer--desktop_top"
+      "preventHorizontalStretch":true,
+      "horizontalAlign":"center",
+      "colGap":5,
+      "marginTop":8
     },
   "children":[
     "flex-layout.col#footer--desktop__contact",
@@ -23,7 +26,7 @@
   
 "flex-layout.row#footer--desktop__middle":{
   "children":[
-    "newsletter-form"
+    "flex-layout.col#newsletter-mobile"
   ],
   "props":{
     "horizontalAlign":"center",

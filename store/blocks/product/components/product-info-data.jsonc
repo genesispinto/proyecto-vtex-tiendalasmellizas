@@ -26,10 +26,11 @@
         "title":"Info de producto",
         "props":{
             "blockClass":"product__info",
-            "horizontalAlign":"center"
+            "horizontalAlign":"center",
+            "preventVerticalStretch":true
         },
         "children": [
-            
+            // "add-to-cart-info",
             "vtex.store-components:product-name",
             "product-rating-inline",
             "product-list-price",

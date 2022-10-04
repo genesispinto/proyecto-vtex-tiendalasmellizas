@@ -7,7 +7,8 @@
           "showPasswordVerificationIntoTooltip": true,
           "width":"10%",
           "showIconProfile":true,
-          "iconLabel":" "
+          "iconLabel":" ",
+          "blockClass":"login"
         }
     }
 }
