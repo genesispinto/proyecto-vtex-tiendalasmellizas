@@ -27,33 +27,90 @@
   "props":{
     "bullets":[ 
       {
-        "image":"assets/img/sliderdespensa-despachotodochile2612.png",
+        "image":"assets/img/almendra-prod.png",
         "titleBullet":"Almendras",
         "link":{
         "url":"/"
         }
       },
       {
-        "image":"assets/img/img1.jpeg",
-        "titleBullet":"Frutos secos",
+        "image":"assets/img/X_19427.png",
+        "titleBullet":"Castañas",
+        "link":{
+        "url":"/"
+        }
+      },
+      {
+        "image":"assets/img/X_almendraschocolateamargo1072.png",
+        "titleBullet":"Chocolate",
+        "link":{
+        "url":"/"
+        }
+      },
+      {
+        "image":"assets/img/X_capturadepantalla2021-03-31alas21-33-446584.png",
+        "titleBullet":"Miel",
+        "link":{
+        "url":"/"
+        }
+      },
+      {
+        "image":"assets/img/X_nuezpecanapa-ginaweb0635.png",
+        "titleBullet":"Nuez",
+        "link":{
+        "url":"/"
+        }
+      },
+      {
+        "image":"assets/img/X_disen-osinti-tulo-186746.png",
+        "titleBullet":"Platanos",
+        "link":{
+        "url":"/"
+        }
+      },
+      {
+        "image":"assets/img/X_pinadeshidratada6074.jpeg",
+        "titleBullet":"Piña",
+        "link":{
+        "url":"/"
+        }
+      },
+      {
+        "image":"assets/img/almendra-prod.png",
+        "titleBullet":"Almendras",
+        "link":{
+        "url":"/"
+        }
+      },
+      {
+        "image":"assets/img/X_nuezpecanapa-ginaweb0635.png",
+        "titleBullet":"Nuez",
+        "link":{
+        "url":"/"
+        }
+      },
+      {
+        "image":"assets/img/X_disen-osinti-tulo-186746.png",
+        "titleBullet":"Platanos",
         "link":{
         "url":"/"
         }
       }
+
     ]
   }
 },
 "slider-layout#bullet-group":{
   "props":{
     "itemsPerPage":{
-    "desktop":1,
+    "desktop":4,
     "tablet": 1,
-    "mobile": 1
+    "mobile": 5
  },
   "infinite":true,
   "autoplay":{
-    "timeout":2000,
-    "showNavigationArrows": "desktopOnly"
+    "timeout":3000,
+    "stopOnHover": true
   }
 }
 

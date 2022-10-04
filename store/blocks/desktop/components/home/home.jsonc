@@ -3,10 +3,9 @@
     "title":"home",
     "blocks": [
       "whatsapp-button",
-      "responsive-layout.mobile",
+      "responsive-layout.desktop",
       "responsive-layout.tablet",
-      "responsive-layout.desktop"
-      // "responsive-layout.phone#home__info--phone",
+      "responsive-layout.phone"
       
     ]
   },
@@ -21,9 +20,10 @@
   
   "responsive-layout.desktop":{
     "children":[
-      "list-context.bullet-group",
-      // "flex-layout.row#home__section--one",
+      
+      "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--information",
+      "list-context.bullet-group",
       "flex-layout.row#home__section--three",
       "flex-layout.row#home__section--category1",
       "flex-layout.row#home__section--category2",
@@ -56,5 +56,8 @@
   "props":{
     "text":"prueba"
   }
+},
+"responsive-layout.mobile":{
+  "children":["list-context.bullet-group"]
 }
 }

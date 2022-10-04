@@ -27,7 +27,7 @@
      },
      "link": {
         "props": {
-          "href": "/{slug}/p",
+          "href": "/sobrenosotros",
           "label": "Conoce más -->",
           "displayMode":"button",
           "buttonProps":{

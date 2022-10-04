@@ -30,7 +30,7 @@
             "preventVerticalStretch":true
         },
         "children": [
-            
+            // "add-to-cart-info",
             "vtex.store-components:product-name",
             "product-rating-inline",
             "product-list-price",

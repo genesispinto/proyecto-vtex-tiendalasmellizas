@@ -55,7 +55,8 @@
     "vtex.product-price": "1.x",
     "vtex.store-link": "0.x",
     "itglobers.whatsapp-button": "0.x",
-    "itglobers.bullets-diagramation": "0.x"
+    "itglobers.bullets-diagramation": "0.x",
+    "itglobers.add-to-cart-info": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
