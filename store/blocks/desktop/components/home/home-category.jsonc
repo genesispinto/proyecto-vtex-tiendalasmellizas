@@ -7,90 +7,76 @@
           "flex-layout.col#section__two--image3"
         ],
         "props":{
-          "blockClass": "home__section--two"
+          "blockClass": "home__section--two",
+          "preventHorizontalStretch":true,
+          "horizontalAlign":"center",
+          "colGap":6 //trabaja como pr-10(padding-right : 8rem ) 
         }
       },
       "flex-layout.col#section__two--image1":{
-        "title": "Categoria de productos1",
+         "title": "Categoria de productos1",
         "children":[
           "image#home__image1",
-          "rich-text#section__two--title1"
+          "rich-text#section__two--title1"       
         ],
         "props":{
-          "blockClass": "category1",
-          "horizontalAlign":"right"
-        }
-    
-      },
-      "flex-layout.col#section__two--image2":{
-        "title": "Categoria de productos2",
-        "children":[
-          "image#home__image2",
-          "rich-text#section__two--title2"
-        ],
-        "props":{
-          "blockClass": "category2",
           "horizontalAlign":"center"
-        }
-      },
-      "flex-layout.col#section__two--image3":{
-        "title": "Categoria de productos3",
-        "children":[
-          "image#home__image3",
-          "rich-text#section__two--title3"
-    
-        ],
-        "props":{
-          "horizontalAlign":"left"
-        }
+        }    
       },
       "rich-text#section__two--title1":{
         "title": "Nombre de Categoria de productos1",
         "props":{
           "textColor": "c-on-emphasis",
-          "text":"Almedras",
-          "blockClass":"name_category"
+          "text":"Almedras"
+        }
+      },
+      "flex-layout.col#section__two--image2":{
+        "title": "Categoria de productos2",
+        "children":[
+          "image#home__image2",
+          "rich-text#section__two--title2"     
+        ],
+        "props":{
+          "horizontalAlign":"center"
         }
       },
       "rich-text#section__two--title2":{
         "title": "Nombre de Categoria de productos2",
         "props":{
           "textColor": "c-on-emphasis",
-          "text":"Frutos secos",
-          "blockClass":"name_category"
+          "text":"Frutos secos"
+        }
+      },
+
+      "flex-layout.col#section__two--image3":{
+        "title": "Categoria de productos3",
+        "children":[
+          "image#home__image3",
+          "rich-text#section__two--title3"   
+        ],
+        "props":{
+          "horizontalAlign":"center"
         }
       },
       "rich-text#section__two--title3":{
         "title": "Nombre de Categoria de productos3",
         "props":{
           "textColor": "c-on-emphasis",
-          "text":"Semillas",
-          "blockClass":"name_category"
+          "text":"Semillas"
         }
       },
-      "rich-text#section__two--title4":{
-        "title": "Nombre de Categoria de productos3",
-        "props":{
-          "textColor": "c-on-emphasis",
-          "text":" Mix de frutos secos",
-          "blockClass":"name_category1"
-        }
-      },
-      "rich-text#section__two--title5":{
-        "title": "Nombre de Categoria de productos3",
-        "props":{
-          "textColor": "c-on-emphasis",
-          "text":"Fruta deshidratada",
-          "blockClass":"name_category"
-        }
-      },
+
+      // //////////////////////////////////////////////////////7
       "flex-layout.row#home__section--category2":{
         "props":{
-          "colSizing":"equal"
+          "preventHorizontalStretch":true,
+          "horizontalAlign":"center",
+          "colGap":6 
         },
         "children":[
           "flex-layout.col#section__two--image4",
-          "flex-layout.col#section__two--image5"]
+          "flex-layout.col#section__two--image5"
+        ]
       },
       "flex-layout.col#section__two--image4":{
         "children":[
@@ -98,9 +84,14 @@
           "rich-text#section__two--title4"
         ],
         "props":{
-          "marginLeft":10,
-          "horizontalAlign":"right",
-          "marginRight":4
+          "horizontalAlign":"center"
+        }
+      },
+      "rich-text#section__two--title4":{
+        "title": "Nombre de Categoria de productos3",
+        "props":{
+          "textColor": "c-on-emphasis",
+          "text":" Mix de frutos secos"
         }
       },
           "flex-layout.col#section__two--image5":{
@@ -109,8 +100,15 @@
               "rich-text#section__two--title5"
             ],
             "props":{
-              "marginRight":10,
-              "horizontalAlign":"left"
+              "horizontalAlign":"center"
+            }
+          },
+          "rich-text#section__two--title5":{
+            "title": "Nombre de Categoria de productos3",
+            "props":{
+              "textColor": "c-on-emphasis",
+              "text":"Fruta deshidratada"
             }
           }
+    
 }

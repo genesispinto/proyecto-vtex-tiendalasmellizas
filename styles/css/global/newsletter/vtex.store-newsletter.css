@@ -1,7 +1,10 @@
 .emailInputContainer{
     width: 200px;
+    border-radius: 0;
+    background-color: white;
 }
 
 .newsletterForm{
     display: flex;
+
 }

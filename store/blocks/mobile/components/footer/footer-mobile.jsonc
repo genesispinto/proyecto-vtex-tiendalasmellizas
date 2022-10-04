@@ -6,8 +6,8 @@
             "flex-layout.row#disclouser1-mobile",
             "flex-layout.row#disclouser2-mobile",
             "flex-layout.row#logoccs-mobile",
-            "menu#footer__contact",
-            "flex-layout.row#footer--desktop__middle",
+            "flex-layout.row#menu-mobile",
+            "flex-layout.row#newsletter-mobile",
             "flex-layout.row#footer--desktop__bottom"
         ],
         "props":{
@@ -17,8 +17,7 @@
       "flex-layout.row#logo-mobile":{
         "children":["image#logo-mobile"],
         "props":{
-          "horizontalAlign":"center",
-          "colSizing":"auto"
+          "horizontalAlign":"center"
         }
       },
       "image#logo-mobile":{
@@ -30,7 +29,7 @@
             "title":"logo",
             "blockClass": "logo-mobile",
             "link":{
-                "url":"#",
+                "url":"/",
                 "newTab": true,
                 "attributeNoFollow":true
             }
@@ -45,6 +44,31 @@
       },
       
       "flex-layout.row#logoccs-mobile":{
+        "children":["flex-layout.col#logoccs-mobile"]
+      },
+      "flex-layout.col#logoccs-mobile":{
+        "props":{
+          "horizontalAlign":"center"
+        },
         "children":["image#footer__ccs"]
+      },
+      "flex-layout.row#menu-mobile":{
+        "children":["flex-layout.col#menu-mobile"]
+      },
+      "flex-layout.col#menu-mobile":{
+        "props":{
+          "horizontalAlign":"center"
+        },
+        "children":[ "menu#footer__contact"]
+      },
+      "flex-layout.row#newsletter-mobile":{
+        "children":["flex-layout.col#newsletter-mobile"]
+      },
+      "flex-layout.col#newsletter-mobile":{
+        "props":{
+          "horizontalAlign":"center",
+          "blockClass":"newsletter"
+        },
+        "children":["newsletter-form"]
       }
 }

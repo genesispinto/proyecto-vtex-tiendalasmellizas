@@ -1,6 +1,10 @@
 {
     
       "flex-layout.col#footer--desktop__contact":{
+        "props":{
+          "preventVerticalStretch":true,
+          "width":"25%"
+        },
         "children":[
           "image#footer__logo",
           "social-networks",
@@ -17,7 +21,7 @@
             "title":"logo",
             "blockClass": "footer__logo",
             "link":{
-                "url":"#",
+                "url":"/",
                 "newTab": true,
                 "attributeNoFollow":true
             }
@@ -28,17 +32,18 @@
         "props":{
           "socialNetworks":[
             {
+              "url":"https://twitter.com/Almendras_Chile",
+              "name":"Twitter"
+            },
+            {
               "url":"https://www.facebook.com/AgricolaLasMellizas",
               "name":"Facebook"
             },
             {
               "url":"https://www.instagram.com/agricolalasmellizas/",
               "name":"Instagram"
-            },
-            {
-              "url":"https://twitter.com/Almendras_Chile",
-              "name":"Twitter"
             }
+            
           ]
         }
       },
@@ -46,6 +51,7 @@
         "props":{
           "text":"CONTACTO",
           "blockClass":"footer__contact"
+
         }
       },
       "menu#footer__contact":{

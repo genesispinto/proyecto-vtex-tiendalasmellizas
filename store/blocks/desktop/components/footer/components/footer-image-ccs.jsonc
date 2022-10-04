@@ -1,7 +1,12 @@
 {
   "flex-layout.col#footer--desktop__imageccs":{
+    "props":{
+      "horizontalAlign":"right",
+      "marginLeft":10
+    },
     "children":[
       "image#footer__ccs"
+      
     ]
   },
   "image#footer__ccs":{
@@ -12,7 +17,7 @@
         "title":"logo",
         "blockClass": "footer__ccs",
         "link":{
-            "url":"#",
+            "url":"/",
             "newTab": true,
             "attributeNoFollow":true
         }

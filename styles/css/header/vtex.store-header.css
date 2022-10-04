@@ -1,5 +1,6 @@
 .headerRowBackground--header__top{
     background-color: white;
+    border-top: 5px solid #954613;
 
 }
 .logoContainer{

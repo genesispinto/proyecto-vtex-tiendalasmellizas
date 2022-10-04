@@ -6,7 +6,8 @@
           "menu#footer__products"
           ],
           "props":{
-            "blockClass":"col_products"
+            "blockClass":"col_products",
+            "width":"25%"
           }
     
       },
@@ -36,8 +37,8 @@
           "type": "custom",
           "highlight": false,
           "itemProps": {
-            "type":"external",
-            "href": "#",
+            "type":"internal",
+            "href": "/construccion",
             "noFollow": true,
             "tagTitle": "almonds",
             "text": "Almendras",
@@ -53,8 +54,8 @@
           "type": "custom",
           "highlight": false,
           "itemProps": {
-            "type":"external",
-            "href": "#",
+            "type":"internal",
+            "href": "/construccion",
             "noFollow": true,
             "tagTitle": "nuts",
             "text": "Frutos Secos",
@@ -70,8 +71,8 @@
           "type": "custom",
           "highlight": false,
           "itemProps": {
-            "type":"external",
-            "href": "#",
+            "type":"internal",
+            "href": "/construccion",
             "noFollow": true,
             "tagTitle": "dehydratedfruit",
             "text": "Fruta Deshidratada",
@@ -87,8 +88,8 @@
           "type": "custom",
           "highlight": false,
           "itemProps": {
-            "type":"external",
-            "href": "#",
+            "type":"internal",
+            "href": "/construccion",
             "noFollow": true,
             "tagTitle": "seeds",
             "text": "Semillas",
@@ -104,8 +105,8 @@
           "type": "custom",
           "highlight": false,
           "itemProps": {
-            "type":"external",
-            "href": "#",
+            "type":"internal",
+            "href": "/construccion",
             "noFollow": true,
             "tagTitle": "bestsellers",
             "text": "Mas Vendidos",

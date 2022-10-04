@@ -1,40 +1,42 @@
 {
-    "responsive-layout.mobile":{
+    "responsive-layout.phone":{
         "children":[
-            "flex-layout.row#home__mobile-section--one",
+            //"list-context.bullet-group",
+            "flex-layout.row#home__phone-section--one",
             "flex-layout.row#section__information--webpay",
-            "flex-layout.row#home__mobile-section--information1",
-            "flex-layout.row#home__mobile-section--information2",
-            "flex-layout.row#home__mobile-section--three",
-            "flex-layout.row#home__mobile-section--category",
-            "flex-layout.row#home__mobile-section--four"]
+            "flex-layout.row#home__phone-section--information1",
+            "flex-layout.row#home__phone-section--information2",
+            "list-context.bullet-group",
+            "flex-layout.row#home__phone-section--three",
+            "flex-layout.row#home__phone-section--category",
+            "flex-layout.row#home__phone-section--four"]
     },
-    "flex-layout.row#home__mobile-section--one": {
+    "flex-layout.row#home__phone-section--one": {
         "children":[
-        "image#home__mobile"
+        "image#home__phone"
         ],
         "props":{
             "blockClass": "home__mobile"
         }
     },
 
-    "image#home__mobile":{
+    "image#home__phone":{
         "props":{
           "src":"assets/img/slider_pasa_cranberry_800x400-01-015247.jpg"
         }
       },
-    "flex-layout.row#home__mobile-section--information1":{
+    "flex-layout.row#home__phone-section--information1":{
         "props":{          
             "verticalAlign": "middle",
             "colSizing": "auto",
             "preserveLayoutOnMobile": true
                 },
         "children":[
-            "flex-layout.col#home__mobile-icon1",
+            "flex-layout.col#home__phone-icon1",
             "rich-text#section__information--text1"
         ]
     },
-    "flex-layout.col#home__mobile-icon1":{
+    "flex-layout.col#home__phone-icon1":{
         "props":{
             "verticalAlign": "middle"
         },
@@ -42,18 +44,18 @@
             "image#section__information--icon1" 
         ]
     },
-    "flex-layout.row#home__mobile-section--information2":{
+    "flex-layout.row#home__phone-section--information2":{
         "props":{
             "verticalAlign": "middle",
             "colSizing": "auto",
             "preserveLayoutOnMobile": true
                 },
         "children":[
-            "flex-layout.col#home__mobile-icon2",
+            "flex-layout.col#home__phone-icon2",
             "rich-text#section__information--text2"
         ]
     },
-    "flex-layout.col#home__mobile-icon2":{
+    "flex-layout.col#home__phone-icon2":{
         "props":{
             "verticalAlign": "middle"
         },
@@ -64,7 +66,7 @@
     "flex-layout.row#section__information--webpay":{
         "children":["image#section__information--webpay"]
     },
-    "flex-layout.row#home__mobile-section--three":{
+    "flex-layout.row#home__phone-section--three":{
         "props":{
             "blockClass":"home__mobile-section3"
         },
@@ -73,15 +75,15 @@
             "rich-text#section__three--text2"
         ]
     },
-    "flex-layout.row#home__mobile-section--category":{
+    "flex-layout.row#home__phone-section--category":{
         "props":{
             "colSizing":"equal"
         },
         "children":[
-            "flex-layout.col#home__mobile-section--category"
+            "flex-layout.col#home__phone-section--category"
         ]
     },
-    "flex-layout.col#home__mobile-section--category":{
+    "flex-layout.col#home__phone-section--category":{
         "props":{
            "horizontalAlign":"center"
         },
@@ -98,14 +100,15 @@
             "rich-text#section__two--title5"
         ]
     },
-    "flex-layout.row#home__mobile-section--four":{
+    "flex-layout.row#home__phone-section--four":{
         "props":{
             "blockClass":"home__mobile-section3"
         },
         "children":[
         "image#section__four--image",
         "rich-text#section__four--text1",
-        "rich-text#section__four--text2"]
+        "rich-text#section__four--text2",
+        "link"]
     }
 
     
