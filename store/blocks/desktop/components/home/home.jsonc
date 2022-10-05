@@ -3,7 +3,6 @@
     "title":"home",
     "blocks": [
       "whatsapp-button",
-      "add-to-cart-info",
       "responsive-layout.desktop",
       "responsive-layout.tablet",
       "responsive-layout.phone"
