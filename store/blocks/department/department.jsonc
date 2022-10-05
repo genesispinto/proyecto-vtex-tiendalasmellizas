@@ -43,7 +43,7 @@
             "name":"grid-two-columns",
             "blockClass":"grid__selector--two-colunns"
             }
-      },
+          },
       "gallery-layout-option#grid__one-columns":{
         "props":{
             "name":"grid-one-columns",
