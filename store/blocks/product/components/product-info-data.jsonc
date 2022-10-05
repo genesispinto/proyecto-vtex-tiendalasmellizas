@@ -38,7 +38,9 @@
             "product-description",
             "flex-layout.row#product__quantity&button",
             // "product-identifier.product",
-            "share"
+            "share",
+            "modal-trigger#add-to-cart-info"
+            
             
           ]
     },
@@ -86,5 +88,24 @@
         "props":{
             "text":"Agregar al carro"
         }
+    },
+    "modal-trigger#add-to-cart-info":{
+        "children":["modal-layout#add-to-cart-info"],
+        "props":{
+            "customPixelEventName": "addToCart"
+        }
+
+    },
+    "modal-layout#add-to-cart-info":{
+        "children":[
+            "modal-header#add-to-cart-info",
+            "add-to-cart-info"]
+    },
+    "modal-header#add-to-cart-info":{
+        "props":{
+            "showCloseButton":true,
+            "iconCloseSize":24
+        }
     }
+    
 }
