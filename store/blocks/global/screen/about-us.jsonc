@@ -8,7 +8,8 @@
       "flex-layout.row#about-us__info4",
       "flex-layout.row#about-us__info5",
       "flex-layout.row#about-us__info6",
-      "flex-layout.row#about-us__share"
+      "flex-layout.row#about-us__share",
+      "flex-layout.row#about-us__pdf"
     ]
   },
   "flex-layout.row#about-us__image": {
@@ -51,6 +52,9 @@
     "children": [
       "share"
     ]
+  },
+  "flex-layout.row#about-us__pdf":{
+    "children":["pdf-reader"]
   },
   "rich-text#about-text1": {
     "props": {
@@ -108,6 +112,13 @@
       "callToActionText": "Ir al home",
       "callToActionUrl": "/",
       "textAlignment": "center"
+    }
+  },
+  "pdf-reader":{
+    "props":{
+      "pdfUrl": "assets/documents/Cv- GenesisPinto1.pdf",
+      "width":500,
+      "height":800
     }
   }
 

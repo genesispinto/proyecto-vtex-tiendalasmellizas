@@ -28,7 +28,6 @@
       "flex-layout.row#home__section--three",
       "flex-layout.row#home__section--category1",
       "flex-layout.row#home__section--category2",
-      "department-search",
       "flex-layout.row#home__section--four",
       "search-result-layout.customQuery#home__search" 
     ]
