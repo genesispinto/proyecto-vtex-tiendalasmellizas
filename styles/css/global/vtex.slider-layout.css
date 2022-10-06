@@ -3,3 +3,11 @@ height: 60px ;
 width: 60px;
 margin-bottom: 5px;
 }
+.sliderLayoutContainer--home__slider {
+    max-width: 1200px;
+    margin: 0 auto 50px;
+} 
+ 
+.paginationDotsContainer{
+transform: translateY(1.5rem);
+ }
