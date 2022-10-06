@@ -20,7 +20,7 @@
       },
 
 
-//// list context- custom
+// list context- custom
 "list-context.bullet-group":{
   "title":"Mi contexto de lista de Bullets",
   "children":["slider-layout#bullet-group"],
