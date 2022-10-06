@@ -1,7 +1,6 @@
 {
     "responsive-layout.phone":{
         "children":[
-            //"list-context.bullet-group",
             "flex-layout.row#home__phone-section--one",
             "flex-layout.row#section__information--webpay",
             "flex-layout.row#home__phone-section--information1",
