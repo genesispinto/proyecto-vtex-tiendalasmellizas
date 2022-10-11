@@ -23,11 +23,16 @@
   },
   "header-row#header__top":{
     "title":"fila redes y search",
-    "props":{"blockClass":"header__top"},
+    "props":{
+      "blockClass":"header__top",
+      "horizontalAlign": "center"},
     "children":[
       "flex-layout.row#networks",
-      "header-spacer",
+      "department-search",
+      "quick-order",
+      // "header-spacer",
       "search-bar"
+
     ]
   },
   "flex-layout.row#menu":{

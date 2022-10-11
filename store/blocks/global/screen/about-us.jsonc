@@ -9,7 +9,8 @@
       "flex-layout.row#about-us__info5",
       "flex-layout.row#about-us__info6",
       "flex-layout.row#about-us__share",
-      "flex-layout.row#about-us__pdf"
+      "flex-layout.row#about-us__pdf",
+      "special-diagramation"
     ]
   },
   "flex-layout.row#about-us__image": {
@@ -120,6 +121,15 @@
       "width":500,
       "height":800
     }
+  },
+  "special-diagramation":{
+    "children":[
+     "image#home__image1",
+     "image#home__image2",
+     "image#home__image3",
+     "image#home__image4",
+     "image#home__image5"
+    ]
   }
 
 

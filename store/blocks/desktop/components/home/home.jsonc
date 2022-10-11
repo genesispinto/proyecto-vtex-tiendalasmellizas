@@ -9,21 +9,10 @@
       
     ]
   },
-  "whatsapp-button":{
-    "props":{
-      "logo":"assets/img/whatsapp.png",
-      "phone":"+56947844634",
-      "message": "Hola buen dia, necesito ayuda"
-    }
-
-  },
-  
   "responsive-layout.desktop":{
-    "children":[
-      
+    "children":[     
+      "whatsapp-button",
       "flex-layout.row#home__section--one",
-      "department-search",
-      "quick-order",
       "flex-layout.row#home__section--information",
       "list-context.bullet-group",
       "flex-layout.row#home__section--three",
@@ -32,34 +21,41 @@
       "flex-layout.row#home__section--four",
       "search-result-layout.customQuery#home__search" 
     ]
-},
+  },
+  "whatsapp-button":{
+    "props":{
+      "logo":"assets/img/whatsapp.png",
+      "phone":"+56947844634",
+      "message": "Hola buen dia, necesito ayuda"
+    }
 
-"search-result-layout.customQuery#home__search":{
-  "props":{
-    "querySchema":{
-      "skusFilter":"ALL" 
+  },
+  "search-result-layout.customQuery#home__search":{
+    "props":{
+      "querySchema":{
+        "skusFilter":"ALL" 
+      }
+    },
+    "blocks":[
+      "search-result-layout.desktop#home__search",
+      "search-result-layout.mobile#home__search",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search":{
+    "children":["list-context.product-list"]
+  },
+  "search-result-layout.mobile#home__search":{
+    "children":[
+      "rich-text#test"]
+  },
+
+  "rich-text#test":{
+    "props":{
+      "text":"prueba"
     }
   },
-  "blocks":[
-    "search-result-layout.desktop#home__search",
-    "search-result-layout.mobile#home__search",
-    "search-not-found-layout"
-  ]
-},
-"search-result-layout.desktop#home__search":{
-  "children":["list-context.product-list"]
-},
-"search-result-layout.mobile#home__search":{
-  "children":[
-    "rich-text#test"]
-},
-
-"rich-text#test":{
-  "props":{
-    "text":"prueba"
+  "responsive-layout.mobile":{
+    "children":["list-context.bullet-group"]
   }
-},
-"responsive-layout.mobile":{
-  "children":["list-context.bullet-group"]
-}
 }
