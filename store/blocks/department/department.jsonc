@@ -10,6 +10,7 @@
         "children":[
           "flex-layout.row#deparment__breadcrumb",
           "flex-layout.row#deparment__results"
+
         ]
       },
       "flex-layout.row#deparment__breadcrumb":{
