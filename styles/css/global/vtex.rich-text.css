@@ -4,6 +4,7 @@
     color: #954613;
     text-transform: uppercase;
     font-weight: bold;
+    padding-bottom: 0;
 }
 .paragraph--text2section3, .paragraph--text2section4{
     font-weight: bold;
@@ -55,9 +56,15 @@
     padding-left: 3rem;
     text-align: justify;
 }
-/* .paragraph--name_category{
-    margin-left: 2rem;
+.wrapper--drawer{
+    color: #9b5b34;
+    font-family: inherit;
+    font-size:medium;
+    cursor: pointer;
+    margin: 0;
 }
-.paragraph--name_category1{
-    margin-right: 5rem;
-} */
+@media screen and (min-width: 480px) {
+    .paragraph--text2section3, .paragraph--text2section4{
+        font-size: 0.75rem;
+    }
+  }

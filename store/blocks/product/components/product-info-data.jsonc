@@ -1,12 +1,14 @@
 {
     "flex-layout.row#product__info":{
+        "props":{
+            "preserveLayoutOnMobile":true,
+            "horizontalAlign":"center"
+        },
         "title":"Informacion general de PDP",
         "children":[
             "flex-layout.col#product__info--image",
             "flex-layout.col#product__info--data"
-        ],
-        "props":{
-        }
+        ]
     },
     "flex-layout.col#product__info--image":{
         "title":"Imagenes de producto",
@@ -18,7 +20,7 @@
          "aspectRatio":"1.1",
          "thumbnailsOrientation":"horizontal",
          "showNavigationArrows":false,
-         "showPaginationDots":false,
+         "showPaginationDots":true,
          "maxHeight":500
         }
     },
@@ -36,7 +38,6 @@
             "product-selling-price",
             "product-description",
             "flex-layout.row#product__quantity&button",
-            // "product-identifier.product",
             "share",
             "modal-trigger#add-to-cart-info"
             

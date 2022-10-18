@@ -12,6 +12,7 @@
         },
         "children":[
            "flex-layout.col#drawe__mobile",
+           "rich-text#open-drawer",
            "flex-layout.col#logo__mobile",
            "flex-layout.col#login__mobile",
            "flex-layout.col#minicart__mobile" 
@@ -34,20 +35,13 @@
         "children":["minicart.v2"]
     },
     "drawer#mobile": {
-        "children": [
-            "menu#header__deparment--mobile"
-        ],
-        "props":{
-            "blockClass":"mobile"
-        },
-        "blocks": ["drawer-trigger"]
-      },
-      "drawer-trigger": {
-        "children": ["rich-text#open-drawer"]
+        "children": ["menu#header__deparment--mobile"],
+        "props":{"blockClass":"mobile"}
       },
       "rich-text#open-drawer": {
         "props": {
-          "text": "Tienda"
+          "text": "Tienda",
+          "blockClass":"drawer"
         }
       }, 
       "menu#header__deparment--mobile":{

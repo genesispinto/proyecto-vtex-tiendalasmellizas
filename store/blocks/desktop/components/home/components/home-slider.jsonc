@@ -6,9 +6,9 @@
     "slider-layout#home__slider--children":{
         "props":{
           "itemsPerPage":{
-             "desktop":3,
-             "tablet": 1,
-             "mobile": 1
+             "desktop":4,
+             "tablet": 3,
+             "phone": 1
           },
           "infinite": true,
           "blockClass": "home__slider",
@@ -104,8 +104,8 @@
   "props":{
     "itemsPerPage":{
     "desktop":4,
-    "tablet": 1,
-    "mobile": 5
+    "tablet": 4,
+    "phone":  3
  },
   "infinite":true,
   "autoplay":{
