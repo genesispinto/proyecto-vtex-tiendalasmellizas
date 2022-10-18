@@ -3,13 +3,13 @@
     "title":"home",
     "blocks": [
       "whatsapp-button",
-      "responsive-layout.desktop",
-      "responsive-layout.tablet",
-      "responsive-layout.phone"
+      "responsive-layout.desktop#home",
+      "responsive-layout.tablet#home",
+      "responsive-layout.phone#home"
       
     ]
   },
-  "responsive-layout.desktop":{
+  "responsive-layout.desktop#home":{
     "children":[     
       "whatsapp-button",
       "flex-layout.row#home__section--one",

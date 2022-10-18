@@ -1,0 +1,25 @@
+{
+    "responsive-layout.phone#product":{
+        "children":[
+            "flex-layout.row#product-phone"
+        ]
+    },
+    "flex-layout.row#product-phone":{
+        "children":[
+            "flex-layout.col#product-phone"
+        ]
+    },
+    "flex-layout.col#product-phone":{
+        "children":[
+            "product-images#product__info--image",
+            "vtex.store-components:product-name",
+            "product-rating-inline",
+            "product-list-price",
+            "product-selling-price",
+            "product-description",
+            "flex-layout.row#product__quantity&button",
+            "share",
+            "modal-trigger#add-to-cart-info"
+        ]
+    }
+}

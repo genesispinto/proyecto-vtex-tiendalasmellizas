@@ -2,135 +2,16 @@
  "store.custom#about-us": {
     "blocks": [
       "flex-layout.row#about-us__image",
-      "flex-layout.row#about-us__info1",
-      "flex-layout.row#about-us__info2",
-      "flex-layout.row#about-us__info3",
-      "flex-layout.row#about-us__info4",
-      "flex-layout.row#about-us__info5",
-      "flex-layout.row#about-us__info6",
-      "flex-layout.row#about-us__share",
-      "flex-layout.row#about-us__pdf",
-      "special-diagramation"
+      "responsive-layout.desktop#about-us",
+      "responsive-layout.mobile#about-us"
     ]
   },
   "flex-layout.row#about-us__image": {
     "children": [
       "info-card"
     ]
-  },
-  "flex-layout.row#about-us__info1": {
-    "children": [
-      "rich-text#about-text1"
-    ]
-  },
-  "flex-layout.row#about-us__info2": {
-    "children": [
-      "rich-text#about-text2"
-    ]
-  },
-  "flex-layout.row#about-us__info3": {
-    "children": [
-      "rich-text#about-text3"
-    ]
-  },
-  "flex-layout.row#about-us__info4": {
-    "children": [
-      "rich-text#about-text4"
-    ]
-  },
-  "flex-layout.row#about-us__info5": {
-    "children": [
-      "rich-text#about-text5"
-    ]
-  },
-  "flex-layout.row#about-us__info6": {
-    "children": [
-      "rich-text#about-text6"
-    ]
-  },
-
-  "flex-layout.row#about-us__share": {
-    "children": [
-      "share"
-    ]
-  },
-  "flex-layout.row#about-us__pdf":{
-    "children":["pdf-reader"]
-  },
-  "rich-text#about-text1": {
-    "props": {
-      "blockClass":"about-us",
-      "text":"Queridos Amigos,"
-    }
-  },
-  "rich-text#about-text2": {
-    "props": {
-      "blockClass":"about-us",
-      "text":
-      "Llevamos un largo recorrido comercializando frutos secos, siendo la almendra uno de nuestros pilares basados en la experiencia en los huertos familiares."
-    }
-  },
-  "rich-text#about-text3": {
-    "props": {
-      "blockClass":"about-us",
-      "text":
-      "Hoy nos encontramos muy diversificados a una amplia variedad de productos, que podrás encontrar en nuestra tienda online. La gran mayoría son productos bajo nuestra marca Las Mellizas enfocada principalmente a productos naturales y saludables. Además, contamos con una sección llamada Mercado Las Mellizas, donde encontratrás productos complementarios, de interés para nuestros clientes."
-    }
-  },
-  "rich-text#about-text4": {
-    "props": {
-      "blockClass":"about-us",
-      "text":
-      "Hay diversos formatos de productos, desde cajas a granel, porcionados en 1kg y 400grs, hasta más pequeños como aperitivos de 80grs y snacks individuales. Sin duda, encontrarás el formato perfecto para tus necesidades"
-    }
-  },
-  "rich-text#about-text5": {
-    "props": {
-      "blockClass":"about-us",
-      "text": "Estamos seguros que te encantarán nuestros productos y, como muchos clientes nuevos, te sorprenderás con la calidad. Sólo debes realizar tu primer pedido, el primero, pero no el último."
-    }
-  },
-  "rich-text#about-text6": {
-    "props": {
-      "blockClass":"about-us",
-      "text":"Un saludo desde Buin,\n Comercial Las Mellizas SpA."
-    }
-  },
-  "share":{
-    "props": {
-      "blockClass":"about-us"
-    }
-  },
-  "info-card": {
-
-    "props": {
-      "blockClass":"margin_about us",
-      "id": "info-card-example",
-      "isFullModeStyle": false,
-      "textPosition": "right",
-      "imageUrl": "assets/img/L_about-banner7525.jpg",
-      "headline": "Sobre Nosotros",
-      "callToActionText": "Ir al home",
-      "callToActionUrl": "/",
-      "textAlignment": "center"
-    }
-  },
-  "pdf-reader":{
-    "props":{
-      "pdfUrl": "assets/documents/Cv- GenesisPinto1.pdf",
-      "width":500,
-      "height":800
-    }
-  },
-  "special-diagramation":{
-    "children":[
-     "image#home__image1",
-     "image#home__image2",
-     "image#home__image3",
-     "image#home__image4",
-     "image#home__image5"
-    ]
   }
+ 
 
 
 }
