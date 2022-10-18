@@ -1,0 +1,13 @@
+{
+    "responsive-layout.mobile#about-us":{
+        "children":[
+            "flex-layout.row#about-us__info1",
+            "flex-layout.row#about-us__info2",
+            "flex-layout.row#about-us__info3",
+            "flex-layout.row#about-us__info4",
+            "flex-layout.row#about-us__info5",
+            "flex-layout.row#about-us__info6",
+            "flex-layout.row#about-us__share"
+        ]
+    }
+}

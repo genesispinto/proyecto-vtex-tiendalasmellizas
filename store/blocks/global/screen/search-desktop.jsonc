@@ -29,16 +29,5 @@
       },
       "search-content#desktop__results--search":{
         "blocks":["gallery","not-found"]
-      }      // "filter-navigator.v3":{
-      //   "blocks": ["sidebar-close-button"],
-      //   "props": {
-      //     "showClearByFilter": true,
-      //     "fullWidthOnMobile": true,
-      //     "navigationTypeOnMobile": "collapsible",
-      //     "appliedFiltersOverview": "show",
-      //     "totalProductsOnMobile": "show",
-      //     "updateOnFilterSelectionOnMobile": true,
-      //     "priceRangeLayout": "inputAndSlider"
-      //        }
-      // }
+      }   
 }
