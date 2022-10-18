@@ -1,15 +1,24 @@
 {
     "responsive-layout.phone#product":{
         "children":[
-            "flex-layout.row#product-phone"
+            "flex-layout.row#product-phone",
+            "flex-layout.row#product__tabs"
+            
         ]
     },
     "flex-layout.row#product-phone":{
-        "children":[
-            "flex-layout.col#product-phone"
-        ]
+        "props":{
+            "preserveLayoutOnMobile":true,
+            "horizontalAlign":"center",
+            "preventVerticalStretch":true
+        },
+        "children":["flex-layout.col#product-phone"]
     },
     "flex-layout.col#product-phone":{
+        "props":{
+            "horizontalAlign":"center",
+            "verticalAlign":"middle"
+        },
         "children":[
             "product-images#product__info--image",
             "vtex.store-components:product-name",

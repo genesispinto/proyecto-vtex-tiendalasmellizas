@@ -21,6 +21,11 @@
       },
       "flex-layout.row#deparment__results":{
         "title":"Deparment Results",
+        "props":{          
+            "verticalAlign": "middle",
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true
+                },
         "children":[
             "search-content#desktop__results--search"
         ]
