@@ -1,5 +1,5 @@
 {
-    "responsive-layout.phone":{
+    "responsive-layout.phone#home":{
         "children":[
             "flex-layout.row#home__phone-section--one",
             "flex-layout.row#section__information--webpay",
@@ -8,7 +8,8 @@
             "list-context.bullet-group",
             "flex-layout.row#home__phone-section--three",
             "flex-layout.row#home__phone-section--category",
-            "flex-layout.row#home__phone-section--four"]
+            "flex-layout.row#home__phone-section--four",
+            "search-result-layout.customQuery#home__search"]
     },
     "flex-layout.row#home__phone-section--one": {
         "children":[

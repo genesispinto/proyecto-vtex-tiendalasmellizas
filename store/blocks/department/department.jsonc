@@ -24,15 +24,7 @@
         "children":[
             "search-content#desktop__results--search"
         ]
-      },      
-      /////////////////////
-      "search-result-layout.mobile#department":{
-        "children":[
-          "rich-text#mobile-response-department",
-          "flex-layout.row#deparment__breadcrumb",
-          "flex-layout.row#deparment__results"
-        ]
-      },
+      }, 
       "gallery-layout-switcher":{
         "children":[
             "gallery-layout-option#grid__two-columns",
@@ -50,11 +42,6 @@
             "name":"grid-one-columns",
             "blockClass":"grid__selector--one-colunn"
             }
-      },
-      "rich-text#mobile-response-department":{
-        "props":{
-          "text": "# Mobile search department"
-        }
       }
 }
       
