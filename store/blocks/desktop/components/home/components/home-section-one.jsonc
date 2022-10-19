@@ -11,7 +11,8 @@
 
     "image#home__Logo":{
         "props":{
-          "src":"assets/img/img1.jpeg"
+          "src":"assets/img/img1.jpeg",
+          "maxWidth":1200
         }
       }
 

@@ -28,24 +28,24 @@
       "horizontalAlign": "center"},
     "children":[
       "flex-layout.row#networks",
-      "department-search",
-      "quick-order",
-      // "header-spacer",
+      "header-spacer",
       "search-bar"
 
     ]
   },
   "flex-layout.row#menu":{
-    "title":"fila menu",
-    "children":[
-      "menu#header__menu--deparment",
-      "login",
-      "minicart.v2" 
-    ],
-    "props":{
-      "blockClass":"menu__departament"
+      "props":{
+        "blockClass":"menu__departament",
+        "preserveLayoutOnMobile": true,
+        "preventHorizontalStretch":true
+      },
+      "title":"fila menu",
+      "children":[
+        "menu#header__menu--deparment",
+        "login",
+        "minicart.v2#desktop" 
+      ]
     }
-}
   
   
 }

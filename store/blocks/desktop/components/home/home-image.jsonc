@@ -3,7 +3,7 @@
         "title":"Imagen categoria1",
         "props":{
             "src":"assets/img/almendras.png",
-            "maxWidth":300,
+            "width":350,
             "title":"Almonds",
             "blockClass": "home__image",
             "link":{
@@ -17,7 +17,7 @@
         "title":"Imagen categoria2",
         "props":{
             "src":"assets/img/frutosecos.png",
-            "maxWidth":300,
+            "maxWidth":350,
             "title":"nuts",
             "blockClass": "home__image",
             "link":{
@@ -31,7 +31,7 @@
         "title":"Imagen categoria3",
         "props":{
             "src":"assets/img/semillas.png",
-            "maxWidth":300,
+            "maxWidth":350,
             "title":"seeds",
             "blockClass": "home__image",
             "link":{
@@ -45,7 +45,7 @@
         "title":"Imagen categoria4",
         "props":{
             "src":"assets/img/mixfrutosecos.png",
-            "maxWidth":300,
+            "maxWidth":350,
             "title":"nuts mix",
             "blockClass": "home__image",
             "link":{
@@ -59,7 +59,7 @@
         "title":"Imagen categoria5",
         "props":{
             "src":"assets/img/frutadeshidratada.png",
-            "maxWidth":300,
+            "maxWidth":350,
             "title":"dehydratedfruit",
             "blockClass": "home__image",
             "link":{
