@@ -17,6 +17,7 @@
 .minicartCheckoutButton :global(.vtex-button){
     background: #CAA289;
     border-color: #CAA289;
+    width: 300px;
 }
 .minicartTitle{
     display: none;

@@ -1,14 +1,15 @@
 {
   "flex-layout.row#networks":{
+    "props":{
+      "blockClass":"networks",
+      "horizontalAlign":"center"
+    },
     "title":"fila imagenes redes sociales",
     "children": [
       "image#header__facebook",
       "image#header__instagram",
       "image#header__twitter"
-    ],
-    "props":{
-      "blockClass":"networks"
-    }
+    ]
   },
     "image#header__facebook":{
         "props":{
