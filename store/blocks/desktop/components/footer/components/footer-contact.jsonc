@@ -44,7 +44,8 @@
               "name":"Instagram"
             }
             
-          ]
+          ],
+          "showInColor":true
         }
       },
       "rich-text#footer__contact":{

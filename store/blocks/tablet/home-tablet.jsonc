@@ -9,7 +9,9 @@
             "flex-layout.row#home__section--category1",
             "flex-layout.row#home__section--category2",
             "flex-layout.row#home__tablet-section--four",
-            "search-result-layout.customQuery#home__search"
+            "search-result-layout.customQuery#home__search",
+            "flex-layout.row#search__department",
+            "flex-layout.row#search__quick-order"
         ]
        
     },

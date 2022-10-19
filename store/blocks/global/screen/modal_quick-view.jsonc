@@ -7,7 +7,7 @@
       },
       "rich-text#global__quick-view--trigger":{
         "props":{
-          "text":"##### Ver Detalle",
+          "text":"Ver Detalle",
           "blockClass":"quick-view__trigger"
         }
       },

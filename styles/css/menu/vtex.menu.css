@@ -19,14 +19,14 @@
 
 .styledLinkContent--flecha::after{
     display: inline-block;
-    margin-left: .6em;
-    margin-top: .3em;
-    vertical-align: .255em;
+    margin-left: .6rem;
+    margin-top: .3rem;
+    vertical-align: .255rem;
     content: "";
-    border-top: .3em solid;
-    border-right: .3em solid transparent;
+    border-top: .3rem solid;
+    border-right: .3rem solid transparent;
     border-bottom: 0;
-    border-left: .3em solid transparent;
+    border-left: .3rem solid transparent;
     color: #954613;
 }
 
@@ -65,4 +65,12 @@
 .styledLinkContainer--footer__menu :hover{
     background-color: rgba(255, 255, 255, 0.158);
     color: #e4d0c3;
+}
+@media (min-width: 481px) and (max-width: 834px){
+    .styledLinkContent{
+        margin: 1rem;
+        border-bottom: 0.012rem solid #80808088;
+        text-align: center;
+
+    }
 }

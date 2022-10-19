@@ -19,7 +19,9 @@
       "flex-layout.row#home__section--category1",
       "flex-layout.row#home__section--category2",
       "flex-layout.row#home__section--four",
-      "search-result-layout.customQuery#home__search" 
+      "search-result-layout.customQuery#home__search",
+      "flex-layout.row#search__department",
+      "flex-layout.row#search__quick-order"
     ]
   },
   "whatsapp-button":{
@@ -47,5 +49,20 @@
   },
   "search-result-layout.mobile#home__search":{
     "children":["list-context.product-list" ]
+  },
+  "flex-layout.row#search__department":{
+    "props":{
+      "horizontalAlign":"right",
+      "preserveLayoutOnMobile":true
+    },
+    "children":["department-search"]
+  },
+  "flex-layout.row#search__quick-order":{
+    "props":{
+      "horizontalAlign":"right",
+      "preserveLayoutOnMobile":true,
+      "colGap":6
+    },
+    "children":["quick-order"]
   }
 }

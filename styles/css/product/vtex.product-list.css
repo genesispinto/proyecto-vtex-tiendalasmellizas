@@ -18,5 +18,8 @@
     color: white !important;
 }
 .productName, .price{
-    color :#954613
+    color :#954613;
+}
+.inputContainer{
+    width: 100px;
 }
