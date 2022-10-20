@@ -1,10 +1,58 @@
 {
     "search-result-layout.mobile":{
-    "children":["rich-text#mobile-response"]
-  },
-  "rich-text#mobile-response":{
-    "props":{
-      "text":"Productos para mobile"
-    }
-  }
+        "blocks": ["search-title.v2"],
+        "children":[
+            "flex-layout.row#header__mobile",
+            "flex-layout.row#mobile__results"
+        ]
+    },
+    "flex-layout.row#header__mobile":{
+        "props":{
+            "preserveLayoutOnMobile":true,
+            "horizontalAlign":"center",
+            "blockClass":"container-header__mobile"
+        },
+        "children":[
+            "flex-layout.col#header__mobile"
+        ]
+    },
+    "flex-layout.col#header__mobile":{
+        "props":{
+            "preventVerticalStretch":true,
+            "horizontalAlign":"center"
+        },
+        "children":[
+            "rich-text#header__mobile--titulo",
+            "rich-text#header__mobile"
+        ]
+    },
+    "rich-text#header__mobile--titulo":{
+        "title":"titulo seccion",
+         "props":{
+            "textAlignment": "CENTER",
+             "text":"# ALMENDRAS",
+             "blockClass":"text1-header__mobile"
+         }
+     },
+     "rich-text#header__mobile":{
+         "props":{
+            "textAlignment": "CENTER",
+             "text":"Contamos con una gran variedad de productos en almendras, frutos secos, fruta deshidratada, semillas y productos mezclados tipo mix. Todos de primera calidad para ser despachados en los mejores envases para garantizar que lleguen en perfectas condiciones a destino.",
+            "blockClass":"text2-header__mobile"
+         }
+     },
+     "flex-layout.row#mobile__results":{
+        "props":{
+            "preserveLayoutOnMobile":true
+        },
+        "children":[
+            "flex-layout.col#mobile__results"
+        ]
+     },
+     "flex-layout.col#mobile__results":{
+        "children":[
+            "filter-navigator.v3",
+            "flex-layout.col#desktop__results--search"
+        ]
+     }
 }

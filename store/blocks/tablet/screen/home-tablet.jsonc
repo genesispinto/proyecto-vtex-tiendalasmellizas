@@ -1,0 +1,18 @@
+{
+    "responsive-layout.tablet#home":{
+        "children":[
+            "flex-layout.row#home__section--one",
+            "flex-layout.row#section__information--webpay",
+            "flex-layout.row#home__tablet-section--information",
+            "list-context.bullet-group",
+            "flex-layout.row#home__tablet-section--three",
+            "flex-layout.row#home__section--category1",
+            "flex-layout.row#home__section--category2",
+            "flex-layout.row#home__tablet-section--four",
+            "search-result-layout.customQuery#home__search",
+            "flex-layout.row#search__department",
+            "flex-layout.row#search__quick-order"
+        ]
+       
+    }
+}

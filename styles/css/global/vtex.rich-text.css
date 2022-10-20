@@ -67,3 +67,26 @@
     color: #954613;
     border-bottom: 1px solid #954613;
 }
+.heading--text1-header__mobile{
+    text-shadow: 0.075em 0.08em 0.1em rgba(0,0,0,.75);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-right: 15px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    color: #fff;
+}
+.paragraph--text2-header__mobile{
+    font-weight: bold;
+    color: rgba(255,255,255,.85);
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media (min-width: 834px) and (max-width: 1194px){
+    .paragraph--text2-header__mobile{
+        margin-left: 16.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+}

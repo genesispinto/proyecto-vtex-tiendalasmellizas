@@ -1,0 +1,9 @@
+{
+    "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer--desktop__top",
+      "flex-layout.row#footer--desktop__middle",
+      "flex-layout.row#footer--desktop__bottom"
+    ]
+  }
+}

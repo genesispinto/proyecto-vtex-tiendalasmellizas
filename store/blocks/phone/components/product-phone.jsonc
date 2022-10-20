@@ -1,11 +1,5 @@
 {
-    "responsive-layout.phone#product":{
-        "children":[
-            "flex-layout.row#product-phone",
-            "flex-layout.row#product__tabs"
-            
-        ]
-    },
+    
     "flex-layout.row#product-phone":{
         "props":{
             "preserveLayoutOnMobile":true,
