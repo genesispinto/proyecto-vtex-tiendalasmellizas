@@ -1,0 +1,9 @@
+{
+    "flex-layout.row#search__department":{
+        "props":{
+          "horizontalAlign":"right",
+          "preserveLayoutOnMobile":true
+        },
+        "children":["department-search"]
+      }
+}

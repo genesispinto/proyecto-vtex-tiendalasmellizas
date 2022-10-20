@@ -64,7 +64,6 @@
       "product-summary-name",
       "product-list-price",
       "product-selling-price",
-      // "product-summary-sku-selector",
       "add-to-cart-button",
       "product-rating-inline",
       "modal-trigger#global__quick-view"

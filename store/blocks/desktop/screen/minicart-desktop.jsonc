@@ -1,0 +1,12 @@
+{
+    "minicart.v2#desktop":{
+        "props":{           
+            "variation":"popup",
+            "itemCountMode":"total",
+            "quantityDisplay":"always",
+            "width":"10%",
+            "MinicartIcon": "icon-cart#mpa-bag"
+        },
+        "children":["minicart-base-content#desktop"]
+    }
+}

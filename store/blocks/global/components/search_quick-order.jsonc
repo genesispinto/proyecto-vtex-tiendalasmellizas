@@ -1,0 +1,10 @@
+{
+    "flex-layout.row#search__quick-order":{
+        "props":{
+          "horizontalAlign":"right",
+          "preserveLayoutOnMobile":true,
+          "colGap":6
+        },
+        "children":["quick-order"]
+      }
+}

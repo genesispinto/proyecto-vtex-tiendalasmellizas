@@ -1,0 +1,89 @@
+{
+    "flex-layout.row#menu__mobile":{
+        "props":{
+            "preserveLayoutOnMobile": true,
+            "blockClass":"center_items_mobile"
+        },
+        "children":[
+           "flex-layout.col#drawe__mobile",
+           "flex-layout.col#drawe-text__mobile",
+           "flex-layout.col#logo__mobile",
+           "flex-layout.col#login__mobile",
+           "flex-layout.col#minicart__mobile" 
+           
+        ]
+    },
+    "flex-layout.col#drawe__mobile":{
+        "props":{
+            "width":"10%"
+        },
+        "children":["drawer#mobile"]
+    },
+    "flex-layout.col#drawe-text__mobile":{
+        "props":{
+            "horizontalAlign":"left"
+        },
+        "children":["rich-text#open-drawer"]
+    },
+    "flex-layout.col#logo__mobile":{
+        "children":["logo#mobile"]
+    },
+    "flex-layout.col#login__mobile":{
+        "children":["login"]
+    },
+    "flex-layout.col#minicart__mobile":{
+        "children":["minicart.v2#mobile"]
+    },
+    "drawer#mobile": {
+        "children": [
+            //"flex-layout.row#search-bar__mobile",
+            "flex-layout.row#menu1__mobile"
+            ],
+        "props":{
+            "blockClass":"mobile",
+            "maxWidth":300
+        }
+      },
+      "flex-layout.row#search-bar__mobile":{
+        "children":["search-bar"]
+      },
+       "flex-layout.row#menu1__mobile":{
+        "children":["menu#header__deparment--mobile"]
+      },
+      "rich-text#open-drawer": {
+        "props": {
+          "text": "Tienda",
+          "blockClass":"drawer"
+        }
+      }, 
+      "menu#header__deparment--mobile":{
+        "children":[
+            "menu-item#department__one", 
+            "menu-item#department__two",
+            "menu-item#department__three",
+            "menu-item#department__four",
+            "menu-item#department__five",
+            "menu-item#department__six",
+            "menu-item#department__seven",
+            "menu-item#department__eigth"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass":"menu_mobile"
+          }
+      },
+      "logo#mobile":{
+        "title":"imagen logo",
+        "props": {
+          "blockClass":"logo-mobile",
+          "title": "Las Mellizas",
+          "href": "/",
+          "url": "assets/img/mobile-nav-logo.svg",
+          "width": 82,
+          "height": 12,
+          "mobileWidth": 82,
+          "mobileHeight": 12
+      }
+    }
+      
+}

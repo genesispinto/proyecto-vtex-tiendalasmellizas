@@ -1,6 +1,6 @@
 .styledLinkContainer{
     margin: 0 ;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     padding: 0;
 }
 
@@ -32,7 +32,6 @@
 
 .styledLinkContent--department__four, .styledLinkContent--department__five{
     padding: 0 0.5rem;
-    white-space: normal;
 }
 .menuContainerNav--menu{
     margin-left: 4rem;
@@ -66,8 +65,11 @@
     background-color: rgba(255, 255, 255, 0.158);
     color: #e4d0c3;
 }
-@media (min-width: 481px) and (max-width: 834px){
-    .styledLinkContent{
+@media (min-width: 390px) and (max-width: 834px){
+    .styledLinkContent--menu_mobile,
+    .styledLinkContent--flecha,
+    .styledLinkContent--department__four,
+    .styledLinkContent--department__five{
         margin: 1rem;
         border-bottom: 0.012rem solid #80808088;
         text-align: center;

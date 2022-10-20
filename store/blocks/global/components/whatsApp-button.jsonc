@@ -1,0 +1,10 @@
+{
+    "whatsapp-button":{
+        "props":{
+          "logo":"assets/img/whatsapp.png",
+          "phone":"+56947844634",
+          "message": "Hola buen dia, necesito ayuda"
+        }
+    
+      }
+}

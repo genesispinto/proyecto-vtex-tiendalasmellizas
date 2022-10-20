@@ -1,0 +1,85 @@
+{
+    
+    "minicart-base-content#mobile":{
+         "blocks":["minicart-empty-state"],
+         "children":[
+            "minicart-product-list#mobile",
+            "flex-layout.row#minicart__footer-mobile"
+        ]
+    },
+    "flex-layout.row#minicart__footer-mobile":{
+        "props":{
+            "preserveLayoutOnMobile":true,
+            "preventHorizontalStretch":true
+        },
+        "children": [
+          "flex-layout.col#minicart__footer-mobile"
+            ]
+
+    },
+    "flex-layout.col#minicart__footer-mobile":{
+        "props":{
+            "width":"80%",
+            "marginLeft":3
+        },
+      "children":[
+      "minicart-summary",
+      "minicart-checkout-button#mobile"
+    ]
+    },
+    "minicart-checkout-button#mobile":{
+      "props":{
+        "text":"Continuar mobile"
+      }
+    },
+    "minicart-product-list#mobile": {
+        "blocks": ["product-list#minicart-mobile"]
+      },
+      "product-list#minicart-mobile": {
+        "blocks": ["product-list-content-mobile"]
+      },
+    "product-list-content-mobile":{
+        "children":[
+        "flex-layout.row#minicart__info--mobile",
+        "flex-layout.row#minicart__quantity--mobile"
+        ]
+        
+    },
+    "flex-layout.row#minicart__info--mobile":{
+        "props":{
+            "preserveLayoutOnMobile":true,
+            "horizontalAlign":"left"
+        },
+        "children":[
+            "flex-layout.col#minicart__image-mobile",
+            "flex-layout.col#minicart__info--mobile"  
+        ]
+    },
+    "flex-layout.col#minicart__image-mobile":{
+        "props":{
+            "width":"25%"
+        },
+        "children":["product-list-image"]
+    },
+    "flex-layout.col#minicart__info--mobile":{
+        "props":{
+            "width":"60%",
+            "paddingLeft":5
+        },
+        "children":[
+            "vtex.product-list:product-name",
+            "price"
+        ]
+    },
+    "flex-layout.row#minicart__quantity--mobile":{
+        "props":{
+            "preserveLayoutOnMobile":true,
+            "horizontalAlign":"left",
+            "colGap":5
+        },
+        "children":[
+            "quantity-selector#minicart",
+            "remove-button"
+        ]
+    }
+}
