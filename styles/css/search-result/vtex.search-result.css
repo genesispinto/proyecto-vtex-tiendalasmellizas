@@ -1,0 +1,40 @@
+.filterApplyButtonWrapper :global(.vtex-button__label){
+    color: black;
+}
+
+@media (min-width: 390px) and (max-width: 1194px){
+
+    .filterPopupTitle{
+        content: " ";
+        color: #9FD668;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.75rem;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    
+    .filterIcon{
+        display: none;
+    }
+    .filterIcon::after{
+        display: inline-block;
+        margin-left: .6rem;
+        margin-top: .3rem;
+        vertical-align: .255rem;
+        content: "";
+        border-top: .3rem solid;
+        border-right: .3rem solid transparent;
+        border-bottom: 0;
+        border-left: .3rem solid transparent;
+        color: #954613;
+    }
+    
+}
+@media (min-width: 834px) and (max-width: 1194px){
+    .galleryItem{
+        display: grid;
+        width: 200px;
+        height: 400px;
+        max-width: 250px !important;
+    }
+}

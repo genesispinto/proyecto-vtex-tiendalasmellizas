@@ -1,0 +1,14 @@
+{
+    "search-result-layout.customQuery#home__search":{
+        "props":{
+          "querySchema":{
+            "skusFilter":"ALL" 
+          }
+        },
+        "blocks":[
+          "search-result-layout.desktop#home__search",
+          "search-result-layout.mobile#home__search",
+          "search-not-found-layout"
+        ]
+      }
+}

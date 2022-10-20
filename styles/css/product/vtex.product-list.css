@@ -23,3 +23,8 @@
 .inputContainer{
     width: 100px;
 }
+@media (min-width: 390px) and (max-width: 834px){
+    .inputContainer{
+        width: 50px;
+    }
+}

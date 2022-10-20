@@ -1,0 +1,17 @@
+{
+    "responsive-layout.phone#home":{
+        "children":[
+            "flex-layout.row#home__phone-section--one",
+            "flex-layout.row#section__information--webpay",
+            "flex-layout.row#home__phone-section--information1",
+            "flex-layout.row#home__phone-section--information2",
+            "list-context.bullet-group",
+            "flex-layout.row#home__phone-section--three",
+            "flex-layout.row#home__phone-section--category",
+            "flex-layout.row#home__phone-section--four",
+            "search-result-layout.customQuery#home__search",
+            "flex-layout.row#search__department",
+            "flex-layout.row#search__quick-order"
+        ]
+    }
+}

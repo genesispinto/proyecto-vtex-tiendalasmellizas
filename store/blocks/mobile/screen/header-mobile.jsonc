@@ -1,0 +1,7 @@
+{
+    "header-layout.mobile":{
+        "children":[
+            "flex-layout.row#menu__mobile"
+        ]
+    }
+}

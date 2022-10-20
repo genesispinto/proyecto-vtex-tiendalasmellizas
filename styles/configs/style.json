@@ -221,8 +221,8 @@
       "muted-5": "#f2f4f5"
     },
     "on": {
-      "base": "#3f3f40",
-      "base--inverted": "#ffffff",
+      "base": "#000",
+      "base--inverted": "#9FD668",
       "action-primary": "#ffffff",
       "action-secondary": "#ffffff",
       "emphasis": "#000000",
@@ -327,8 +327,8 @@
         "fontFamily": "sans-serif, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "700",
         "fontSize": "3rem",
-        "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "text-align": "center"
       },
       "heading-2": {
         "fontFamily": "sans-serif, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
