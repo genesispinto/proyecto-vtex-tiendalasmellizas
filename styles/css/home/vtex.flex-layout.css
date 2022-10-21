@@ -1,0 +1,27 @@
+.flexRow--sectinformation{
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+
+.flexRowContent--home-sectiom-four{
+    background-image: url(https://dojiw2m9tvv09.cloudfront.net/4210/3/home-about-bg_left-2.jpg?558), url(https://dojiw2m9tvv09.cloudfront.net/4210/3/home-about-bg_right-2.jpg?558);
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+}
+
+.flexRowContent--modal_quick-view{
+    width: 800px;
+    height: 450px;
+    padding: 1rem;
+}
+.flexColChild--category2{
+    width: 40%;
+}
+.flexRowContent--home__mobile-infomation1 :global(.vtex-rich-text-0-x-paragraph){
+    font-size: small;
+}
+.flexRowContent--home__mobile-section3 :global(.vtex-rich-text-0-x-paragraph){
+    text-align: center;
+}

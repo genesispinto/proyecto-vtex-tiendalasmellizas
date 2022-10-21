@@ -1,0 +1,21 @@
+.imageElement--home__image{
+    margin-right: 0;
+}
+
+.carouselThumbBorder{
+    width: 50px;
+    height: 50px;
+   
+}
+.carouselGaleryThumbs{
+    margin-left: 5rem;
+}
+.container{
+    background-color: transparent;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .imageElement--home__image{
+        width: 200px !important;
+        height: 200px !important;
+    }
+  }

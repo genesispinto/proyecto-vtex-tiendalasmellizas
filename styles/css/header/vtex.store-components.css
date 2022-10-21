@@ -1,0 +1,33 @@
+.imageElementLink--logo-mobile{
+    text-align: center; 
+}
+.searchBarContainer{
+    width: 20rem;
+    margin-right: 4rem;
+
+}
+.searchIcon{
+    color: white;
+}
+.container--menu__departamento{
+    align-items: center;
+}
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+    border: 0
+}
+.autoCompleteOuterContainer :global(.vtex-input__suffix){
+    background-color: #954613;
+    width: 1rem;
+}
+.autoCompleteOuterContainer :global(.vtex-input) ::placeholder{
+    color: #954613;
+}
+.autoCompleteOuterContainer :global(.vtex-input) {
+    border-bottom: 0.5px solid #954613;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logoImage--logo-mobile{
+        width: 200px;
+        height: 40px;
+    }
+  }
