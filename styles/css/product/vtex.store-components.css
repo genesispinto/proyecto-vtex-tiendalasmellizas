@@ -1,0 +1,25 @@
+.imageElement--space{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 1rem;
+    height: 1rem;
+    
+}
+.productBrand--name_product{
+    font-size: 1.75rem;
+    color: #954613;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.productDescriptionTitle{
+    display: none;
+}
+.productDescriptionText{
+    font-size: 1.15rem;
+    color: #BFA760;
+    margin: 0 0 0.9375rem;
+    text-align: center;
+}
+.productDescriptionContainer{
+    margin: 3.3rem;
+}

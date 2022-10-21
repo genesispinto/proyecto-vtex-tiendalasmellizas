@@ -1,0 +1,28 @@
+.flexRowContent--header__logo,
+.flexRowContent--menu__departament{
+    background-color: white;
+}
+.flexRowContent--networks{
+    margin-left: 4rem;
+}
+.flexRowContent--container-header__mobile{
+    background-color: #9D897B;
+    background-image: url("https://dojiw2m9tvv09.cloudfront.net/4210/3/category-banner_all-products-32.jpg?581");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: auto;
+    width: 100%;
+}
+.flexRowContent--center_items_mobile{
+    align-items: center;
+
+}
+.flexRow--center_items_mobile{
+    border-top: 5px solid #954613;
+}

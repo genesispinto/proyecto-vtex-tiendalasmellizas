@@ -1,6 +1,7 @@
 {
     "responsive-layout.tablet#product":{
         "children":[
+            "flex-layout.row#product__breadcrumb",
             "flex-layout.row#product__info",
             "flex-layout.row#product__tabs"
         ]
