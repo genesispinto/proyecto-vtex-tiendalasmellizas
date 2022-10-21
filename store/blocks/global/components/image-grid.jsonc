@@ -1,0 +1,67 @@
+{
+    "image#grid__image1":{
+        "title":"Imagen grid",
+        "props":{
+            "src":"assets/img/frutosecos.png",
+            "title":"nuts",
+            "blockClass": "image_grid",
+            "link":{
+                "url":"/construccion",
+                "newTab": true,
+                "attributeNoFollow":true
+            }
+        }
+    },
+    "image#grid__image2":{
+        "title":"Imagen grid",
+        "props":{
+            "src":"assets/img/frutosecos.png",
+            "title":"nuts",
+            "blockClass": "image_grid",
+            "link":{
+                "url":"/construccion",
+                "newTab": true,
+                "attributeNoFollow":true
+            }
+        }
+    },
+    "image#grid__image3":{
+        "title":"Imagen grid",
+        "props":{
+            "src":"assets/img/semillas.png",
+            "title":"nuts",
+            "blockClass": "image_grid",
+            "link":{
+                "url":"/construccion",
+                "newTab": true,
+                "attributeNoFollow":true
+            }
+        }
+    },
+    "image#grid__image4":{
+        "title":"Imagen grid",
+        "props":{
+            "src":"assets/img/frutosecos.png",
+            "title":"nuts",
+            "blockClass": "image_grid",
+            "link":{
+                "url":"/construccion",
+                "newTab": true,
+                "attributeNoFollow":true
+            }
+        }
+    },
+    "image#grid__image5":{
+        "title":"Imagen grid",
+        "props":{
+            "src":"assets/img/semillas.png",
+            "title":"nuts",
+            "blockClass": "image_grid",
+            "link":{
+                "url":"/construccion",
+                "newTab": true,
+                "attributeNoFollow":true
+            }
+        }
+    }
+}

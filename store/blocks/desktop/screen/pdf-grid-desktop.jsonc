@@ -1,0 +1,10 @@
+{
+    "responsive-layout.desktop#pdf-grid":{
+        "children":[
+            "pdf-reader",
+            "special-diagramation"
+        ]
+           
+        
+    }
+}
