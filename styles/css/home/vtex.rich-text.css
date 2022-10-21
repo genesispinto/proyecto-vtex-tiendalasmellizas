@@ -1,0 +1,32 @@
+.paragraph--text1section3,.paragraph--text1section4{
+    font-family: 'Eczar', serif;
+    font-size: 2.25rem;
+    color: #954613;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.paragraph--text2section3, .paragraph--text2section4{
+    font-weight: bold;
+    color: #a09289;
+    font-size: 1rem;
+}
+.paragraph--text1section4{
+    margin: 0;
+}
+.paragraph--text2section4{
+    width: auto;
+}
+.wrapper--text2section3{
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.paragraph--text1,.paragraph--text2{
+    font-weight: bold;
+    color: #a09289;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 1rem;
+  
+}
