@@ -95,22 +95,6 @@
           "callToActionUrl": "/",
           "textAlignment": "center"
         }
-      },
-      "pdf-reader":{
-        "props":{
-          "pdfUrl": "assets/documents/Cv- GenesisPinto1.pdf",
-          "width":500,
-          "height":800
-        }
-      },
-      "special-diagramation":{
-        "children":[
-         "image#home__image1",
-         "image#home__image2",
-         "image#home__image3",
-         "image#home__image4",
-         "image#home__image5"
-        ]
       }
 
 

@@ -1,0 +1,10 @@
+{
+    "responsive-layout.mobile#pdf-grid":{
+        "children":[
+            "pdf-reader",
+            "special-diagramation"
+        ]
+           
+        
+    }
+}

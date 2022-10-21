@@ -1,0 +1,11 @@
+{
+    "special-diagramation":{
+        "children":[
+         "image#grid__image1",
+         "image#grid__image2",
+         "image#grid__image3",
+         "image#grid__image4",
+         "image#grid__image5"
+        ]
+      }
+}

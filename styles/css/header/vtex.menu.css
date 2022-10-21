@@ -65,7 +65,7 @@
     background-color: rgba(255, 255, 255, 0.158);
     color: #e4d0c3;
 }
-@media (min-width: 390px) and (max-width: 834px){
+@media (min-width: 390px) and (max-width: 1194px){
     .styledLinkContent--menu_mobile,
     .styledLinkContent--flecha,
     .styledLinkContent--department__four,

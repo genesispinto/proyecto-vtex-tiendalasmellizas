@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#product__info-mobile":{
+        "children":[
+            "flex-layout.col#product__info--image",
+            "flex-layout.col#product__info--data-mobile"
+        ]
+    },
+    "flex-layout.col#product__info--data-mobile":{
+        "children":[
+            "vtex.store-components:product-name",
+            "product-rating-inline",
+            "product-list-price",
+            "product-selling-price",
+            "product-description",
+            "product-quantity#pdp",
+            "add-to-cart-button",
+            "share",
+            "modal-trigger#add-to-cart-info"
+        ]
+    }
+}

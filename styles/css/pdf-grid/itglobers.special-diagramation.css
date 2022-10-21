@@ -1,0 +1,25 @@
+.grid_1{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #959595;
+    margin: 20px auto;
+    background-image: url(https://dojiw2m9tvv09.cloudfront.net/4210/3/home-about-bg_left-2.jpg?558), url(https://dojiw2m9tvv09.cloudfront.net/4210/3/home-about-bg_right-2.jpg?558);
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+}
+.containerTwo{
+    margin-left: 20px;
+    margin-top: 2px;
+    width: 100px;
+    border: 5px solid #954613;
+    background-color: #954713b2;
+}
+.containerOne{
+    margin-left: 30px;
+    margin-top: 2px;
+    width: 100px;
+    height: auto;
+    border: 5px solid #954613;
+    background-color: #954713b2;
+}
