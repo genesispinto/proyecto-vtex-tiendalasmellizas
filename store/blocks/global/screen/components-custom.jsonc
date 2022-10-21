@@ -1,0 +1,9 @@
+{
+    "store.custom#pdf-grid":{
+        "children":[
+            "responsive-layout.desktop#pdf-grid",
+            "responsive-layout.mobile#pdf-grid"
+        ]
+        
+    }
+}

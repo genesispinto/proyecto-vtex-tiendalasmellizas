@@ -1,5 +1,8 @@
 {
     "store.custom#about-us":{
         "path":"/sobrenosotros"
+    },
+    "store.custom#pdf-grid":{
+        "path":"/componentescustom"
     }
 }

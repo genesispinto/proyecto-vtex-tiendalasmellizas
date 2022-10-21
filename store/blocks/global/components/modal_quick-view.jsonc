@@ -26,7 +26,8 @@
     
             ],
             "props":{
-              "blockClass":"modal_quick-view"
+              "blockClass":"modal_quick-view",
+              "preserveLayoutOnMobile":true
             }
           },
           "flex-layout.col#quick-view__image":{

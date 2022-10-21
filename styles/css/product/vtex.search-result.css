@@ -37,4 +37,7 @@
         height: 400px;
         max-width: 250px !important;
     }
+    .gallery {
+        margin-bottom: 20px;
+    }
 }

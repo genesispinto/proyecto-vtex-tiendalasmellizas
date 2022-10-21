@@ -86,6 +86,7 @@
     },
     "add-to-cart-button":{
         "props":{
+            "blockClass":"button_pdp",
             "text":"Agregar al carro"
         }
     },

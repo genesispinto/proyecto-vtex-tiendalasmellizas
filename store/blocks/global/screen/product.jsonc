@@ -3,7 +3,7 @@
         "children":[
             "flex-layout.row#product__breadcrumb",
             "responsive-layout.desktop#product",
-            "responsive-layout.tablet#product",
+            "responsive-layout.mobile#product",
             "responsive-layout.phone#product"
 
         ]
