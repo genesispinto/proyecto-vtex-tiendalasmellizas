@@ -25,7 +25,7 @@ __________
 ## :key:Dependencias
 
 
-2. Store-theme: Listado de apps que están funcionando en la tienda
+1. Store-theme: Listado de apps que están funcionando en la tienda
 
 ```ruby
   "dependencies": 
@@ -81,7 +81,13 @@ __________
     "itglobers.special-diagramation": "0.x"
   }
 ```
-
+```ruby
+    "peerDependencies": {
+    "vtex.wish-list": "1.x",
+    "vtex.reviews-and-ratings": "3.x",
+    "vtex.questions-and-answers": "0.x"
+  }
+```
 ## :black_nib:Autor
 
  [<sub>Génesis Pinto</sub>](https://github.com/genesispinto) 
