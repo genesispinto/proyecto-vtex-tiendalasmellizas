@@ -1,11 +1,19 @@
 {
     "flex-layout.row#product__info-mobile":{
+        "props":{
+            "preserveLayoutOnMobile":true,
+            "horizontalAlign":"center"
+        },
         "children":[
             "flex-layout.col#product__info--image",
             "flex-layout.col#product__info--data-mobile"
         ]
     },
     "flex-layout.col#product__info--data-mobile":{
+        "props":{
+            "blockClass":"button_pdp",
+            "horizontalAlign":"center"
+        },
         "children":[
             "vtex.store-components:product-name",
             "product-rating-inline",

@@ -40,7 +40,6 @@
       "flex-layout.row#menu-mobile":{
         "props":{
           "preserveLayoutOnMobile":true,
-          "preventHorizontalStretch":true,
           "horizontalAlign":"center"
           
         },

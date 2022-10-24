@@ -1,0 +1,12 @@
+{
+    "flex-layout.row#add-to-cart-info-mobile":{
+        "props":{
+            "preserveLayoutOnMobile":true,
+            "horizontalAlign":"center"
+        },
+        "children":["flex-layout.col#add-to-cart-info-mobile"]
+    },
+    "flex-layout.col#add-to-cart-info-mobile":{
+        "children":["add-to-cart-info"]
+    }
+}

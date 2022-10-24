@@ -1,0 +1,10 @@
+{
+    "modal-layout#global__quick-view":{
+        "children":[
+          "modal-header",              
+         "responsive-layout.desktop#quick-view_desktop",
+         "responsive-layout.tablet#quick-view_tablet",
+         "responsive-layout.phone#quick-view_phone"                        
+        ]            
+      }
+}

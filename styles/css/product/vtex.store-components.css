@@ -10,6 +10,7 @@
     color: #954613;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
 }
 .productDescriptionTitle{
     display: none;
@@ -18,8 +19,10 @@
     font-size: 1.15rem;
     color: #BFA760;
     margin: 0 0 0.9375rem;
-    text-align: center;
 }
 .productDescriptionContainer{
     margin: 3.3rem;
+}
+.productNameContainer--name_product{
+    text-align: center;
 }

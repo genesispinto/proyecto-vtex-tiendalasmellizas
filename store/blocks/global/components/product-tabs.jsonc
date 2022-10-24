@@ -3,14 +3,13 @@
         "title":"Informacion adicional",
         "children": [
           "tab-layout#product__reviews-and-ratings"
-          // "flex-layout.col#product__tabs"
+
           ]
         },
         "flex-layout.col#product__tabs":{
           "children": [
             "flex-layout.row#product__reviews-and-ratings"
-            // "flex-layout.row#product__product-specification",
-            // "flex-layout.row#product__question"
+
 
             ]
         },
@@ -97,13 +96,7 @@
       "tab-content.item#tabs--list--question"
       ]
   },
-// "tab-content#product__tabs--content": {
-// "children": [
-// "tab-content.item#tabs--list--reviews-and-ratings",
-// "tab-content.item#tabs--list--product-specification",
-// "tab-content.item#tabs--list--question"
-// ]
-// },
+
 "tab-content.item#tabs--list--reviews-and-ratings": {
 "children": [
     "product-reviews"
