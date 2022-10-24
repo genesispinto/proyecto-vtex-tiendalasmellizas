@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#quick-view__modal-phone":{
+      "props":{
+        "preserveLayoutOnMobile":true,
+        "horizontalAlign":"center"
+      },
+        "children":["flex-layout.col#quick-view__modal-phone"]
+      },
+      "flex-layout.col#quick-view__modal-phone":{
+        "props":{
+          "horizontalAlign":"center"
+        },
+        "children":[
+          "add-to-list-btn",
+          "product-images", 
+          "vtex.store-components:product-name",
+          "product-selling-price",
+          "product-description",
+          "product-quantity#quick-view",
+          "add-to-cart-button",
+          "share" 
+        ]           
+      }
+}

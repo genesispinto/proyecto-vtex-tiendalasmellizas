@@ -1,0 +1,5 @@
+{
+    "responsive-layout.mobile#add-to-cart-info":{
+        "children":["flex-layout.row#add-to-cart-info-mobile"]
+    }
+}

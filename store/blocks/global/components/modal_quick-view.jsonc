@@ -12,30 +12,37 @@
           "blockClass":"quick-view__trigger"
         }
       },
-          "modal-layout#global__quick-view":{
-            "children":[
-              "modal-header",
-              "flex-layout.row#quick-view__modal"
-            ]
-            
-          },
           "flex-layout.row#quick-view__modal":{
-            "children":[
-              "flex-layout.col#quick-view__image",
-              "flex-layout.col#quick-view__info"
-    
-            ],
             "props":{
               "blockClass":"modal_quick-view",
-              "preserveLayoutOnMobile":true
-            }
+              "preserveLayoutOnMobile":true,
+              "horizontalAlign":"center"
+            },
+            "children":[
+              "flex-layout.col#quick-view__image",
+              "flex-layout.col#quick-view__info"    
+            ]           
           },
+         
           "flex-layout.col#quick-view__image":{
+            "props":{
+              "blockClass":"quick-view-image",
+              "horizontalAlign":"center",
+              "width":"50%",
+              "preserveLayoutOnMobile":true
+            },
             "children":[
               "add-to-list-btn",
               "product-images"]
           },
           "flex-layout.col#quick-view__info":{
+            "props":{
+              "blockClass":"quick-view-info",
+              "width":"50%",
+              "preserveLayoutOnMobile":true,
+              "horizontalAlign":"center"
+
+            },
             "children":[
               "vtex.store-components:product-name",
               "product-selling-price",

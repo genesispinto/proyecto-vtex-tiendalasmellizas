@@ -64,6 +64,7 @@
         ],
         "props": {
           "orientation": "vertical",
+          "horizontalAlign":"center",
           "blockClass":"footer__contact"
         }
       },

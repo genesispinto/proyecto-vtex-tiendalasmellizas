@@ -25,3 +25,7 @@
 .flexRowContent--home__mobile-section3 :global(.vtex-rich-text-0-x-paragraph){
     text-align: center;
 }
+.productImageTag--main{
+    width: 100%;
+}
+
