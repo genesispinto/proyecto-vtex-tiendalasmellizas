@@ -5,8 +5,8 @@
             "itemCountMode":"total",
             "quantityDisplay":"always",
             "width":"30%",
-            "MinicartIcon": "icon-cart#mpa-bag",
-            "maxDrawerWidth":600
+            "MinicartIcon": "icon-cart#mpa-bag"
+            // "maxDrawerWidth":600
         },
         "children":["minicart-base-content#mobile"]
     }

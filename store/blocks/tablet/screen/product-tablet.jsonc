@@ -1,7 +1,6 @@
 {
-    "responsive-layout.mobile#product":{
+    "responsive-layout.tablet#product":{
         "children":[
-            "flex-layout.row#product__breadcrumb",
             "flex-layout.row#product__info-mobile",
             "flex-layout.row#product__tabs"
         ]

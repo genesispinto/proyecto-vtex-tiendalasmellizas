@@ -14,7 +14,7 @@
             "verticalAlign":"middle"
         },
         "children":[
-            "product-images#product__info--image",
+            "product-images#product__info--image-phone",
             "vtex.store-components:product-name",
             "product-rating-inline",
             "product-list-price",
@@ -24,5 +24,15 @@
             "share",
             "modal-trigger#add-to-cart-info"
         ]
+    },
+    "product-images#product__info--image-phone":{
+        "title":"Imagenes",
+        "props":{
+         "aspectRatio":"1.1",
+         "thumbnailsOrientation":"horizontal",
+         "showNavigationArrows":false,
+         "showPaginationDots":true,
+        "displayMode":"first-image"
+        }
     }
 }

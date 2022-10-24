@@ -1,7 +1,7 @@
 .flexColChild--button_pdp :global(.vtex-button){
     background-color: #9FD668;
     border: #9FD668;
-    margin: 22px;
+    /* margin: 22px; */
     margin-top: 32px;
     padding: .5rem 1rem;
     font-size: 1.25rem;
