@@ -1,6 +1,7 @@
 {
     
     "flex-layout.row#home__tablet-section--information":{
+        "title":"section--information tablet",
         "props":{
             "preventHorizontalStretch":true
         },
@@ -12,12 +13,14 @@
         ]
     },
     "flex-layout.row#home__tablet-section--three":{
+        "title":"section--three tablet",
         "props":{
             "marginBottom":3
         },
         "children":["flex-layout.col#home__tablet-section--three"]
     },
     "flex-layout.col#home__tablet-section--three":{
+        "title":"section--three tablet",
         "props":{
             "horizontalAlign":"center",
             "marginLeft":9,
@@ -31,12 +34,14 @@
         ]
     },
     "flex-layout.row#home__tablet-section--four":{
+        "title":"section--four tablet",
         "props":{
             "marginBottom":3
         },
         "children":["flex-layout.col#home__tablet-section--four"]
     },
     "flex-layout.col#home__tablet-section--four":{
+        "title":"section--four tablet",
         "props":{
             "horizontalAlign":"center",
             "marginLeft":10,

@@ -1,5 +1,6 @@
 {
     "responsive-layout.mobile#about-us":{
+        "title":"about-us mobile",
         "children":[
             "flex-layout.row#about-us__info1",
             "flex-layout.row#about-us__info2",

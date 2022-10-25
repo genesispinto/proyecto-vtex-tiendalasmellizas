@@ -1,6 +1,7 @@
 {
     
     "flex-layout.row#home__phone-section--one": {
+        "title":"section--one phone",
         "children":[
             "slider-layout#home__slider--home-phone"
         ],
@@ -9,12 +10,8 @@
         }
     },
 
-    "image#home__phone":{
-        "props":{
-          "src":"assets/img/slider_pasa_cranberry_800x400-01-015247.jpg"
-        }
-      },
     "flex-layout.row#home__phone-section--information1":{
+        "title":"section--information phone",
         "props":{          
             "verticalAlign": "middle",
             "colSizing": "auto",
@@ -26,6 +23,7 @@
         ]
     },
     "flex-layout.col#home__phone-icon1":{
+        "title":"section--information phone",
         "props":{
             "verticalAlign": "middle"
         },
@@ -34,6 +32,7 @@
         ]
     },
     "flex-layout.row#home__phone-section--information2":{
+        "title":"section--information phone",
         "props":{
             "verticalAlign": "middle",
             "colSizing": "auto",
@@ -45,6 +44,7 @@
         ]
     },
     "flex-layout.col#home__phone-icon2":{
+        "title":"section--information phone",
         "props":{
             "verticalAlign": "middle"
         },
@@ -53,9 +53,11 @@
         ]
     },
     "flex-layout.row#section__information--webpay":{
+        "title":"section--information phone",
         "children":["image#section__information--webpay"]
     },
     "flex-layout.row#home__phone-section--three":{
+        "title":"section--three phone",
         "props":{
             "blockClass":"home__mobile-section3"
         },
@@ -65,6 +67,7 @@
         ]
     },
     "flex-layout.row#home__phone-section--category":{
+        "title":"section--category phone",
         "props":{
             "colSizing":"equal"
         },
@@ -73,6 +76,7 @@
         ]
     },
     "flex-layout.col#home__phone-section--category":{
+        "title":"section--category phone",
         "props":{
            "horizontalAlign":"center"
         },
@@ -90,6 +94,7 @@
         ]
     },
     "flex-layout.row#home__phone-section--four":{
+        "title":"section--four phone",
         "props":{
             "blockClass":"home__mobile-section3",
             "preserveLayoutOnMobile":true,
@@ -98,6 +103,7 @@
         "children":["flex-layout.col#home__phone-section--four"]
     },
     "flex-layout.col#home__phone-section--four":{
+        "title":"section--four phone",
         "props":{
             "horizontalAlign":"center",
             "paddingLeft":8,

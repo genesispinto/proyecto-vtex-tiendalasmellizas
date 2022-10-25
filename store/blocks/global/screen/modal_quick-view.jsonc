@@ -1,5 +1,6 @@
 {
     "modal-layout#global__quick-view":{
+      "title":"Modal add-to-cart-info",
         "children":[
           "modal-header",              
          "responsive-layout.desktop#quick-view_desktop",

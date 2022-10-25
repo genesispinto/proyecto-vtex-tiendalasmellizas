@@ -1,0 +1,28 @@
+{
+    "gallery":{
+        "title":"gallery",
+        "blocks":["product-summary.shelf"]
+      },
+      "product-summary.shelf":{
+        "title":"product-summary",
+        "props":{
+          "blockClass":"image-product"
+        },
+        "children":[
+          "add-to-list-btn",
+          "product-summary-image",
+          "product-summary-name",
+          "product-list-price",
+          "product-selling-price",
+          "add-to-cart-button",
+          "product-rating-inline",
+          "modal-trigger#global__quick-view"
+       ]
+      },
+      "product-summary-sku-selector":{
+        "title":"product-summary",
+        "props":{
+          "hideImpossibleCombinations": false
+        }
+      }
+}

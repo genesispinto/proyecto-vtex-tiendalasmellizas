@@ -1,5 +1,6 @@
 {
     "login": {
+      "title":"login",
         "props": {
           "emailAndPasswordTitle": "LOG-IN",
           "emailPlaceholder": "e-mail",

@@ -1,5 +1,6 @@
 {
     "responsive-layout.desktop#pdf-grid":{
+        "title":"grid desktop",
         "children":[
             "pdf-reader",
             "special-diagramation"

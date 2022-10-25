@@ -1,5 +1,6 @@
 {
     "responsive-layout.desktop#add-to-cart-info":{
+        "title":"add-to-cart-info desktop",
         "children":["add-to-cart-info"]
     }
 }

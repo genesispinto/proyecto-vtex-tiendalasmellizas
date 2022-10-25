@@ -1,6 +1,7 @@
 {
     
     "minicart-base-content#mobile":{
+        "title":"minicart mobile",
          "blocks":["minicart-empty-state"],
          "children":[
             "minicart-product-list#mobile",
@@ -8,6 +9,7 @@
         ]
     },
     "flex-layout.row#minicart__footer-mobile":{
+        "title":"minicart footer mobile",
         "props":{
             "preserveLayoutOnMobile":true,
             "preventHorizontalStretch":true
@@ -18,6 +20,7 @@
 
     },
     "flex-layout.col#minicart__footer-mobile":{
+        "title":"minicart footer mobile",
         "props":{
             "width":"80%",
             "marginLeft":3
@@ -28,17 +31,21 @@
     ]
     },
     "minicart-checkout-button#mobile":{
+        "title":"minicart checkout mobile",
       "props":{
         "text":"Continuar mobile"
       }
     },
     "minicart-product-list#mobile": {
+        "title":"minicart product list mobile",
         "blocks": ["product-list#minicart-mobile"]
       },
       "product-list#minicart-mobile": {
+        "title":"minicart product list mobile",
         "blocks": ["product-list-content-mobile"]
       },
     "product-list-content-mobile":{
+        "title":"minicart product list mobile",
         "children":[
         "flex-layout.row#minicart__info--mobile",
         "flex-layout.row#minicart__quantity--mobile"
@@ -46,9 +53,11 @@
         
     },
     "flex-layout.row#minicart__info--mobile":{
+        "title":"minicart product mobile",
         "props":{
             "preserveLayoutOnMobile":true,
-            "horizontalAlign":"left"
+            "horizontalAlign":"left",
+            "rowGap":6
         },
         "children":[
             "flex-layout.col#minicart__image-mobile",
@@ -56,14 +65,16 @@
         ]
     },
     "flex-layout.col#minicart__image-mobile":{
+        "title":"minicart image product mobile",
         "props":{
             "width":"25%"
         },
         "children":["product-list-image"]
     },
     "flex-layout.col#minicart__info--mobile":{
+        "title":"minicart data product list mobile",
         "props":{
-            "width":"60%",
+            "width":"80%",
             "paddingLeft":5
         },
         "children":[
@@ -72,6 +83,7 @@
         ]
     },
     "flex-layout.row#minicart__quantity--mobile":{
+        "title":"minicart quantity mobile",
         "props":{
             "preserveLayoutOnMobile":true,
             "horizontalAlign":"left",

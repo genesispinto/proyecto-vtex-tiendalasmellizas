@@ -1,5 +1,6 @@
 {
     "pdf-reader":{
+      "title":"PDF-READER",
         "props":{
           "pdfUrl": "assets/documents/img1.pdf",
           "width":500,

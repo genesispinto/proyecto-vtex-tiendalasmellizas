@@ -1,5 +1,6 @@
 {
     "responsive-layout.desktop#quick-view_desktop":{
-    "children": ["flex-layout.row#quick-view__modal"]
+      "title":"quick view desktop",
+      "children": ["flex-layout.row#quick-view__modal"]
   }
 }

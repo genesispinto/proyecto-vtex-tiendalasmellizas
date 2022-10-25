@@ -1,5 +1,6 @@
 {
     "responsive-layout.phone#product":{
+        "title":"product phone",
         "children":[
             "flex-layout.row#product-phone",
             "flex-layout.row#product__tabs"

@@ -1,0 +1,10 @@
+{
+    "search-result-layout.mobile":{
+        "title":"search result mobile",
+        "blocks": ["search-title.v2"],
+        "children":[
+            "flex-layout.row#header__mobile",
+            "flex-layout.row#mobile__results"
+        ]
+    }
+}

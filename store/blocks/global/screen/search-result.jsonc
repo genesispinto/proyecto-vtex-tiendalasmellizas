@@ -1,0 +1,10 @@
+{
+    "search-result-layout#department":{
+        "title":"search result department",
+        "blocks":[
+          "search-result-layout.desktop#department",
+          "search-result-layout.mobile#department",
+          "search-not-found-layout"
+        ]
+      }
+}

@@ -1,6 +1,6 @@
 {
     "flex-layout.col#footer--desktop__products":{
-
+      "title":"footer products",
         "children":[
           "rich-text#footer__products",
           "menu#footer__products"
@@ -12,12 +12,14 @@
     
       },
       "rich-text#footer__products":{
+        "title":"footer products texr",
         "props":{
           "text":"PRODUCTOS",
           "blockClass":"footer__products"
         }
       },
       "menu#footer__products":{
+        "title":"footer products",
         "children":[
           "menu-item#products__almonds",
           "menu-item#products__nuts",

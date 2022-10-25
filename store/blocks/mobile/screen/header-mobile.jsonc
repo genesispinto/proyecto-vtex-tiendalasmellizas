@@ -1,5 +1,6 @@
 {
     "header-layout.mobile":{
+        "title":"Header mobile",
         "children":[
             "flex-layout.row#menu__mobile"
         ]

@@ -1,6 +1,7 @@
 {
     
     "flex-layout.row#product-phone":{
+        "title":"product phone",
         "props":{
             "preserveLayoutOnMobile":true,
             "horizontalAlign":"center",
@@ -9,6 +10,7 @@
         "children":["flex-layout.col#product-phone"]
     },
     "flex-layout.col#product-phone":{
+        "title":"product phone",
         "props":{
             "horizontalAlign":"center",
             "verticalAlign":"middle"

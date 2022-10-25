@@ -1,6 +1,10 @@
 {
     "footer-layout.mobile": { 
-        "children": [
+      "title":"Footer mobile",
+      "props":{
+        "blockClass":"footer__mobile"
+      },
+      "children": [
             "flex-layout.row#logo-mobile",
             "flex-layout.row#socialnetworks-mobile",
             "flex-layout.row#disclouser1-mobile",
@@ -9,9 +13,6 @@
             "flex-layout.row#menu-mobile",
             "flex-layout.row#newsletter-mobile",
             "flex-layout.row#footer--desktop__bottom"
-        ],
-        "props":{
-          "blockClass":"footer__mobile"
-        }
+        ]
       }
 }

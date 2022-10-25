@@ -1,12 +1,12 @@
 {
     "minicart.v2#mobile":{
+        "title":"Minicart mobile",
         "props":{           
             "variation":"popup",
             "itemCountMode":"total",
             "quantityDisplay":"always",
             "width":"30%",
             "MinicartIcon": "icon-cart#mpa-bag"
-            // "maxDrawerWidth":600
         },
         "children":["minicart-base-content#mobile"]
     }

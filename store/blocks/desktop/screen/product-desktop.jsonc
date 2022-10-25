@@ -1,5 +1,6 @@
 {
     "responsive-layout.desktop#product":{
+        "title":"product desktop",
         "children":[
             "flex-layout.row#product__info",
             "flex-layout.row#product__tabs"

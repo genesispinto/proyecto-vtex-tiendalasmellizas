@@ -1,5 +1,6 @@
 {
     "search-result-layout.customQuery#home__search":{
+      "title":"search result customQuery",
         "props":{
           "querySchema":{
             "skusFilter":"ALL" 

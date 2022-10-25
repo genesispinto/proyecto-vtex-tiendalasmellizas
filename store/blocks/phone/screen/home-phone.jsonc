@@ -1,5 +1,6 @@
 {
     "responsive-layout.phone#home":{
+        "title":"home phone",
         "children":[
             "flex-layout.row#home__phone-section--one",
             "flex-layout.row#section__information--webpay",

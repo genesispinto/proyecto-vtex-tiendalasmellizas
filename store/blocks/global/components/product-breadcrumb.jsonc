@@ -6,6 +6,7 @@
         ]
     },
     "flex-layout.col#product__breadcrumb":{
+        "title":"breadcrumb",
         "children":[ "breadcrumb" ]
       }
 }

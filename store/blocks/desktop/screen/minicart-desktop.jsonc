@@ -1,5 +1,6 @@
 {
     "minicart.v2#desktop":{
+        "title":"Minicart desktop",
         "props":{           
             "variation":"popup",
             "itemCountMode":"total",

@@ -1,5 +1,6 @@
 {
       "flex-layout.row#logo-mobile":{
+        "title":"footer logo mobile",
         "children":["image#logo-mobile"],
         "props":{
           "horizontalAlign":"center"
@@ -21,6 +22,7 @@
         }
     },
       "flex-layout.row#socialnetworks-mobile":{
+        "title":"footer social-networks mobile",
         "children":["social-networks"],
         "props":{
           "preventHorizontalStretch":true,
@@ -29,15 +31,18 @@
       },
       
       "flex-layout.row#logoccs-mobile":{
+        "title":"footer logocss mobile",
         "children":["flex-layout.col#logoccs-mobile"]
       },
       "flex-layout.col#logoccs-mobile":{
+        "title":"footer logocss mobile",
         "props":{
           "horizontalAlign":"center"
         },
         "children":["image#footer__ccs"]
       },
       "flex-layout.row#menu-mobile":{
+        "title":"footer menu mobile",
         "props":{
           "preserveLayoutOnMobile":true,
           "horizontalAlign":"center"
@@ -46,15 +51,18 @@
         "children":["flex-layout.col#menu-mobile"]
       },
       "flex-layout.col#menu-mobile":{
+        "title":"footer menu mobile",
         "props":{
           "horizontalAlign":"center"
         },
         "children":[ "menu#footer__contact"]
       },
       "flex-layout.row#newsletter-mobile":{
+        "title":"footer newsletter mobile",
         "children":["flex-layout.col#newsletter-mobile"]
       },
       "flex-layout.col#newsletter-mobile":{
+        "title":"footer newsletter mobile",
         "props":{
           "horizontalAlign":"center",
           "blockClass":"newsletter"
