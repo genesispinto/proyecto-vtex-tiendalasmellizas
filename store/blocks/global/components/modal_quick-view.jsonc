@@ -1,18 +1,21 @@
 
 {
     "modal-trigger#global__quick-view":{
+        "title":"modal vista rapida",
         "children":[
           "rich-text#global__quick-view--trigger",
           "modal-layout#global__quick-view"
         ]
       },
       "rich-text#global__quick-view--trigger":{
+        "title":"modal vista rapida trigger",
         "props":{
           "text":"##### Ver Detalle",
           "blockClass":"quick-view__trigger"
         }
       },
           "flex-layout.row#quick-view__modal":{
+            "title":"quick-view",
             "props":{
               "blockClass":"modal_quick-view",
               "preserveLayoutOnMobile":true,
@@ -25,6 +28,7 @@
           },
          
           "flex-layout.col#quick-view__image":{
+            "title":"quick-view image",
             "props":{
               "blockClass":"quick-view-image",
               "horizontalAlign":"center",
@@ -36,6 +40,7 @@
               "product-images"]
           },
           "flex-layout.col#quick-view__info":{
+            "title":"quick-view info",
             "props":{
               "blockClass":"quick-view-info",
               "width":"50%",
@@ -53,6 +58,7 @@
             ]
           },
           "product-quantity#quick-view": {
+            "title":"quick-view quantity",
             "props": {
               "showUnit": true,
               "quantitySelectorStep":"singleUnit"

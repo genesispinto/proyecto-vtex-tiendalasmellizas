@@ -1,5 +1,6 @@
 {
     "responsive-layout.tablet#home":{
+        "title":"home tablet",
         "children":[
             "flex-layout.row#home__section--one",
             "flex-layout.row#section__information--webpay",

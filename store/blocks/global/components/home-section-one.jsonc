@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__section--one": {
+      "title":"section-one home",
       "props":{
         "blockClass": "home__section--one",
         "preserveLayoutOnMobile":true

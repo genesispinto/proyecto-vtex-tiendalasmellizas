@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__section--information":{
+        "title":"section--information home",
         "props":{
             "blockClass":"sectinformation"
         },
@@ -12,6 +13,7 @@
         ]
     },
     "flex-layout.col#section__information--webpay":{
+        "title":"section--information webpay",
         "props":{
             "width":"40%",
             "verticalAlign":"middle"
@@ -28,6 +30,7 @@
         }
     },
     "flex-layout.col#section__information--icon1":{
+        "title":"section--information",
         "props":{
             "width":"10%",
             "horizontalAlign":"center",
@@ -47,6 +50,7 @@
         }
     },
     "flex-layout.col#section__information--text1":{
+        "title":"section--information",
         "props":{
             "width":"40%",
             "horizontalAlign":"center"
@@ -55,12 +59,14 @@
         "children":["rich-text#section__information--text1"]
     },
     "rich-text#section__information--text1":{
+        "title":"section--information text",
         "props":{
             "blockClass": "text1",
             "text":"ENTREGAS ENTRE 3-7 DÍAS HÁBILES A SANTIAGO (R.M.) Y 5-10 DÍAS HÁBILES AL RESTO DE CHILE"
         }
     },
     "flex-layout.col#section__information--icon2":{
+        "title":"section--information",
         "props":{
             "width":"10%",
             "horizontalAlign":"center",
@@ -80,6 +86,7 @@
         }
     },
     "flex-layout.col#section__information--text2":{
+        "title":"section--information",
         "props":{
             "width":"grow",
             "horizontalAlign":"center"
@@ -87,6 +94,7 @@
         "children":["rich-text#section__information--text2"]
     },
     "rich-text#section__information--text2":{
+        "title":"section--information text",
         "props":{
             "blockClass": "text2",
             "text":"NO IMPORTA DONDE ESTES, TU PEDIDO LLEGARA DONDE TU QUIERAS! "

@@ -1,14 +1,14 @@
 {
     "flex-layout.row#product__info":{
+        "title":"PDP",
         "props":{
             "preserveLayoutOnMobile":true,
             "horizontalAlign":"center"
         },
-        "title":"Informacion general de PDP",
         "children":[
             "flex-layout.col#product__info--image",
             "flex-layout.col#product__info--data"
-        ]
+        ]       
     },
     "flex-layout.col#product__info--image":{
         "title":"Imagenes de producto",
@@ -55,6 +55,7 @@
         }
     },
     "flex-layout.row#product__quantity&button":{
+        "title":"PDP quantity",
         "props":{
             "preventHorizontalStretch":true,
             "horizontalAlign":"center"
@@ -65,6 +66,7 @@
         ]
     },
     "flex-layout.col#product__quantity":{
+        "title":"PDP quantity",
         "props":{
             "blockClass":"quantity_pdp",
             "horizontalAlign":"center",
@@ -76,6 +78,7 @@
         ]
     },
     "flex-layout.col#product__button":{
+        "title":"PDP add-to-cart-button",
         "props":{
             "blockClass":"button_pdp",
             "horizontalAlign":"center",
@@ -87,18 +90,21 @@
         ]
     },
     "product-quantity#pdp":{
+        "title":"PDP quantity",
         "props":{
             "blockClass":"quantity_pdp",
             "text": "### Cantidad"
         }
     },
     "add-to-cart-button":{
+        "title":"add-to-cart-button",
         "props":{
             "blockClass":"button_pdp",
             "text":"Agregar al carro"
         }
     },
     "modal-trigger#add-to-cart-info":{
+        "title":"Modal add-to-cart-info",
         "children":["modal-layout#add-to-cart-info"],
         "props":{
             "customPixelEventName": "addToCart"
@@ -107,6 +113,7 @@
     },
     
     "modal-header#add-to-cart-info":{
+        "title":"Modal header add-to-cart-info",
         "props":{
             "showCloseButton":true,
             "iconCloseSize":24

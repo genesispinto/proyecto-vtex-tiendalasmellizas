@@ -1,5 +1,6 @@
 {
     "modal-layout#add-to-cart-info":{
+        "title":"Modal add-to-cart-info",
         "children":[
             "modal-header#add-to-cart-info",
             "responsive-layout.desktop#add-to-cart-info",

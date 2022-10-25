@@ -1,5 +1,6 @@
 {
   "flex-layout.col#footer--desktop__imageccs":{
+    "title":"footer imageccs",
     "props":{
       "horizontalAlign":"right",
       "marginLeft":10

@@ -1,5 +1,6 @@
 {
     "flex-layout.row#search__department":{
+      "title":"search result department",
         "props":{
           "horizontalAlign":"right",
           "preserveLayoutOnMobile":true

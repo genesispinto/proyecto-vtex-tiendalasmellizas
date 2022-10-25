@@ -1,5 +1,6 @@
 {
     "special-diagramation":{
+      "title":"Custom grid ",
         "children":[
          "image#grid__image1",
          "image#grid__image2",

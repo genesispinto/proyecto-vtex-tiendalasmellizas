@@ -1,5 +1,6 @@
 {
     "responsive-layout.mobile#add-to-cart-info":{
+        "title":"Modal add-to-cart-info mobile",
         "children":["flex-layout.row#add-to-cart-info-mobile"]
     }
 }

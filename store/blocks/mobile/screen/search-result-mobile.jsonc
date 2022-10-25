@@ -1,5 +1,6 @@
 {
     "search-result-layout.mobile#home__search":{
+        "title":"Search result home",
         "children":["list-context.product-list" ]
       }
 }

@@ -1,5 +1,6 @@
 {
     "flex-layout.row#quick-view__modal-phone":{
+      "title":"quick-view phone",
       "props":{
         "preserveLayoutOnMobile":true,
         "horizontalAlign":"center"
@@ -7,6 +8,7 @@
         "children":["flex-layout.col#quick-view__modal-phone"]
       },
       "flex-layout.col#quick-view__modal-phone":{
+        "title":"quick-view phone",
         "props":{
           "horizontalAlign":"center"
         },

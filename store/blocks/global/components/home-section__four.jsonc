@@ -10,6 +10,7 @@
         }
        },
        "flex-layout.col#home__section--four":{
+        "title":"parrafos",
         "props":{
             "horizontalAlign":"center",
             "paddingLeft":10,
@@ -17,7 +18,6 @@
             "marginLeft":10,
             "marginRight":10
         },
-        "title":"parrafos",
          "children":[
             "image#section__four--image",
             "rich-text#section__four--text1",

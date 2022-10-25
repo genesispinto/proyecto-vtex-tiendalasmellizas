@@ -1,6 +1,7 @@
 {
     
       "flex-layout.col#footer--desktop__contact":{
+        "title":"footer contact",
         "props":{
           "preventVerticalStretch":true,
           "width":"25%"
@@ -29,6 +30,7 @@
     },
     
       "social-networks":{
+        "title":"footer social-networks",
         "props":{
           "socialNetworks":[
             {
@@ -49,6 +51,7 @@
         }
       },
       "rich-text#footer__contact":{
+        "title":"footer contact text",
         "props":{
           "text":"CONTACTO",
           "blockClass":"footer__contact"
@@ -56,6 +59,7 @@
         }
       },
       "menu#footer__contact":{
+        "title":"footer menu contact",
         "children":[
           "menu-item#contact__direction",
           "menu-item#contact__phone1",

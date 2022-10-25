@@ -26,6 +26,7 @@
         ]
       },
       "flex-layout.row#menu":{
+          "title":"fila menu",
           "props":{
             "blockClass":"menu__departament",
             "preserveLayoutOnMobile": true,
@@ -33,9 +34,6 @@
             "horizontalAlign":"center"
     
           },
-          "title":"fila menu",
-          "children":[
-            "menu#header__menu--deparment"
-          ]
+          "children":["menu#header__menu--deparment"]
         }    
 }
