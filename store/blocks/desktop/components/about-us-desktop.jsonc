@@ -1,50 +1,60 @@
 {
     "flex-layout.row#about-us__info1": {
+      "title":"about-us",
         "children": [
           "rich-text#about-text1"
         ]
       },
       "flex-layout.row#about-us__info2": {
+        "title":"about-us",
         "children": [
           "rich-text#about-text2"
         ]
       },
       "flex-layout.row#about-us__info3": {
+        "title":"about-us",
         "children": [
           "rich-text#about-text3"
         ]
       },
       "flex-layout.row#about-us__info4": {
+        "title":"about-us",
         "children": [
           "rich-text#about-text4"
         ]
       },
       "flex-layout.row#about-us__info5": {
+        "title":"about-us",
         "children": [
           "rich-text#about-text5"
         ]
       },
       "flex-layout.row#about-us__info6": {
+        "title":"about-us",
         "children": [
           "rich-text#about-text6"
         ]
       },
     
       "flex-layout.row#about-us__share": {
+        "title":"about-us",
         "children": [
           "share"
         ]
       },
       "flex-layout.row#about-us__pdf":{
+        "title":"about-us",
         "children":["pdf-reader"]
       },
       "rich-text#about-text1": {
+        "title":"about-us",
         "props": {
           "blockClass":"about-us",
           "text":"Queridos Amigos,"
         }
       },
       "rich-text#about-text2": {
+        "title":"about-us",
         "props": {
           "blockClass":"about-us",
           "text":
@@ -52,6 +62,7 @@
         }
       },
       "rich-text#about-text3": {
+        "title":"about-us",
         "props": {
           "blockClass":"about-us",
           "text":
@@ -59,6 +70,7 @@
         }
       },
       "rich-text#about-text4": {
+        "title":"about-us",
         "props": {
           "blockClass":"about-us",
           "text":
@@ -66,24 +78,27 @@
         }
       },
       "rich-text#about-text5": {
+        "title":"about-us",
         "props": {
           "blockClass":"about-us",
           "text": "Estamos seguros que te encantarán nuestros productos y, como muchos clientes nuevos, te sorprenderás con la calidad. Sólo debes realizar tu primer pedido, el primero, pero no el último."
         }
       },
       "rich-text#about-text6": {
+        "title":"about-us",
         "props": {
           "blockClass":"about-us",
           "text":"Un saludo desde Buin,\n Comercial Las Mellizas SpA."
         }
       },
       "share":{
+        "title":"about-us",
         "props": {
           "blockClass":"about-us"
         }
       },
       "info-card": {
-    
+        "title":"about-us info card",
         "props": {
           "blockClass":"margin_about us",
           "id": "info-card-example",

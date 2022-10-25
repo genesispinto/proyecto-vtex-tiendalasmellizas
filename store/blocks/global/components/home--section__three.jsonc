@@ -1,10 +1,10 @@
 {
     "flex-layout.row#home__section--three":{
+        "title":"Seccion Nuestros productos",
         "props":{
             "preventHorizontalStretch":true,
             "marginBottom":8
         },
-        "title":"Seccion Nuestros productos",
         "children":["flex-layout.col#home__section--three"]
     },
     "flex-layout.col#home__section--three":{

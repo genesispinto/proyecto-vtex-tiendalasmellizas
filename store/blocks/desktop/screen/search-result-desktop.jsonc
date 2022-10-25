@@ -1,5 +1,6 @@
 {
     "search-result-layout.desktop#home__search":{
+      "title":"search result desktop",
         "children":["list-context.product-list"]
       }
 }

@@ -1,5 +1,6 @@
 {
     "minicart-base-content#desktop":{
+      "title":"Minicart desktop",
          "blocks":["minicart-empty-state"],
          "children":[
             "minicart-product-list#desktop",
@@ -10,57 +11,68 @@
         }
     },
     "minicart-empty-state":{
+      "title":"Minicart desktop",
         "children":["flex-layout.row#minicart__empty"]
     },
     "flex-layout.row#minicart__empty":{
+      "title":"Minicart desktop",
         "children":["flex-layout.col#minicart__empty"]
     },
     "flex-layout.col#minicart__empty":{
+      "title":"Minicart desktop",
        "children": [
         "icon-cart#hpa-bag"]
     },
     "icon-cart#mpa-bag":{
+      "title":"Minicart icon",
         "props":{
             "size":0
         }
     },
     "icon-cart#hpa-bag":{
+      "title":"Minicart icon",
         "props":{
             "size":20,
             "blockClass":"icon_cart"
         }
     },
-    //////////////////////////////////////////////////////////////
     "flex-layout.row#minicart__footer":{
+      "title":"Minicart footer desktop",
         "children": [
           "flex-layout.col#minicart__footer"
             ]
 
     },
     "flex-layout.col#minicart__footer":{
+      "title":"Minicart footer desktop",
       "children":[
       "minicart-summary",
       "minicart-checkout-button"
     ]
     },
     "minicart-checkout-button":{
+      "title":"Minicart checkout desktop",
       "props":{
         "text":"Continuar"
       }
     },
     "minicart-product-list#desktop": {
+      "title":"Minicart desktop",
         "blocks": ["product-list#minicart"]
       },
       "product-list#minicart": {
+        "title":"Minicart desktop",
         "blocks": ["product-list-content-desktop","product-list-content-mobile"]
       },
       "product-list-content-desktop":{
+        "title":"Minicart desktop",
         "children":[
           "flex-layout.row#minicart__info--desktop",
           "flex-layout.row#minicart__quantity--desktop"
         ]
       },
       "flex-layout.row#minicart__info--desktop":{
+        "title":"Minicart info desktop",
         "props":{
           "preserveLayoutOnMobile":true
         },
@@ -70,6 +82,7 @@
         ]
       },
       "flex-layout.row#minicart__quantity--desktop":{
+        "title":"Minicart quantity desktop",
         "props":{
           "preserveLayoutOnMobile":true
         },
@@ -79,9 +92,11 @@
         ]
       },
       "flex-layout.col#minicart__col--image":{
+        "title":"Minicart image desktop",
         "children":["product-list-image"]
       },
       "flex-layout.col#minicart__col--info":{
+        "title":"Minicart info desktop",
         "children":[
             "vtex.product-list:product-name",
             "price"

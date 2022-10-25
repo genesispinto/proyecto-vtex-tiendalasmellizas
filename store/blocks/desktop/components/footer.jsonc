@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer--desktop__top":{
+    "title":"Footer tienda desktop",
     "props":{
       "preventHorizontalStretch":true,
       "horizontalAlign":"center",
@@ -15,6 +16,7 @@
   },
   
 "flex-layout.row#footer--desktop__middle":{
+  "title":"Footer newsletter desktop",
   "children":[
     "flex-layout.col#newsletter-mobile"
   ],
@@ -24,17 +26,20 @@
   }
 },
 "newsletter-form": {
+  "title":"Footer Newsletter ",
   "children": [
     "newsletter-input-email",
     "newsletter-submit"
   ]
 },
 "newsletter-input-email":{
+  "title":"Newsletter ",
   "props":{
     "placeholderText":"e-mal"
   }
 },
 "flex-layout.row#footer--desktop__bottom":{
+  "title":"Footer bottom ",
   "children":["rich-text#footer__bottom"],
   "props":{
     "horizontalAlign":"center",
@@ -42,6 +47,7 @@
   }
 },
 "rich-text#footer__bottom":{
+  "title":"Footer bottom text",
   "props":{
     "blockClass":"footer__bottom",
     "text":" Las Mellizas © 2022 ¿Te gusta mi tienda? Yo vendo con Bsale "

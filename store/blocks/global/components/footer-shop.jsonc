@@ -1,9 +1,7 @@
 {
     "flex-layout.col#footer--desktop__shop":{
-        "children":[
-        "rich-text#footer__shop",
-        "menu#footer__shop"
-        ],
+        "title":"footer tienda",
+        "children":["rich-text#footer__shop","menu#footer__shop"],
         "props":{
           "blockClass":"col_shop",
           "width":"25%"
@@ -11,12 +9,14 @@
   
     },
     "rich-text#footer__shop":{
+      "title":"footer tienda text",
       "props":{
         "text":" TIENDA",
         "blockClass":"footer__shop"
       }
     },
     "menu#footer__shop":{
+      "title":"footer menu tienda",
       "children":[
         "menu-item#shop__about",
         "menu-item#shop__contact",
@@ -31,7 +31,7 @@
       }
     },
     "menu-item#shop__about":{
-      "title":"about",
+      "title":"footer menu about",
       "props": {
         "blockClass":"footer__menu",
         "id": "about",
@@ -48,7 +48,7 @@
       }
     },
     "menu-item#shop__contact":{
-      "title":"contact",
+      "title":"footer menu contact",
       "props": {
         "blockClass":"footer__menu",
         "id": "contact",
@@ -65,7 +65,7 @@
       }
     },
     "menu-item#shop__buy":{
-      "title":"buy",
+      "title":"footer menu buy",
       "props": {
         "blockClass":"footer__menu",
         "id": "buy",
@@ -82,7 +82,7 @@
       }
     },
     "menu-item#shop__terms&conditions":{
-      "title":"terms&conditions",
+      "title":"footer menu terms&conditions",
       "props": {
         "blockClass":"footer__menu",
         "id": "terms&conditions",
@@ -99,7 +99,7 @@
       }
     },
     "menu-item#shop__policies":{
-      "title":"policies",
+      "title":"footer menu policies",
       "props": {
         "blockClass":"footer__menu",
         "id": "policies",
@@ -116,7 +116,7 @@
       }
     },
     "menu-item#shop__commitment":{
-      "title":"commitment",
+      "title":"footer menu commitment",
       "props": {
         "blockClass":"footer__menu",
         "id": "commitment",

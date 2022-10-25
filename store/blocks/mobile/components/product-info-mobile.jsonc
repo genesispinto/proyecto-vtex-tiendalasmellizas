@@ -1,5 +1,6 @@
 {
     "flex-layout.row#product__info-mobile":{
+        "title":"producto mobile",
         "props":{
             "preserveLayoutOnMobile":true,
             "horizontalAlign":"center"
@@ -10,6 +11,7 @@
         ]
     },
     "flex-layout.col#product__info--data-mobile":{
+        "title":"data producto mobile",
         "props":{
             "blockClass":"button_pdp",
             "horizontalAlign":"center"

@@ -1,5 +1,6 @@
 {
     "responsive-layout.tablet#quick-view_tablet":{
-    "children": ["flex-layout.row#quick-view__modal"]
+      "title":"quick-view tablet",
+      "children": ["flex-layout.row#quick-view__modal"]
   }
 }

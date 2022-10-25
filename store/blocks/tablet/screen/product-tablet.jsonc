@@ -1,5 +1,6 @@
 {
     "responsive-layout.tablet#product":{
+        "title":"product tablet",
         "children":[
             "flex-layout.row#product__info-mobile",
             "flex-layout.row#product__tabs"

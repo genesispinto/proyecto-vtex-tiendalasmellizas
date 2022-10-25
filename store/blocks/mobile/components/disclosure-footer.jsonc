@@ -1,24 +1,29 @@
 {
   /////////// flex Row disclouser Shop mobile
   "flex-layout.row#disclouser1-mobile":{
+    "title":"footer disclosurer mobile",
     "children":["flex-layout.col#disclouser1-mobile"]
   },
     "flex-layout.col#disclouser1-mobile":{
+      "title":"footer disclosurer mobile",
         "children":["disclosure-layout-group#footer-mobile__shop"]
         ,"props":{
           "horizontalAlign":"center"
         }
       },
       "disclosure-layout-group#footer-mobile__shop": {
+        "title":"footer disclosurer shop mobile",
         "children": ["disclosure-layout#footer-mobile__shop"]
       },
       "disclosure-layout#footer-mobile__shop": {
+        "title":"footer disclosurer shop mobile",
         "children": [
           "disclosure-trigger#footer-mobile__shop", 
           "disclosure-content#footer-mobile__shop"
           ]
       },
       "disclosure-trigger#footer-mobile__shop": {
+        "title":"footer disclosurer trigger shop mobile",
         "props": {
           "blockClass": "question",
           "as": "div"
@@ -26,12 +31,14 @@
         "children": ["rich-text#footer-mobile__shop","disclosure-state-indicator"]
       },
       "disclosure-content#footer-mobile__shop": {
+        "title":"footer disclosurer shop mobile",
         "props": {
           "blockClass": "answer"
         },
         "children": ["menu#footer__shop"]
       },     
       "rich-text#footer-mobile__shop": {
+        "title":"footer text disclosurer shop mobile",
         "props": {
           "textAlignment":"CENTER",
           "textColor":"c-on-action-primary",
@@ -40,21 +47,26 @@
       },
   /////////// flex Row disclouser Products mobile
     "flex-layout.row#disclouser2-mobile":{
+      "title":"footer disclosurer product mobile",
         "children":["flex-layout.col#disclouser2-mobile"]
      },
     "flex-layout.col#disclouser2-mobile":{
+      "title":"footer disclosurer product mobile",
         "children":["disclosure-layout-group#footer-mobile__products"]
         ,"props":{
           "horizontalAlign":"center"
         }
       },
       "disclosure-layout-group#footer-mobile__products": {
+        "title":"footer disclosurer product mobile",
         "children": ["disclosure-layout#footer-mobile__products"]
       },
       "disclosure-layout#footer-mobile__products": {
+        "title":"footer disclosurer product mobile",
         "children": ["disclosure-trigger#footer-mobile__products", "disclosure-content#footer-mobile__products"]
       },
       "disclosure-trigger#footer-mobile__products": {
+        "title":"footer disclosurer trigger product mobile",
         "props": {
           "blockClass": "question",
           "as": "div"
@@ -62,9 +74,11 @@
         "children": ["rich-text#footer-mobile__products","disclosure-state-indicator"]
       },
       "disclosure-content#footer-mobile__products": {
+        "title":"footer disclosurer product mobile",
         "children": ["menu#footer__products"]
       },
       "rich-text#footer-mobile__products": {
+        "title":"footer text disclosurer product mobile",
         "props": {
           "textAlignment":"CENTER",
           "textColor":"c-on-action-primary",

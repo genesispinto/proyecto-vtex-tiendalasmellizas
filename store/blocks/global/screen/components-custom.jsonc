@@ -1,5 +1,6 @@
 {
     "store.custom#pdf-grid":{
+        "title":"page pdf-grid",
         "children":[
             "responsive-layout.desktop#pdf-grid",
             "responsive-layout.mobile#pdf-grid"

@@ -1,5 +1,6 @@
 {
     "responsive-layout.phone#quick-view_phone":{
+      "title":"quick-view phone",
         "children": ["flex-layout.row#quick-view__modal-phone"]
       }
 }

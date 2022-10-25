@@ -1,5 +1,6 @@
 {
     "flex-layout.row#menu__mobile":{
+        "title":"header mobile",
         "props":{
             "preserveLayoutOnMobile": true,
             "blockClass":"center_items_mobile"
@@ -14,29 +15,34 @@
         ]
     },
     "flex-layout.col#drawe__mobile":{
+        "title":"header mobile",
         "props":{
             "width":"10%"
         },
         "children":["drawer#mobile"]
     },
     "flex-layout.col#drawe-text__mobile":{
+        "title":"header mobile",
         "props":{
             "horizontalAlign":"left"
         },
         "children":["rich-text#open-drawer"]
     },
     "flex-layout.col#logo__mobile":{
+        "title":"header logo mobile",
         "children":["logo#mobile"]
     },
     "flex-layout.col#login__mobile":{
+        "title":"header login mobile",
         "children":["login"]
     },
     "flex-layout.col#minicart__mobile":{
+        "title":"header minicart mobile",
         "children":["minicart.v2#mobile"]
     },
     "drawer#mobile": {
+        "title":"header menu mobile",
         "children": [
-            //"flex-layout.row#search-bar__mobile",
             "flex-layout.row#menu1__mobile"
             ],
         "props":{
@@ -45,18 +51,22 @@
         }
       },
       "flex-layout.row#search-bar__mobile":{
+        "title":"header search-bar mobile",
         "children":["search-bar"]
       },
        "flex-layout.row#menu1__mobile":{
+        "title":"menu mobile",
         "children":["menu#header__deparment--mobile"]
       },
       "rich-text#open-drawer": {
+        "title":"text drawer mobile",
         "props": {
           "text": "Tienda",
           "blockClass":"drawer"
         }
       }, 
       "menu#header__deparment--mobile":{
+        "title":"menu mobile",
         "children":[
             "menu-item#department__one", 
             "menu-item#department__two",

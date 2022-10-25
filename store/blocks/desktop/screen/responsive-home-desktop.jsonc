@@ -1,5 +1,6 @@
 {
 "responsive-layout.desktop#home":{
+  "title":"Home desktop",
     "children":[     
       "whatsapp-button",
       "flex-layout.row#home__section--one",
