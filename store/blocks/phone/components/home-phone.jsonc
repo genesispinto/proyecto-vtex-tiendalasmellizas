@@ -54,6 +54,9 @@
     },
     "flex-layout.row#section__information--webpay":{
         "title":"section--information phone",
+        "props":{
+            "blockClass":"webpay"
+        },
         "children":["image#section__information--webpay"]
     },
     "flex-layout.row#home__phone-section--three":{

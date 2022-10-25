@@ -24,7 +24,6 @@
         "title":"Imagen webpay",
         "props":{
             "src":"assets/img/L_webpay.png",
-            "maxWidth":600,
             "title":"B2B Commerce",
             "blockClass": "webpay"
         }
