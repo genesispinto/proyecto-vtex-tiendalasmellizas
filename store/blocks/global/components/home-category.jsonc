@@ -27,7 +27,8 @@
         "title": "Nombre de Categoria de productos1",
         "props":{
           "textColor": "c-on-emphasis",
-          "text":"Almedras"
+          "text":"Almedras",
+          "blockClass":"section__two--title"
         }
       },
       "flex-layout.col#section__two--image2":{
@@ -44,7 +45,8 @@
         "title": "Nombre de Categoria de productos2",
         "props":{
           "textColor": "c-on-emphasis",
-          "text":"Frutos secos"
+          "text":"Frutos secos",
+          "blockClass":"section__two--title"
         }
       },
 
@@ -62,7 +64,8 @@
         "title": "Nombre de Categoria de productos3",
         "props":{
           "textColor": "c-on-emphasis",
-          "text":"Semillas"
+          "text":"Semillas",
+          "blockClass":"section__two--title"
         }
       },
 
@@ -91,7 +94,8 @@
         "title": "Nombre de Categoria de productos3",
         "props":{
           "textColor": "c-on-emphasis",
-          "text":" Mix de frutos secos"
+          "text":" Mix de frutos secos",
+          "blockClass":"section__two--title"
         }
       },
           "flex-layout.col#section__two--image5":{
@@ -107,7 +111,8 @@
             "title": "Nombre de Categoria de productos3",
             "props":{
               "textColor": "c-on-emphasis",
-              "text":"Fruta deshidratada"
+              "text":"Fruta deshidratada",
+              "blockClass":"section__two--title"
             }
           }
     

@@ -30,6 +30,9 @@
     font-size: 1rem;
   
 }
+.paragraph--section__two--title{
+    font-weight: bold;
+}
 @media (min-width: 390px) and (max-width: 700px){
     .paragraph--text1,
     .paragraph--text2,

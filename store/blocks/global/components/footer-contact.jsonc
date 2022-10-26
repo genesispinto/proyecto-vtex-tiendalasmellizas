@@ -61,16 +61,65 @@
       "menu#footer__contact":{
         "title":"footer menu contact",
         "children":[
-          "menu-item#contact__direction",
-          "menu-item#contact__phone1",
-          "menu-item#contact__phone2",
-          "menu-item#contact__phone3"
+          "flex-layout.row#footer__menu--contact1",
+          "flex-layout.row#footer__menu--contact2",
+          "flex-layout.row#footer__menu--contact3",
+          "flex-layout.row#footer__menu--contact4"
+          
         ],
         "props": {
           "orientation": "vertical",
           "horizontalAlign":"center",
           "blockClass":"footer__contact"
         }
+      },
+      "flex-layout.row#footer__menu--contact1":{
+        "title":"footer menu contact1",
+        "props":{
+          "preserveLayoutOnMobile":true,
+          "preventHorizontalStretch":true,
+          "colGap":0
+        },
+        "children":[
+          "image#footer__location",
+          "menu-item#contact__direction"
+        ]
+      },
+      "flex-layout.row#footer__menu--contact2":{
+        "title":"footer menu contact2",
+        "props":{
+          "preserveLayoutOnMobile":true,
+          "preventHorizontalStretch":true,
+          "colGap":0
+        },
+        "children":[
+          "image#footer__phone",
+          "menu-item#contact__phone1"
+        ]
+      },
+      "flex-layout.row#footer__menu--contact3":{
+        "title":"footer menu contact2",
+        "props":{
+          "preserveLayoutOnMobile":true,
+          "preventHorizontalStretch":true,
+          "colGap":0
+        },
+        "children":[
+          "image#footer__phone",
+          "menu-item#contact__phone2"
+        ]
+      },
+      "flex-layout.row#footer__menu--contact4":{
+        "title":"footer menu contact2",
+        "props":{
+          "preserveLayoutOnMobile":true,
+          "preventHorizontalStretch":true,
+          "colGap":0
+        },
+        "children":[
+          "image#footer__phone",
+          "menu-item#contact__phone3"
+        ]
       },
       "menu-item#contact__direction":{
         "title":"direction",
@@ -98,10 +147,10 @@
           "highlight": false,
           "itemProps": {
             "type":"external",
-            "href": "#",
+            "href": "/",
             "noFollow": true,
             "tagTitle": "phone1",
-            "text": "planta Envasado: +562 2821 1933",
+            "text": "Planta Envasado: +562 2821 1933",
             "isActive":"true"
           }        
         }
@@ -115,7 +164,7 @@
           "highlight": false,
           "itemProps": {
             "type":"external",
-            "href": "#",
+            "href": "/",
             "noFollow": true,
             "tagTitle": "phone2",
             "text": "Ventas: +569 4015 9557",
@@ -132,12 +181,38 @@
           "highlight": false,
           "itemProps": {
             "type":"external",
-            "href": "#",
+            "href": "/",
             "noFollow": true,
             "tagTitle": "phone3",
             "text": "Ventas: +569 5409 6272",
             "isActive":"true"
           }        
         }
+      },
+      "image#footer__location":{
+        "title":"Imagen logo",
+        "props":{
+            "src":"assets/img/ubicacion.png",
+            "title":"logo",
+            "blockClass": "footer__location",
+            "link":{
+                "url":"/",
+                "newTab": true,
+                "attributeNoFollow":true
+            }
+        }
+    },
+    "image#footer__phone":{
+      "title":"Imagen logo",
+      "props":{
+          "src":"assets/img/llamada-telefonica.png",
+          "title":"logo",
+          "blockClass": "footer__phone",
+          "link":{
+              "url":"/",
+              "newTab": true,
+              "attributeNoFollow":true
+          }
       }
+  }
 }

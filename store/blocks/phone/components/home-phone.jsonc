@@ -1,24 +1,17 @@
 {
-    
     "flex-layout.row#home__phone-section--one": {
         "title":"section--one phone",
-        "children":[
-            "slider-layout#home__slider--home-phone"
-        ],
+        "children":["slider-layout#home__slider--home-phone"],
         "props":{
             "blockClass": "home__mobile"
         }
     },
-
     "flex-layout.row#home__phone-section--information1":{
         "title":"section--information phone",
         "props":{          
-            "verticalAlign": "middle",
-            "colSizing": "auto",
-            "preserveLayoutOnMobile": true,
-            "colGap":5,
-            "rowGap":5
-                },
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true
+        },
         "children":[
             "flex-layout.col#home__phone-icon1",
             "rich-text#section__information--text1"
@@ -27,20 +20,16 @@
     "flex-layout.col#home__phone-icon1":{
         "title":"section--information phone",
         "props":{
-            "verticalAlign": "bottom"
+            "verticalAlign": "bottom",
+            "width":"20%"
         },
-        "children":[
-            "image#section__information--icon1" 
-        ]
+        "children":["image#section__information--icon1" ]
     },
     "flex-layout.row#home__phone-section--information2":{
         "title":"section--information phone",
         "props":{
-            "verticalAlign": "middle",
-            "colSizing": "auto",
-            "preserveLayoutOnMobile": true,
-            "colGap":5,
-            "rowGap":5
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true
         },
         "children":[
             "flex-layout.col#home__phone-icon2",
@@ -50,11 +39,10 @@
     "flex-layout.col#home__phone-icon2":{
         "title":"section--information phone",
         "props":{
-            "verticalAlign": "bottom"
+            "verticalAlign": "bottom",
+            "width":"20%"
         },
-        "children":[
-            "image#section__information--icon2" 
-        ]
+        "children":["image#section__information--icon2" ]
     },
     "flex-layout.row#section__information--webpay":{
         "title":"section--information phone",
@@ -76,9 +64,7 @@
         "props":{
             "colSizing":"equal"
         },
-        "children":[
-            "flex-layout.col#home__phone-section--category"
-        ]
+        "children":["flex-layout.col#home__phone-section--category"]
     },
     "flex-layout.col#home__phone-section--category":{
         "title":"section--category phone",
