@@ -8,6 +8,8 @@ margin-bottom: 5px;
     margin: 0 auto 50px;
 } 
  
-.paginationDotsContainer{
-transform: translateY(1.5rem);
+.paginationDotsContainer--slider__home-bullet-group,
+.paginationDotsContainer--slider__home-desktop,
+.home__slider{
+    transform: translateY(1.5rem);
  }

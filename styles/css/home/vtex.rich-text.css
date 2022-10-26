@@ -30,3 +30,23 @@
     font-size: 1rem;
   
 }
+@media (min-width: 390px) and (max-width: 700px){
+    .paragraph--text1,
+    .paragraph--text2,
+    .paragraph--text2section3,
+    .paragraph--text2section4{
+        font-size: 0.8rem;
+    }
+}
+@media (min-width: 834px) and (max-width: 1194px){
+    .paragraph--text1,
+    .paragraph--text2,
+    .paragraph--text2section3,
+    .paragraph--text2section4{
+        font-size: 0.8rem;
+    }
+    .wrapper--text1,.wrapper--text2{
+        width: 290px;
+        height: 70px;
+    }
+}

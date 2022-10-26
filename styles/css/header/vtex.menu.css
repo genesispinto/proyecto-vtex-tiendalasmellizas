@@ -62,10 +62,14 @@
 .menuItem--footer__menu--isClosed{
     padding-left: 0;
 }
+
 .styledLinkContainer--footer__menu :hover{
     background-color: rgba(255, 255, 255, 0.158);
     color: #e4d0c3;
-}
+} 
+.menuContainer--footer__contact{
+        align-items: center;
+    }
 @media (min-width: 390px) and (max-width: 1194px){
     .styledLinkContent--menu_mobile,
     .styledLinkContent--flecha,
@@ -76,4 +80,6 @@
         text-align: center;
 
     }
+
+   
 }

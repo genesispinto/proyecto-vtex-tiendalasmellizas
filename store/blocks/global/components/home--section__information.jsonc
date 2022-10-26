@@ -31,6 +31,7 @@
     "flex-layout.col#section__information--icon1":{
         "title":"section--information",
         "props":{
+            "blockClass":"col-icon1",
             "width":"10%",
             "horizontalAlign":"center",
             "verticalAlign":"middle"
@@ -41,7 +42,6 @@
         "title":"Imagen icon1",
         "props":{
             "src":"assets/img/T_icon1.png",
-            "maxWidth":600,
             "title":"icon1",
             "blockClass": "icon1",
             "height": 30
@@ -67,6 +67,7 @@
     "flex-layout.col#section__information--icon2":{
         "title":"section--information",
         "props":{
+            "blockClass":"col-icon2",
             "width":"10%",
             "horizontalAlign":"center",
             "verticalAlign":"middle"
@@ -77,7 +78,6 @@
         "title":"Imagen icon2",
         "props":{
             "src":"assets/img/T_icon2.png",
-            "maxWidth":600,
             "title":"icon2",
             "blockClass": "icon2",
             "height": 30

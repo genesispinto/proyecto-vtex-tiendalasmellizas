@@ -1,0 +1,47 @@
+{
+    "slider-layout#home__slider--home-phone":{
+        "title":"slider home phone",
+        "props":{
+          "blockClass":"slider__home-phone",
+          "itemsPerPage":{
+          "phone": 1
+        },
+        "showNavigationArrows":"never",
+        "showPaginationDots":"mobileOnly",
+        "infinite":true,
+        "autoplay":{
+          "timeout":3000,
+          "stopOnHover": true
+        }
+      },
+      "children": [ 
+        "image#home__slider-phone1",  
+        "image#home__slider-phone2",
+        "image#home__slider-phone3",
+        "image#home__slider-phone4"]
+      },
+      "image#home__slider-phone1":{
+        "props":{
+          "src":"assets/img/img_20201003_151212-022215.jpg",
+          "maxWidth":"90%"
+        }
+      },
+      "image#home__slider-phone2":{
+        "props":{
+          "src":"assets/img/img_20201003_151212-012215.jpg",
+          "maxWidth":"90%"
+        }
+      },
+      "image#home__slider-phone3":{
+        "props":{
+          "src":"assets/img/slider_pasa_cranberry_800x400-01-015247.jpg",
+          "maxWidth":"90%"
+        }
+      },
+      "image#home__slider-phone4":{
+        "props":{
+          "src":"assets/img/copiadecopiadecopiadecopiadedescubre2573.png",
+          "maxWidth":"90%"
+        }
+      }
+}

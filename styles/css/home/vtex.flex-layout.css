@@ -28,4 +28,12 @@
 .productImageTag--main{
     width: 100%;
 }
+@media (min-width: 834px) and (max-width: 1194px){
+   .flexCol--col-icon1{
+    align-items: flex-end;
+   }
+   .flexCol--col-icon2{
+    align-items: flex-start;
 
+   }
+}
