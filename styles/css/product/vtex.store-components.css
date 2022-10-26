@@ -19,7 +19,9 @@
     font-size: 1.15rem;
     color: #BFA760;
     margin: 0 0 0.9375rem;
+    text-align: center;
 }
+
 .productDescriptionContainer{
     margin: 3.3rem;
 }

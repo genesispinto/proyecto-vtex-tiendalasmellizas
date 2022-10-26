@@ -1,8 +1,7 @@
+.flexRowContent--button_pdp :global(.vtex-button),
 .flexColChild--button_pdp :global(.vtex-button){
     background-color: #9FD668;
     border: #9FD668;
-    /* margin: 22px; */
-    margin-top: 32px;
     padding: .5rem 1rem;
     font-size: 1.25rem;
     line-height: 1.5;
@@ -10,12 +9,10 @@
   }
 
 .flexColChild--quantity_pdp{
-    margin-right: 5rem;
     padding: 20px;
     width: 5rem;
 }
 .flexCol--quantity_pdp{
-    margin-right: 10rem;
     padding-top: -1rem;
 }
 .flexColChild--product__info :global(.vtex-reviews-and-ratings-3-x-star){
