@@ -58,34 +58,12 @@
         "title":"PDP quantity",
         "props":{
             "preventHorizontalStretch":true,
-            "horizontalAlign":"center"
-        },
-        "children":[
-            "flex-layout.col#product__quantity",
-            "flex-layout.col#product__button"
-        ]
-    },
-    "flex-layout.col#product__quantity":{
-        "title":"PDP quantity",
-        "props":{
-            "blockClass":"quantity_pdp",
             "horizontalAlign":"center",
-            "verticalAlign":"middle",
-            "width":"50%"
-        },
-        "children":[
-            "product-quantity#pdp"
-        ]
-    },
-    "flex-layout.col#product__button":{
-        "title":"PDP add-to-cart-button",
-        "props":{
             "blockClass":"button_pdp",
-            "horizontalAlign":"center",
-            "verticalAlign":"center",
-            "width":"50%"
+            "colGap":7
         },
         "children":[
+            "product-quantity#pdp",
             "add-to-cart-button"
         ]
     },
@@ -118,5 +96,5 @@
             "showCloseButton":true,
             "iconCloseSize":24
         }
-    } 
+    }
 }

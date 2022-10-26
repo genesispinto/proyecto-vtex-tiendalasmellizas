@@ -2,8 +2,11 @@
     margin-left: 4rem;
     margin-right: 3rem;
     margin-top: 1rem;
+    
 }
-
+.flexRowContent--sectinformation{
+    background-color: #f8f9fa ;
+}
 .flexRowContent--home-sectiom-four{
     background-image: url(https://dojiw2m9tvv09.cloudfront.net/4210/3/home-about-bg_left-2.jpg?558), url(https://dojiw2m9tvv09.cloudfront.net/4210/3/home-about-bg_right-2.jpg?558);
     background-position: left center, right center;
@@ -27,5 +30,14 @@
 }
 .productImageTag--main{
     width: 100%;
+}
+@media (min-width: 834px) and (max-width: 1194px){
+   .flexCol--col-icon1{
+    align-items: flex-end;
+   }
+   .flexCol--col-icon2{
+    align-items: flex-start;
+
+   }
 }
 
